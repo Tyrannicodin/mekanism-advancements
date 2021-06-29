@@ -1,0 +1,27 @@
+{
+	"display": {
+		"title": "Early Powar",
+		"description": "How am i supposed to operate without power?",
+		"icon": {
+			"item": "mekanismgenerators:heat_generator"
+		},
+		
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "global:mekanismgeneratorinit",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{"items": ["mekanismgenerators:heat_generator"]}
+				],
+				"slots": {
+					"occupied":1
+				}
+			}
+		}
+	}
+}

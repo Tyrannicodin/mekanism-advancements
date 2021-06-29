@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": "Mekanism: Generators",
+		"description": "Producing insane amounts of power with mekanism",
+		"icon": {
+			"item": "mekanismgenerators:turbine_blade"
+		},
+		
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "global:root",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "mekanismgenerators:turbine/blade"
+			}
+		}
+	}
+}

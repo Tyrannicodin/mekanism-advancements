@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": "Mekanism: Tools",
+		"description": "Making tools with mekanism",
+		"icon": {
+			"item": "mekanismtools:steel_paxel"
+		},
+		
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "global:root",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "mekanismtools:steel/tools/paxel"
+			}
+		}
+	}
+}
