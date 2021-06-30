@@ -1,0 +1,24 @@
+{
+	"display": {
+		"title": "Bio energy",
+		"description": "Put biofuel in this generator to make power!",
+		"icon": {
+			"item": "mekanismgenerators:bio_generator"
+		},
+		
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:mekanismgenerators/biofuel",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{"items": ["mekanism:bio_generator"]}
+				]
+			}
+		}
+	}
+}
