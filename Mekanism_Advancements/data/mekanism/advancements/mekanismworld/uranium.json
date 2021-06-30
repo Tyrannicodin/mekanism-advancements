@@ -1,6 +1,6 @@
 {
 	"display": {
-		"title": "Uranium",
+		"title": "§aUranium §7Ore",
 		"description": "A material used in the advanced process of making nuclear fission fuel",
 		"icon": {
 			"item": "mekanism:uranium_ore"
