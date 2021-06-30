@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": "Mekanism: Additions & Tools",
+		"description": "A mekanism enhanced existance",
+		"icon": {
+			"item": "mekanism:upgrade_filter"
+		},
+		"background": "minecraft:textures/block/gray_concrete.png",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"Doiknowthistoolsadditions?": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "mekanismadditions:walkie_talkie",
+				"recipe": "mekanismtools:steel/tools/paxel"
+			}
+		}
+	}
+}

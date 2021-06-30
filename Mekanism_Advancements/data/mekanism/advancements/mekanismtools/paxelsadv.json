@@ -1,0 +1,56 @@
+{
+	"display": {
+		"title": "The ULTIMATE Tool",
+		"description": "A paxel is a tool for (almost) all your needs! (Supports all [expect those added by other mods] paxels not only diamond!)",
+		"icon": {
+			"item": "mekanismtools:diamond_paxel"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:mekanismtools/roottools",
+	"criteria": {
+		"Doihavethistoolspaxels?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{"items": ["mekanismtools:wooden_paxel"]}
+				],
+				"items": [
+				{"items": ["mekanismtools:stone_paxel"]}
+				],
+				"items": [
+				{"items": ["mekanismtools:iron_paxel"]}
+				],
+				"items": [
+				{"items": ["mekanismtools:gold_paxel"]}
+				],
+				"items": [
+				{"items": ["mekanismtools:diamond_paxel"]}
+				],
+				"items": [
+				{"items": ["mekanismtools:netherite_paxel"]}
+				],
+				"items": [
+				{"items": ["mekanismtools:lapis_lazuli_paxel"]}
+				],
+				"items": [
+				{"items": ["mekanismtools:bronze_paxel"]}
+				],
+				"items": [
+				{"items": ["mekanismtools:osmium_paxel"]}
+				],
+				"items": [
+				{"items": ["mekanismtools:refined_glowstone_paxel"]}
+				],
+				"items": [
+				{"items": ["mekanismtools:refined_obsidian_paxel"]}
+				],
+				"items": [
+				{"items": ["mekanismtools:steel_paxel"]}
+				]
+			}
+		}
+	}
+}

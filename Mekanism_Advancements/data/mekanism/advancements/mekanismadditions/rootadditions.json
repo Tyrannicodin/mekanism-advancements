@@ -5,14 +5,13 @@
 		"icon": {
 			"item": "mekanismadditions:walkie_talkie"
 		},
-		
-		"frame": "challenge",
+		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": false
 	},
-	"parent": "global:root",
+	"parent": "mekanism:mekanismtas",
 	"criteria": {
-		"Doihave?": {
+		"Doiknowthisadditions?": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
 				"recipe": "mekanismadditions:walkie_talkie"

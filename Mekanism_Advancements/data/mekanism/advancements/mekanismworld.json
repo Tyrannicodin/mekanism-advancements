@@ -1,0 +1,18 @@
+{
+	"display": {
+		"title": "Mekanism: Ores",
+		"description": "Mekanism adds multiple ores in the world which are used for differen things",
+		"icon": {
+			"item": "mekanism:upgrade_muffling"
+		},
+		"background": "minecraft:textures/block/stone.png",
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"mekanismbeginner": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

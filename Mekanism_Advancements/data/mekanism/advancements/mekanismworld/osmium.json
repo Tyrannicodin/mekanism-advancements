@@ -1,0 +1,24 @@
+{
+	"display": {
+		"title": "Osmium",
+		"description": "The material that is very closely related to mekanism in the modded minecraft world, used in the making of circuits and advanced machines",
+		"icon": {
+			"item": "mekanism:osmium_ore"
+		},
+		
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:mekanismworld",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{"items": ["mekanism:osmium_ore"]}
+				]
+			}
+		}
+	}
+}

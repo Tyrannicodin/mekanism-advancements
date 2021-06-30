@@ -1,0 +1,23 @@
+{
+	"display": {
+		"title": "Osmiumised Armor",
+		"description": "Make a set of armor out of osmium!",
+		"icon": {
+			"item": "mekanismtools:osmium_chestplate"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:mekanismtools/roottools",
+	"criteria": {
+		"Doihavethistoolsarmor?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{"items": ["mekanismtools:osmium_helmet", "mekanismtools:osmium_chestplate", "mekanismtools:osmium_leggings", "mekanismtools:osmium_boots"]}
+				]
+			}
+		}
+	}
+}

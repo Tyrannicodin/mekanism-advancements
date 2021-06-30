@@ -10,17 +10,14 @@
 		"show_toast": true,
 		"announce_to_chat": false
 	},
-	"parent": "global:mekanismgeneratorinit",
+	"parent": "mekanism:mekanismgenerators",
 	"criteria": {
 		"Doihave?": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 				{"items": ["mekanismgenerators:heat_generator"]}
-				],
-				"slots": {
-					"occupied":1
-				}
+				]
 			}
 		}
 	}

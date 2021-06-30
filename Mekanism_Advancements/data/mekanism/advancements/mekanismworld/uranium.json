@@ -1,0 +1,24 @@
+{
+	"display": {
+		"title": "Uranium",
+		"description": "A material used in the advanced process of making nuclear fission fuel",
+		"icon": {
+			"item": "mekanism:uranium_ore"
+		},
+		
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:mekanismworld",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{"items": ["mekanism:uranium_ore"]}
+				]
+			}
+		}
+	}
+}
