@@ -1,0 +1,24 @@
+{
+	"display": {
+		"title": "Advanced solar",
+		"description": "More power!",
+		"icon": {
+			"item": "mekanismgenerators:advanced_solar_generator"
+		},
+		
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:mekanismgenerators/greenenergy",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{"items": ["mekanism:advanced_solar_generator"]}
+				]
+			}
+		}
+	}
+}
