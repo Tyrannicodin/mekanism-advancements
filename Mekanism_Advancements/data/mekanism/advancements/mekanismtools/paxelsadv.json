@@ -1,6 +1,6 @@
 {
 	"display": {
-		"title": "The ULTIMATE Tool",
+		"title": "The §dULTIMATE §rTool",
 		"description": "A paxel is a tool for (almost) all your needs! (Supports all [expect those added by other mods] paxels not only diamond!)",
 		"icon": {
 			"item": "mekanismtools:diamond_paxel"
@@ -15,40 +15,40 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{"items": ["mekanismtools:wooden_paxel"]}
+				{"item": "mekanismtools:wooden_paxel"}
 				],
 				"items": [
-				{"items": ["mekanismtools:stone_paxel"]}
+				{"item": "mekanismtools:stone_paxel"}
 				],
 				"items": [
-				{"items": ["mekanismtools:iron_paxel"]}
+				{"item": "mekanismtools:iron_paxel"}
 				],
 				"items": [
-				{"items": ["mekanismtools:gold_paxel"]}
+				{"item": "mekanismtools:gold_paxel"}
 				],
 				"items": [
-				{"items": ["mekanismtools:diamond_paxel"]}
+				{"item": "mekanismtools:diamond_paxel"}
 				],
 				"items": [
-				{"items": ["mekanismtools:netherite_paxel"]}
+				{"item": "mekanismtools:netherite_paxel"}
 				],
 				"items": [
-				{"items": ["mekanismtools:lapis_lazuli_paxel"]}
+				{"item": "mekanismtools:lapis_lazuli_paxel"}
 				],
 				"items": [
-				{"items": ["mekanismtools:bronze_paxel"]}
+				{"item": "mekanismtools:bronze_paxel"}
 				],
 				"items": [
-				{"items": ["mekanismtools:osmium_paxel"]}
+				{"item": "mekanismtools:osmium_paxel"}
 				],
 				"items": [
-				{"items": ["mekanismtools:refined_glowstone_paxel"]}
+				{"item": "mekanismtools:refined_glowstone_paxel"}
 				],
 				"items": [
-				{"items": ["mekanismtools:refined_obsidian_paxel"]}
+				{"item": "mekanismtools:refined_obsidian_paxel"}
 				],
 				"items": [
-				{"items": ["mekanismtools:steel_paxel"]}
+				{"item": "mekanismtools:steel_paxel"}
 				]
 			}
 		}

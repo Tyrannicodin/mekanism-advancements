@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": "§7Metallurgical §cInfusement",
+		"description": "Using the electrity you have produced in the past you now must take advantage and start producing basic alloys and circuits",
+		"icon": {
+			"item": "mekanism:metallurgic_infuser"
+		},
+		
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:root",
+	"criteria": {
+		"Doiknow?": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "mekanismgenerators:generator/heat"
+			}
+		},
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{"item": "mekanism:metallurgic_infuser"}
+				]
+			}
+		}
+	}
+}

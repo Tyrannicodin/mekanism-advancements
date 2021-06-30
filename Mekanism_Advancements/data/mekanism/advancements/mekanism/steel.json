@@ -1,24 +1,24 @@
 {
 	"display": {
-		"title": "Uranium",
-		"description": "A material used in the advanced process of making nuclear fission fuel",
+		"title": "§7Steel §rall the way",
+		"description": "The industrial revolution is upon us fire that metallurgic infuser and produce steel",
 		"icon": {
-			"item": "mekanism:uranium_ore"
+			"item": "mekanism:ingot_steel"
 		},
 		
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": false
 	},
-	"parent": "mekanism:mekanismworld",
+	"parent": "mekanism:mekanism/metallurgicinfuser",
 	"criteria": {
 		"Doihave?": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 				{
-					"item": "mekanism:uranium_ore",
-					"count": {
+					"item": "mekanism:ingot_steel",
+					"counter": {
 						"min": 1,
 						"max": 64
 					}

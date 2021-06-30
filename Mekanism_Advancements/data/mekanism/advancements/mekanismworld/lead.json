@@ -16,7 +16,13 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{"items": ["mekanism:lead_ore"]}
+				{
+					"item": "mekanism:lead_ore",
+					"count": {
+						"min": 1,
+						"max": 64
+					}
+				}
 				]
 			}
 		}

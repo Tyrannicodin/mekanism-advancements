@@ -16,7 +16,13 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{"items": ["mekanism:copper_ore"]}
+				{
+					"item": "mekanism:copper_ore",
+					"count": {
+						"min": 1,
+						"max": 64
+					}
+				}
 				]
 			}
 		}

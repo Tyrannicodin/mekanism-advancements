@@ -1,6 +1,6 @@
 {
 	"display": {
-		"title": "Early Powar",
+		"title": "Early §ePowar",
 		"description": "How am i supposed to operate without power?",
 		"icon": {
 			"item": "mekanismgenerators:heat_generator"
@@ -16,7 +16,7 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{"items": ["mekanismgenerators:heat_generator"]}
+				{"item": "mekanismgenerators:heat_generator"}
 				]
 			}
 		}

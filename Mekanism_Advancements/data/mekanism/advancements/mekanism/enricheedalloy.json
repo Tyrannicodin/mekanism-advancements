@@ -1,24 +1,24 @@
 {
 	"display": {
-		"title": "Uranium",
-		"description": "A material used in the advanced process of making nuclear fission fuel",
+		"title": "§cEnriched §rIron Circles",
+		"description": "Enrich the world with redstone and iron",
 		"icon": {
-			"item": "mekanism:uranium_ore"
+			"item": "mekanism:alloy_infused"
 		},
 		
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": false
 	},
-	"parent": "mekanism:mekanismworld",
+	"parent": "mekanism:mekanism/metallurgicinfuser",
 	"criteria": {
 		"Doihave?": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 				{
-					"item": "mekanism:uranium_ore",
-					"count": {
+					"item": "mekanism:alloy_infused",
+					"counter": {
 						"min": 1,
 						"max": 64
 					}

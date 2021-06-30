@@ -1,13 +1,13 @@
 {
 	"display": {
-		"title": "Mekanism: Generators",
+		"title": "§8Mekanism: §rGenerators",
 		"description": "Producing insane amounts of power with mekanism",
 		"icon": {
 			"item": "mekanism:upgrade_energy"
 		},
 		"background": "minecraft:textures/block/gray_concrete.png",
 		"frame": "challenge",
-		"show_toast": true,
+		"show_toast": false,
 		"announce_to_chat": false
 	},
 	"criteria": {

@@ -1,6 +1,6 @@
 {
 	"display": {
-		"title": "Osmiumised Armor",
+		"title": "§bOsmiumised Armor",
 		"description": "Make a set of armor out of osmium!",
 		"icon": {
 			"item": "mekanismtools:osmium_chestplate"
@@ -15,7 +15,34 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{"items": ["mekanismtools:osmium_helmet", "mekanismtools:osmium_chestplate", "mekanismtools:osmium_leggings", "mekanismtools:osmium_boots"]}
+				{
+					"item": "mekanismtools:osmium_helmet",
+					"count": {
+						"min": 1,
+						"max": 1
+					}
+				},
+				{
+					"item": "mekanismtools:osmium_chestplate",
+					"count": {
+						"min": 1,
+						"max": 1
+					}
+				},
+				{
+					"item": "mekanismtools:osmium_leggings",
+					"count": {
+						"min": 1,
+						"max": 1
+					}
+				},
+				{
+					"item": "mekanismtools:osmium_boots",
+					"count": {
+						"min": 1,
+						"max": 1
+					}
+				}
 				]
 			}
 		}

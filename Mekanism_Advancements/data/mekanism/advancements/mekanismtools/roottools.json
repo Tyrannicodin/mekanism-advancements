@@ -1,12 +1,12 @@
 {
 	"display": {
-		"title": "Mekanism: Tools",
+		"title": "§8Mekanism: §rTools",
 		"description": "Making tools with mekanism",
 		"icon": {
 			"item": "mekanismtools:refined_obsidian_pickaxe"
 		},
 		"frame": "goal",
-		"show_toast": true,
+		"show_toast": false,
 		"announce_to_chat": false
 	},
 	"parent": "mekanism:mekanismtas",

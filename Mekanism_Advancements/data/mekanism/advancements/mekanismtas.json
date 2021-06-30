@@ -1,13 +1,13 @@
 {
 	"display": {
-		"title": "Mekanism: Additions & Tools",
+		"title": "§8Mekanism: §rAdditions & Tools",
 		"description": "A mekanism enhanced existance",
 		"icon": {
 			"item": "mekanism:upgrade_filter"
 		},
 		"background": "minecraft:textures/block/gray_concrete.png",
 		"frame": "challenge",
-		"show_toast": true,
+		"show_toast": false,
 		"announce_to_chat": false
 	},
 	"criteria": {

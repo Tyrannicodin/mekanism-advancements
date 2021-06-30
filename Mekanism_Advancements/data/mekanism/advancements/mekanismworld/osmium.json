@@ -16,7 +16,13 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{"items": ["mekanism:osmium_ore"]}
+				{
+					"item": "mekanism:osmium_ore",
+					"count": {
+						"min": 1,
+						"max": 64
+					}
+				}
 				]
 			}
 		}

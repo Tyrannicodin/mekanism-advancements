@@ -1,12 +1,12 @@
 {
 	"display": {
-		"title": "Mekanism: Additions",
+		"title": "§8Mekanism: §rAdditions",
 		"description": "Toying around with silly and cool mekanism items",
 		"icon": {
 			"item": "mekanismadditions:walkie_talkie"
 		},
 		"frame": "goal",
-		"show_toast": true,
+		"show_toast": false,
 		"announce_to_chat": false
 	},
 	"parent": "mekanism:mekanismtas",

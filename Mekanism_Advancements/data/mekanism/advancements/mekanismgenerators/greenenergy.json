@@ -1,9 +1,9 @@
 {
 	"display": {
-		"title": "Green energy",
-		"description": "Carbon zero!",
+		"title": "§aZero Emission Sources",
+		"description": "§8Carbon §rnet zero!",
 		"icon": {
-			"item": "mekanismgenerators:solar_generator"
+			"item": "minecraft:jungle_leaves"
 		},
 		
 		"frame": "task",
@@ -12,11 +12,17 @@
 	},
 	"parent": "mekanism:mekanismgenerators/earlypower",
 	"criteria": {
+		"Doiknow?": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "mekanismgenerators:turbine/blade"
+			}
+		},
 		"Doihave?": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{"items": ["mekanism:solar_generator"]}
+				{"item": "mekanismgenerators:heat_generator"}
 				]
 			}
 		}

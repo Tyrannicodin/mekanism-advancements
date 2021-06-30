@@ -16,7 +16,13 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{"items": ["mekanism:fluorite_gem"]}
+				{
+					"item": "mekanism:fluorite_gem",
+					"count": {
+						"min": 1,
+						"max": 64
+					}
+				}
 				]
 			}
 		}

@@ -16,7 +16,13 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{"items": ["mekanism:tin_ore"]}
+				{
+					"item": "mekanism:tin_ore",
+					"count": {
+						"min": 1,
+						"max": 64
+					}
+				}
 				]
 			}
 		}

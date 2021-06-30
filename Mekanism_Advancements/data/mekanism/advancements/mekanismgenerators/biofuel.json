@@ -1,6 +1,6 @@
 {
 	"display": {
-		"title": "Biological fueling",
+		"title": "§aBiological §6Fuel",
 		"description": "Crush organic matter to create biofuel",
 		"icon": {
 			"item": "mekanism:bio_fuel"
@@ -16,7 +16,13 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
-				{"items": ["mekanism:bio_fuel"]}
+				{
+					"item": "mekanism:bio_fuel",
+					"counter": {
+						"min": 1,
+						"max": 64
+					}
+				}
 				]
 			}
 		}
