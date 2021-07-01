@@ -1,0 +1,26 @@
+{
+	"display": {
+		"title": "§7Meka§r-Logistics Incorporated",
+		"description": "Take advantage of mekanism's cables/pipes/tubes/transporters to move energy/fluids/gases/items respectively. Did you know that if you were to take an alloy and right click the previous tier of that said alloy the cables/pipes/tubes/transporters will upgrade to the alloy's tier (basic + enriched alloy = advanced) this will be wasteful and if you only have 1 it will still use 1 full, also it doesn't cares if you don't right click on a lower tier if it can find somewhere where it can upgrade it will upgrade.",
+		"icon": {
+			"item": "mekanism:basic_universal_cable"
+		},
+		
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:mekanism/steel",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{
+					"item": "mekanism:basic_universal_cable"
+				}
+				]
+			}
+		}
+	}
+}

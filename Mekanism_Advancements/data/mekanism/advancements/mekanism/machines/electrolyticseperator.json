@@ -1,0 +1,26 @@
+{
+	"display": {
+		"title": "§bZZZZZZZZZZZ§r, off the gas goes",
+		"description": "Split liquids and gases into 2 seperated elements and used them in production lines",
+		"icon": {
+			"item": "mekanism:electrolytic_separator"
+		},
+		
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:mekanism/machines/crusher",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{
+					"item": "mekanism:electrolytic_separator"
+				}
+				]
+			}
+		}
+	}
+}

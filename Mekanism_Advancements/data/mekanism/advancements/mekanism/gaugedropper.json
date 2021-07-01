@@ -1,12 +1,12 @@
 {
 	"display": {
 		"title": "Gauge Dropper Action",
-		"description": "Remove gases (or liquids) when clicking on the container inside the UI, can be cleared by shift right clicking. This is used on advancements that require you to produce a certain gas!",
+		"description": "Remove chemicals (anything added by mekanism and liquids) when clicking on the container inside the UI or straight up shift click to delete the chemicals inside, can be cleared by shift right clicking, can be used to transfer it's contents inside any chemical('gas')(or liquid) tank . This is used on advancements that require you to produce a certain gas!",
 		"icon": {
 			"item": "mekanism:gauge_dropper"
 		},
 		
-		"frame": "task",
+		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": false
 	},

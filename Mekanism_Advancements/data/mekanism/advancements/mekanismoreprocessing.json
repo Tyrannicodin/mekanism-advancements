@@ -1,0 +1,21 @@
+{
+	"display": {
+		"title": "§7Mekanism: §rOre Processing",
+		"description": "Turning 1 ore to 5 ingots by the end, if jaopca is installed this will get a bigger support range for over x2",
+		"icon": {
+			"item": "mekanism:upgrade_speed"
+		},
+		"background": "minecraft:textures/block/gray_concrete.png",
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"Doiknowthisgenerators?": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "mekanismgenerators:turbine/blade"
+			}
+		}
+	}
+}

@@ -1,23 +1,23 @@
 {
 	"display": {
-		"title": "Gauge Dropper Action",
-		"description": "Remove gases (or liquids) when clicking on the container inside the UI, can be cleared by shift right clicking. This is used on advancements that require you to produce a certain gas!",
+		"title": "§7ROOKIE NUMBERS",
+		"description": "A couple of more steps and we will be selling soda to the galaxy!",
 		"icon": {
-			"item": "mekanism:gauge_dropper"
+			"item": "mekanism:advanced_tier_installer"
 		},
 		
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": false
 	},
-	"parent": "mekanism:root",
+	"parent": "mekanism:mekanism/basic_installer",
 	"criteria": {
 		"Doihave?": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 				{
-					"item": "mekanism:gauge_dropper"
+					"item": "mekanism:advanced_tier_installer"
 				}
 				]
 			}

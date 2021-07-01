@@ -1,9 +1,9 @@
 {
 	"display": {
-		"title": "§8SMASH! §7SMASH! §rSMASH!",
-		"description": "Smash most things into fine powder",
+		"title": "§eEnergy §rCube",
+		"description": "You should always have a battery you don't know what might happen",
 		"icon": {
-			"item": "mekanism:crusher"
+			"item": "mekanism:basic_energy_cube"
 		},
 		
 		"frame": "task",
@@ -17,7 +17,7 @@
 			"conditions": {
 				"items": [
 				{
-					"item": "mekanism:crusher"
+					"item": "mekanism:basic_energy_cube"
 				}
 				]
 			}
