@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": "§bReinforced §rAlloy Beams",
+		"description": "Infusing the infused alloys with some diamond seems to improve them",
+		"icon": {
+			"item": "mekanism:alloy_reinforced"
+		},
+		
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:mekanism/enrichedalloy",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{
+					"item": "mekanism:alloy_reinforced",
+					"counter": {
+						"min": 1,
+						"max": 64
+					}
+				}
+				]
+			}
+		}
+	}
+}

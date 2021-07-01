@@ -1,0 +1,26 @@
+{
+	"display": {
+		"title": "§6Sawing §rthe World",
+		"description": "Make use of an industrial saw that has a 50% increased output",
+		"icon": {
+			"item": "mekanism:precision_sawmill"
+		},
+		
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:mekanism/steelcasing",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{
+					"item": "mekanism:precision_sawmill"
+				}
+				]
+			}
+		}
+	}
+}

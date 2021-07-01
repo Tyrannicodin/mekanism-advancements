@@ -1,7 +1,7 @@
 {
 	"display": {
 		"title": "§7Metallurgical §cInfusement",
-		"description":"use your power to infuse two materials together",
+		"description": "Start producing basic alloys and control circuits",
 		"icon": {
 			"item": "mekanism:metallurgic_infuser"
 		},

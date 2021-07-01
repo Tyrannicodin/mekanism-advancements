@@ -1,0 +1,26 @@
+{
+	"display": {
+		"title": "Configuration Card",
+		"description": "Copy-Paste your settings across multiple(of the same type & tier) machines",
+		"icon": {
+			"item": "mekanism:configuration_card"
+		},
+		
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:root",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{
+					"item": "mekanism:configuration_card"
+				}
+				]
+			}
+		}
+	}
+}

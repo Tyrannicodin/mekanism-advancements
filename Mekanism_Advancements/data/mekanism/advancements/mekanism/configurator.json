@@ -1,0 +1,26 @@
+{
+	"display": {
+		"title": "Configurator",
+		"description": "Use this tool to change the action of each side (input, output), or perhaps used it to rotate, instant remove or clear a machine",
+		"icon": {
+			"item": "mekanism:configurator"
+		},
+		
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:root",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{
+					"item": "mekanism:configurator"
+				}
+				]
+			}
+		}
+	}
+}

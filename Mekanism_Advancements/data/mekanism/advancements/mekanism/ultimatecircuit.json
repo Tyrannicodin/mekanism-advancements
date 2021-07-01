@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": "§dRTX 3090",
+		"description": "The ultimate circuit board, let's control the world",
+		"icon": {
+			"item": "mekanism:ultimate_control_circuit"
+		},
+		
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:mekanism/elitecircuit",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{
+					"item": "mekanism:ultimate_control_circuit",
+					"counter": {
+						"min": 1,
+						"max": 64
+					}
+				}
+				]
+			}
+		}
+	}
+}

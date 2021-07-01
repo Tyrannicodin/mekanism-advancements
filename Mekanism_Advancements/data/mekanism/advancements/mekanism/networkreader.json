@@ -1,0 +1,26 @@
+{
+	"display": {
+		"title": "Network Reader",
+		"description": "Right click any cable network from mekanism to learn more about it",
+		"icon": {
+			"item": "mekanism:network_reader"
+		},
+		
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:root",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{
+					"item": "mekanism:network_reader"
+				}
+				]
+			}
+		}
+	}
+}

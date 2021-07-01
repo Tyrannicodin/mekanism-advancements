@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": "§bi7 Circuit",
+		"description": "Time to rent servers and build supercomputers",
+		"icon": {
+			"item": "mekanism:elite_control_circuit"
+		},
+		
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:mekanism/advancedcircuit",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{
+					"item": "mekanism:elite_control_circuit",
+					"counter": {
+						"min": 1,
+						"max": 64
+					}
+				}
+				]
+			}
+		}
+	}
+}

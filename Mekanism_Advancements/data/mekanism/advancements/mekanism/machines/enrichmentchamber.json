@@ -1,0 +1,26 @@
+{
+	"display": {
+		"title": "Half a §7Pulverizer",
+		"description": "Is time to get more out of less",
+		"icon": {
+			"item": "mekanism:enrichment_chamber"
+		},
+		
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:mekanism/steelcasing",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{
+					"item": "mekanism:enrichment_chamber"
+				}
+				]
+			}
+		}
+	}
+}

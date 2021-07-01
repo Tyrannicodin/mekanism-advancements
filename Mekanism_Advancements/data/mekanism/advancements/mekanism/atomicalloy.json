@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": "§dATOMIC §r-LLOY",
+		"description": "Infusing the reinforced alloys with some shiny obsidian, creates a wafer the size of your monitor",
+		"icon": {
+			"item": "mekanism:alloy_atomic"
+		},
+		
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:mekanism/reinforcedalloy",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{
+					"item": "mekanism:alloy_atomic",
+					"counter": {
+						"min": 1,
+						"max": 64
+					}
+				}
+				]
+			}
+		}
+	}
+}

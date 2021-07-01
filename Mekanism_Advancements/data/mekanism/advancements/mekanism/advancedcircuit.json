@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": "§cFactor-rising",
+		"description": "Let the factory begin",
+		"icon": {
+			"item": "mekanism:advanced_control_circuit"
+		},
+		
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"parent": "mekanism:mekanism/controlcircuit",
+	"criteria": {
+		"Doihave?": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				{
+					"item": "mekanism:advanced_control_circuit",
+					"counter": {
+						"min": 1,
+						"max": 64
+					}
+				}
+				]
+			}
+		}
+	}
+}
