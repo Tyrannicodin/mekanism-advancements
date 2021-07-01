@@ -15,5 +15,5 @@ No.
 Well that depends on how much you contributed to the project for your name to show up in credits but you will always receive your credit but not on a personal note
 
 **Credits:**<br>
-Sinmis077 ~ Original Author, Maintainter<br>
-Tyrannicodin ~ Original Author, Maintainter
+Sinmis077 ~ Original Author, Advancements, Maintainter<br>
+Tyrannicodin ~ Original Author, Advancements, Maintainter
