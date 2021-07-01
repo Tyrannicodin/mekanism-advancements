@@ -1,7 +1,7 @@
 {
 	"display": {
 		"title": "§7Metallurgical §cInfusement",
-		"description": "Using the electrity you have produced in the past you now must take advantage and start producing basic alloys and circuits",
+		"description":"use your power to infuse two materials together",
 		"icon": {
 			"item": "mekanism:metallurgic_infuser"
 		},
