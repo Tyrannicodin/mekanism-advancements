@@ -1,0 +1,17 @@
+{
+    "name": "Baby Wither Skeleton",
+    "icon": "mekanismadditions:baby_wither_skeleton_spawn_egg",
+    "category": "entities",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Ok, seriously, what do you want from me? It's a baby wither skeleton, I literaly don't know what to say. What, do you expect me to give a full on guide on how to combat this foe? Slash your sword, drink milk, then go home.$(p)But it is rumored baby wither skeletons has a higher chance of giving wither skulls."
+        },
+        {
+            "type": "entity",
+            "name": "Baby Wither Skeleton",
+            "entity": "mekanismadditions:baby_wither_skeleton"
+        }
+    ]
+}

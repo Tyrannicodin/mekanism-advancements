@@ -1,0 +1,97 @@
+{
+    "name": "Slick Plastic Blocks",
+    "icon": "mekanismadditions:white_plastic",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Slick Plastic Blocks are decorative blocks that serves no function other than aesthetics."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slick/pink",
+            "recipe2": "mekanismadditions:plastic/slick/recolor/pink"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slick/red",
+            "recipe2": "mekanismadditions:plastic/slick/recolor/red"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slick/orange",
+            "recipe2": "mekanismadditions:plastic/slick/recolor/orange"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slick/yellow",
+            "recipe2": "mekanismadditions:plastic/slick/recolor/yellow"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slick/lime",
+            "recipe2": "mekanismadditions:plastic/slick/recolor/lime"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slick/green",
+            "recipe2": "mekanismadditions:plastic/slick/recolor/green"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slick/cyan",
+            "recipe2": "mekanismadditions:plastic/slick/recolor/cyan"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slick/light_blue",
+            "recipe2": "mekanismadditions:plastic/slick/recolor/light_blue"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slick/blue",
+            "recipe2": "mekanismadditions:plastic/slick/recolor/blue"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slick/purple",
+            "recipe2": "mekanismadditions:plastic/slick/recolor/purple"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slick/magenta",
+            "recipe2": "mekanismadditions:plastic/slick/recolor/magenta"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slick/pink",
+            "recipe2": "mekanismadditions:plastic/slick/recolor/pink"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slick/white",
+            "recipe2": "mekanismadditions:plastic/slick/recolor/white"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slick/light_gray",
+            "recipe2": "mekanismadditions:plastic/slick/recolor/light_gray"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slick/gray",
+            "recipe2": "mekanismadditions:plastic/slick/recolor/gray"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slick/black",
+            "recipe2": "mekanismadditions:plastic/slick/recolor/black"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slick/brown",
+            "recipe2": "mekanismadditions:plastic/slick/recolor/brown"
+        }
+    ]
+}

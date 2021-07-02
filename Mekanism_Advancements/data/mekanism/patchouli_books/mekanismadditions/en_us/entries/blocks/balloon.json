@@ -1,0 +1,97 @@
+{
+    "name": "Balloons",
+    "icon": "mekanismadditions:white_balloon",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Balloons are decorative blocks that can be placed, released into the atmosphere, or tied onto a poor, unsuspecting entity.$(p)Press $(k:use) to release a balloon.$(p)Hold $(k:sneak) and press $(k:use) on an entity to tie a balloon on them."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:balloon/pink",
+            "recipe2": "mekanismadditions:balloon/recolor/pink"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:balloon/red",
+            "recipe2": "mekanismadditions:balloon/recolor/red"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:balloon/orange",
+            "recipe2": "mekanismadditions:balloon/recolor/orange"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:balloon/yellow",
+            "recipe2": "mekanismadditions:balloon/recolor/yellow"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:balloon/lime",
+            "recipe2": "mekanismadditions:balloon/recolor/lime"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:balloon/green",
+            "recipe2": "mekanismadditions:balloon/recolor/green"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:balloon/cyan",
+            "recipe2": "mekanismadditions:balloon/recolor/cyan"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:balloon/light_blue",
+            "recipe2": "mekanismadditions:balloon/recolor/light_blue"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:balloon/blue",
+            "recipe2": "mekanismadditions:balloon/recolor/blue"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:balloon/purple",
+            "recipe2": "mekanismadditions:balloon/recolor/purple"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:balloon/magenta",
+            "recipe2": "mekanismadditions:balloon/recolor/magenta"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:balloon/pink",
+            "recipe2": "mekanismadditions:balloon/recolor/pink"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:balloon/white",
+            "recipe2": "mekanismadditions:balloon/recolor/white"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:balloon/light_gray",
+            "recipe2": "mekanismadditions:balloon/recolor/light_gray"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:balloon/gray",
+            "recipe2": "mekanismadditions:balloon/recolor/gray"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:balloon/black",
+            "recipe2": "mekanismadditions:balloon/recolor/black"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:balloon/brown",
+            "recipe2": "mekanismadditions:balloon/recolor/brown"
+        }
+    ]
+}
