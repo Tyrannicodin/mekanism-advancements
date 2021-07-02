@@ -1,0 +1,21 @@
+{
+    "name": "Laser Focus Matrix",
+    "icon": "mekanismgenerators:laser_focus_matrix",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismgenerators:laser_focus_matrix",
+            "text": "Laser Focus Matrix are part of the $(l:multiblocks/fusion)Fusion Reactor$(/l) multiblock.$(p)They are where you will be directing your laser beam to in order to ignite a $(l:multiblocks/fusion)Fusion Reactor$(/l)."
+        },
+        {
+            "type": "text",
+            "text": "They also act as a barrier for any laser beams, being able to prematurely block a laser beam without being slowly broken by said laser beam, unlike how every other blocks react to laser beams."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismgenerators:laser_focus_matrix"
+        }
+    ]
+}

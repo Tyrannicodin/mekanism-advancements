@@ -1,0 +1,16 @@
+{
+    "name": "Walkie-Talkie",
+    "icon": "mekanismadditions:walkie_talkie",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Walkie-Talkie is a tool that allows people to communicate using voice through a Minecraft server.$(p)$(bold)Hold $(k:sneak)$() and $(bold)press $(k:use)$() to $(bold)toggle on/off$()$(br)$(bold)Press $(k:key.mekanism.mode)$() to $(bold)change channels$() (1-8)$(br)$(bold)Hold $(k:key.mekanismadditions.voice)$() to $(bold)speak$() through the Walkie-Talkie"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:walkie_talkie"
+        }
+    ]
+}

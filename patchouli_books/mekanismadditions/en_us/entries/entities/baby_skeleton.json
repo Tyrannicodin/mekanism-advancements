@@ -1,0 +1,18 @@
+{
+    "name": "Baby Skeleton",
+    "icon": "mekanismadditions:baby_skeleton_spawn_egg",
+    "category": "entities",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "A baby skeleton is essentially a skeleton, but now 10x more annoying. Not only do they have aimbot, but they are near impossible to hit. You are gonna end up digging 50 holes into the ground before you finally kill it."
+        },
+        {
+            "type": "entity",
+            "entity": "mekanismadditions:baby_skeleton",
+            "name": "Baby Skeleton",
+            "text": "A literal baby demon."
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Fission Reactor Port",
+    "icon": "mekanismgenerators:fission_reactor_port",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismgenerators:fission_reactor_port",
+            "text": "Fission Reactor Ports are part of the $(l:multiblocks/fission)Fission Reactor$(/l) multiblock.$(p)They allow you to input coolant/fuel, and output heated coolant/waste."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismgenerators:fission_reactor/port"
+        }
+    ]
+}

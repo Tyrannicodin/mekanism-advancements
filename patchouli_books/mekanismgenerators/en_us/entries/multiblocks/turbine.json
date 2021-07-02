@@ -1,0 +1,128 @@
+{
+    "name": "Industrial Turbine",
+    "category": "multiblocks",
+    "icon": "mekanismgenerators:turbine_valve",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "\"You spin me right 'round baby$(br)Right 'round like a record baby$(br)Right 'round, 'round, 'round$(br2)Please don't copyright strike us.\"$(p)The Industrial Turbine is a multiblock structure that consumes $(l:chemicals/steam)Steam$(/l) to produce power and, optionally, water.$(p)Max size: 17x17x18 (l x w x h)"
+        },
+        {
+            "type": "text",
+            "title": "Blocks Required",
+            "text": "$(li)$(l:blocks/turbine/turbine_casing)Turbine Casings$(/l)$(li)$(l:blocks/turbine/turbine_valve)Turbine Valves$(/l)$(li)$(l:blocks/turbine/turbine_vent)Turbine Vents$(/l)$(li)$(l:misc_blocks/pressure_disperser)Pressure Dispersers$(/l)$(li)$(l:blocks/turbine/turbine_rotor)Turbine Rotors$(/l)$(li)$(l:items/turbine_blade)Turbine Blades$(/l)$(li)$(l:blocks/turbine/electromagnetic_coil)Electromagnetic Coils$(/l)$(li)$(l:blocks/turbine/rotational_complex)Rotational Complex$(/l)$(li)$(l:blocks/turbine/saturating_condenser)Saturating Condensers$(/l) (optional)$(li)$(l:misc_blocks/structural_glass)Structural Glass$(/l) (optional)"
+        },
+        {
+            "type": "text",
+            "title": "Construction Notes",
+            "text": "$(li)The $(l:blocks/turbine/turbine_rotor)Turbine Rotors$(/l) must be in the center of the multiblock.$(li)The $(l:blocks/turbine/rotational_complex)Rotational Complex$(/l) must be placed directly on top of the highest $(l:blocks/turbine/turbine_rotor)Turbine Rotor$(/l).$(li)The layer with the $(l:blocks/turbine/rotational_complex)Rotation Complex$(/l) must be completely filled with $(l:misc_blocks/pressure_disperser)Pressure Dispersers$(/l) (with the exception of the 1 required $(l:blocks/turbine/rotational_complex)Rotation Complex$(/l))."
+        },
+        {
+            "type": "text",
+            "title": "Construction Notes",
+            "text": "$(li)The $(l:blocks/turbine/turbine_vent)Turbine Vents$(/l) can be on the walls and roof of the multiblock as long as:$(li2)They are not part of the frame.$(li2)They are on or above the $(l:misc_blocks/pressure_disperser)Pressure Disperser$(/l) layer.$(li)The $(l:blocks/turbine/electromagnetic_coil)Electromagnetic Coils$(/l) must be adjacent to each other, and one of the $(li)$(l:blocks/turbine/electromagnetic_coil)Electromagnetic Coils$(/l) must be placed directly on top of the $(l:blocks/turbine/rotational_complex)Rotational Complex$(/l)."
+        },
+        {
+            "type": "text",
+            "title": "Construction Notes",
+            "text": "$(li)$(l:blocks/turbine/saturating_condenser)Saturating Condenser$(/l) are optional. If you have $(l:blocks/turbine/saturating_condenser)Saturating Condenser$(/l) in your Industrial Turbine, the Industrial Turbine can condense the used up $(l:chemicals/steam)Steam$(/l) back into reusable water.$(li2)The optional $(l:blocks/turbine/saturating_condenser)Saturating Condenser$(/l) layers can be on the same layer of the $(l:blocks/turbine/electromagnetic_coil)Electromagnetic Coils$(/l), or on layers above said $(l:blocks/turbine/electromagnetic_coil)Electromagnetic Coils$(/l) layer."
+        },
+        {
+            "type": "text",
+            "title": "Construction Notes",
+            "text": "$(li2)If you do decide to add $(l:blocks/turbine/saturating_condenser)Saturating Condenser$(/l), water will be auto-ejected via any $(l:blocks/turbine/turbine_vent)Turbine Vents$(/l). $(li)Each $(l:blocks/turbine/turbine_rotor)Turbine Rotor$(/l) can support 2 $(l:blocks/turbine/turbine_blade)Turbine Blades$(/l).$(li)Each $(l:blocks/turbine/electromagnetic_coil)Electromagnetic Coil$(/l) can support 2 $(l:blocks/turbine/turbine_rotor)Turbine Rotors$(/l) (4 $(l:items/turbine_blade)Turbine Blades$(/l))."
+        },
+        {
+            "type": "text",
+            "title": "Construction Notes",
+            "text": ".$(li)The Industrial Turbine must have a square base between 5 to 17 blocks wide. The length and width must also be odd, ex. 5x5 or 7x7. You cannot have one that is 6x7 or 8x8. Its height cannot exceed 18 blocks and 2 x TurbineWidth - 1"
+        },
+        {
+            "type": "text",
+            "title": "Construction Notes",
+            "text": "$(li)It is not necessary to make sure every $(l:blocks/turbine/turbine_rotor)Turbine Rotor$(/l) have 2 $(l:items/turbine_blade)Turbine Blades$(/l). An Industrial Turbine can still form if one of its $(l:blocks/turbine/turbine_rotor)Turbine Rotor$(/l) is missing one or both $(l:items/turbine_blade)Turbine Blades$(/l). Of course, it's probably better if you do add the 2 $(l:items/turbine_blade)Turbine Blades$(/l) in to increase power production."
+        },
+        {
+            "type": "text",
+            "title": "Construction Notes",
+            "text": "$(li)Steam Capacity (mB) = TurbineWidth² × #ofTurbineRotors x 64,000$(li)Energy Production (J/t) = SteamFlowRate(mB/t) × #ofTurbineBlades × 2.5/7$(li)Energy Storage (J) = TurbineWidth² × TurbineHeight × 16,000,000"
+        },
+        {
+            "type": "text",
+            "title": "Construction Notes",
+            "text": "$(li)Max Flowrate is determined by whichever is less:$(li2)MaxFlow (mB/t) = TurbineWidth² × #ofTurbineRotors × #ofPressureDispersers × 1,280$(li2)MaxFlow (mB/t) = #ofTurbineVents × 32,000$(li)WaterOutput (mB/t) = #ofSaturationCondensers × 64,000"
+        },
+        {
+            "type": "text",
+            "title": "Multiblock",
+            "text": "Keep in mind that the book won't be able to display the $(l:items/turbine_blade)Turbine Blades$(/l) on the $(l:blocks/turbine/turbine_rotor)Turbine Rotor$(/l). You have to do that yourself by pressing $(k:use) on any $(l:blocks/turbine/turbine_rotor)Turbine Rotors$(/l) with the $(l:items/turbine_blade)Turbine Blades$(/l) equipped in your hands."
+        },
+        {
+            "type": "multiblock",
+            "text": "A minimal 5x5x9 Industrial Turbine with 8 $(l:items/turbine_blade)Turbine Blades$(/l) and no $(l:blocks/turbine/saturating_condenser)Saturating Condensers$(/l).",
+            "multiblock": {
+                "pattern": [
+                    [ "CCCCC", "CYYYC", "CYCYC", "CYYYC", "CCCCC" ],
+                    [ "CCCCC", "C   C", "C   C", "C   C", "CCCCC" ],
+                    [ "CVVVC", "Y E Y", "Y E Y", "Y   Y", "CYYYC" ],
+                    [ "CVVVC", "YPPPY", "YPXPY", "YPPPY", "CYYYC" ],
+                    [ "CGGGC", "G   G", "G R G", "G   G", "CGGGC" ],
+                    [ "CGGGC", "G   G", "G R G", "G   G", "CGGGC" ],
+                    [ "CGGGC", "G   G", "G R G", "G   G", "CGGGC" ],
+                    [ "CGGGC", "G   V", "G R G", "G   V", "CGGGC" ],
+                    [ "CCCCC", "CCCCC", "CCCC0", "CCCCC", "CCCCC" ]
+                ],
+                "mapping": {
+                    "0": "mekanismgenerators:turbine_casing",
+                    "C": "mekanismgenerators:turbine_casing",
+                    "Y": "mekanismgenerators:turbine_vent",
+                    "V": "mekanismgenerators:turbine_valve",
+                    "G": "mekanism:structural_glass",
+                    "R": "mekanismgenerators:turbine_rotor",
+                    "X": "mekanismgenerators:rotational_complex",
+                    "P": "mekanism:pressure_disperser",
+                    "E": "mekanismgenerators:electromagnetic_coil"
+                }
+            }
+        },
+        {
+            "type": "multiblock",
+            "text": "A 11x11x18 Industrial Turbine with 28 $(l:items/turbine_blade)Turbine Blades$(/l) and $(l:blocks/turbine/saturating_condenser)Saturating Condensers$(/l).",
+            "multiblock": {
+                "pattern": [
+                    [ "CCCCCCCCCCC", "CYYYYYYYYYC", "CYYYYYYYYYC", "CYYYYYYYYYC", "CYYYYYYYYYC", "CYYYYYYYYYC", "CYYYYYYYYYC", "CYYYYYYYYYC", "CYYYYYYYYYC", "CYYYYYYYYYC", "CCCCCCCCCCC" ],
+                    [ "CYYYYYYYYYC", "YSSSSSSSSSY", "YSSSSSSSSSY", "YSSSSSSSSSY", "YSSSEEESSSY", "YSSSEEESSSY", "YSSSSESSSSY", "YSSSSSSSSSY", "YSSSSSSSSSY", "YSSSSSSSSSY", "CYYYYYYYYYC" ],
+                    [ "CYYYYYYYYYC", "YPPPPPPPPPY", "YPPPPPPPPPY", "YPPPPPPPPPY", "YPPPPPPPPPY", "YPPPPXPPPPY", "YPPPPPPPPPY", "YPPPPPPPPPY", "YPPPPPPPPPY", "YPPPPPPPPPY", "CYYYYYYYYYC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G         G", "G         G", "G    R    G", "G         G", "G         G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G         G", "G         G", "G    R    G", "G         G", "G         G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G         G", "G         G", "G    R    G", "G         G", "G         G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G         G", "G         G", "G    R    G", "G         G", "G         G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G         G", "G         G", "G    R    G", "G         G", "G         G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G         G", "G         G", "G    R    G", "G         G", "G         G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G         G", "G         G", "G    R    G", "G         G", "G         G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G         G", "G         G", "G    R    G", "G         G", "G         G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G         G", "G         G", "G    R    G", "G         G", "G         G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G         G", "G         G", "G    R    G", "G         G", "G         G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G         G", "G         G", "G    R    G", "G         G", "G         G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G         G", "G         G", "G    R    G", "G         G", "G         G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G         G", "G         G", "G    R    G", "G         G", "G         G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G         V", "G         G", "G    R    G", "G         G", "G         V", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCC0", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC" ]
+                ],
+                "mapping": {
+                    "0": "mekanismgenerators:turbine_casing",
+                    "C": "mekanismgenerators:turbine_casing",
+                    "Y": "mekanismgenerators:turbine_vent",
+                    "V": "mekanismgenerators:turbine_valve",
+                    "G": "mekanism:structural_glass",
+                    "R": "mekanismgenerators:turbine_rotor",
+                    "X": "mekanismgenerators:rotational_complex",
+                    "P": "mekanism:pressure_disperser",
+                    "E": "mekanismgenerators:electromagnetic_coil",
+                    "S": "mekanismgenerators:saturating_condenser"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Pipes",
+    "description": "Mekanism, Inc. does not provide services for plumbing, eletricity, etc. That's on you. But here are some chapters explaining what transmission pipes we offer.",
+    "icon": "mekanism:basic_universal_cable",
+    "parent": "blocks/blocks"
+}

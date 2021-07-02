@@ -1,7 +1,0 @@
-{
-    "name": "MekanismGenerators",
-    "desrciption": "Placeholder",
-    "landing_text": "LANDING TEXT",
-	"version": 1,
-    "extend": "patchouli:mekanismhandyguide"
-}

@@ -1,0 +1,97 @@
+{
+    "name": "Transparent Plastic Stairs",
+    "icon": "mekanismadditions:white_plastic_transparent_stairs",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Transparent Plastic Stairs are decorative blocks that serves no function other than aesthetics."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/transparent/pink",
+            "recipe2": "mekanismadditions:plastic/stairs/transparent/recolor/pink"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/transparent/red",
+            "recipe2": "mekanismadditions:plastic/stairs/transparent/recolor/red"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/transparent/orange",
+            "recipe2": "mekanismadditions:plastic/stairs/transparent/recolor/orange"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/transparent/yellow",
+            "recipe2": "mekanismadditions:plastic/stairs/transparent/recolor/yellow"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/transparent/lime",
+            "recipe2": "mekanismadditions:plastic/stairs/transparent/recolor/lime"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/transparent/green",
+            "recipe2": "mekanismadditions:plastic/stairs/transparent/recolor/green"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/transparent/cyan",
+            "recipe2": "mekanismadditions:plastic/stairs/transparent/recolor/cyan"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/transparent/light_blue",
+            "recipe2": "mekanismadditions:plastic/stairs/transparent/recolor/light_blue"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/transparent/blue",
+            "recipe2": "mekanismadditions:plastic/stairs/transparent/recolor/blue"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/transparent/purple",
+            "recipe2": "mekanismadditions:plastic/stairs/transparent/recolor/purple"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/transparent/magenta",
+            "recipe2": "mekanismadditions:plastic/stairs/transparent/recolor/magenta"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/transparent/pink",
+            "recipe2": "mekanismadditions:plastic/stairs/transparent/recolor/pink"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/transparent/white",
+            "recipe2": "mekanismadditions:plastic/stairs/transparent/recolor/white"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/transparent/light_gray",
+            "recipe2": "mekanismadditions:plastic/stairs/transparent/recolor/light_gray"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/transparent/gray",
+            "recipe2": "mekanismadditions:plastic/stairs/transparent/recolor/gray"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/transparent/black",
+            "recipe2": "mekanismadditions:plastic/stairs/transparent/recolor/black"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/transparent/brown",
+            "recipe2": "mekanismadditions:plastic/stairs/transparent/recolor/brown"
+        }
+    ]
+}

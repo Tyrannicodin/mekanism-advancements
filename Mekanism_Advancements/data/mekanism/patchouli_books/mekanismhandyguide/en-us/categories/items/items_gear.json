@@ -1,6 +1,0 @@
-{
-    "name": "Gear",
-    "description": "Suit up, attack, or configure with these items.",
-    "icon": "mekanism:electric_bow",
-    "parent": "items/items"
-  }

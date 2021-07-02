@@ -1,0 +1,16 @@
+{
+    "name": "Obsidian TNT",
+    "icon": "mekanismadditions:obsidian_tnt",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Obsidian TNT is like an upgraded tnt. It is extremely powerful with a power blast power of approximately 7, and a blast radius of 12 (by default).$(p)Note: do not light this in your base, do it in someone else's base."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:obsidian_tnt"
+        }
+    ]
+}

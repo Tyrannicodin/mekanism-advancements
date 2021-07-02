@@ -1,0 +1,17 @@
+{
+    "name": "Turbine Casing",
+    "icon": "mekanismgenerators:turbine_casing",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismgenerators:turbine_casing",
+            "text": "Turbine Casings are part of the $(l:multiblocks/turbine)Industrial Turbine$(/l) multiblock.$(p)They form the frame and, optionally, the walls of the $(l:multiblocks/turbine)Industrial Turbine$(/l)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismgenerators:turbine/casing"
+        }
+    ]
+}

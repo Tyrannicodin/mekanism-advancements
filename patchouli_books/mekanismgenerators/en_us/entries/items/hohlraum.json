@@ -1,0 +1,13 @@
+{
+    "name": "Hohlraum",
+    "icon": "mekanismgenerators:hohlraum",
+    "category": "items/items",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismgenerators:hohlraum",
+            "text": "The Hohlraum is an item used to ignite a $(l:multiblocks/fusion)Fusion Reactor$(/l) if it contains 10mB of $(l:chemicals/dt_fuel)D-T Fuel$(/l). You can input $(l:chemicals/dt_fuel)D-T Fuel$(/l) into the Hohlraum with anything that can output $(l:chemicals/dt_fuel)D-T Fuel$(/l), such as a $(l:storage/chemicals)Chemical Tanks$(/l)."
+        }
+    ]
+}

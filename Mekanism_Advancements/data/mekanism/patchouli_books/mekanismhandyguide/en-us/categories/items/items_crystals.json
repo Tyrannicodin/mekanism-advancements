@@ -1,6 +1,0 @@
-{
-    "name": "Crystals",
-    "description": "Crystals are items that is part of the $(l:ore_processing/quintupling)5x Ore Processing$(/l), the final stage of Mekanism's Ore Processing System (patent pending).$(p)There may be more crystals than the ones listed in your modpack. This is because mods like JAOPCA adds ore processing compatibility with other modded ores if applicable.$(p)The ones listed are based solely on Mekanism and Vanilla ores.",
-    "icon": "mekanism:crystal_osmium",
-    "parent": "items/items"
-}

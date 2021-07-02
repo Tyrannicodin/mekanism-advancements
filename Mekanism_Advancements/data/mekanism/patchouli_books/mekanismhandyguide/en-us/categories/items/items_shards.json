@@ -1,6 +1,0 @@
-{
-    "name": "Shards",
-    "description": "Shards are items that is part of the $(l:ore_processing/quadrupling)4x Ore Processing$(/l) and beyond.$(p)There may be more shards than the ones listed in your modpack. This is because mods like JAOPCA adds ore processing compatibility with other modded ores if applicable.$(p)The ones listed are based solely on Mekanism and Vanilla ores.",
-    "icon": "mekanism:shard_osmium",
-    "parent": "items/items"
-}

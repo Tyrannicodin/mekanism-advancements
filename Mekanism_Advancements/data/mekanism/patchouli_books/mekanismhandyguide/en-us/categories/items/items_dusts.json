@@ -1,6 +1,0 @@
-{
-    "name": "Dusts",
-    "icon": "mekanism:dust_osmium",
-    "description": "A list of Mekanism dusts.$(p)There may be more dusts than the ones listed in your modpack. This is because mods like JAOPCA adds ore processing compatibility with other modded ores if applicable.$(p)The ones listed are based solely on Mekanism and Vanilla ores.",
-    "parent": "items/items"
-}

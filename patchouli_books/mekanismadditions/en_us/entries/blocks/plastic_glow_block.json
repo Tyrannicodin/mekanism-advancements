@@ -1,0 +1,97 @@
+{
+    "name": "Glow Plastic Blocks",
+    "icon": "mekanismadditions:white_plastic_glow",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Glow Plastic Blocks are decorative blocks that serves no function other than aesthetics."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/glow/pink",
+            "recipe2": "mekanismadditions:plastic/glow/recolor/pink"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/glow/red",
+            "recipe2": "mekanismadditions:plastic/glow/recolor/red"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/glow/orange",
+            "recipe2": "mekanismadditions:plastic/glow/recolor/orange"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/glow/yellow",
+            "recipe2": "mekanismadditions:plastic/glow/recolor/yellow"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/glow/lime",
+            "recipe2": "mekanismadditions:plastic/glow/recolor/lime"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/glow/green",
+            "recipe2": "mekanismadditions:plastic/glow/recolor/green"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/glow/cyan",
+            "recipe2": "mekanismadditions:plastic/glow/recolor/cyan"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/glow/light_blue",
+            "recipe2": "mekanismadditions:plastic/glow/recolor/light_blue"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/glow/blue",
+            "recipe2": "mekanismadditions:plastic/glow/recolor/blue"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/glow/purple",
+            "recipe2": "mekanismadditions:plastic/glow/recolor/purple"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/glow/magenta",
+            "recipe2": "mekanismadditions:plastic/glow/recolor/magenta"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/glow/pink",
+            "recipe2": "mekanismadditions:plastic/glow/recolor/pink"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/glow/white",
+            "recipe2": "mekanismadditions:plastic/glow/recolor/white"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/glow/light_gray",
+            "recipe2": "mekanismadditions:plastic/glow/recolor/light_gray"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/glow/gray",
+            "recipe2": "mekanismadditions:plastic/glow/recolor/gray"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/glow/black",
+            "recipe2": "mekanismadditions:plastic/glow/recolor/black"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/glow/brown",
+            "recipe2": "mekanismadditions:plastic/glow/recolor/brown"
+        }
+    ]
+}

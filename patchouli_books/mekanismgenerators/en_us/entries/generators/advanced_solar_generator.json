@@ -1,0 +1,21 @@
+{
+    "name": "Advanced Solar Generator",
+    "icon": "mekanismgenerators:advanced_solar_generator",
+    "category": "generators",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismgenerators:advanced_solar_generator",
+            "text": "\"Basically a buffed and jacked up $(l:generators/solar_generator)Solar Generator$(/l).\"$(p)The Advanced Solar Generator is essentially an upgraded version of the $(l:generators/solar_generator)Solar Generator$(/l). It has a production rate 6 times the production rate of a $(l:generators/solar_generator)Solar Generator$(/l)."
+        },
+        {
+            "type": "text",
+            "text": "Aside from a major power production difference, the Advanced Solar Generator also takes up more space, requiring a 3x3x3 area whereas compared to the $(l:generators/solar_generator)Solar Generator's$(/l) 1x1x1 space requirement."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismgenerators:generator/advanced_solar"
+        }
+    ]
+}

@@ -1,6 +1,0 @@
-{
-    "name": "Storage",
-    "description": "It's like chests, but more...techy.",
-    "icon": "mekanism:basic_bin",
-    "parent": "blocks/blocks"
-}

@@ -1,0 +1,97 @@
+{
+    "name": "Transparent Plastic Slabs",
+    "icon": "mekanismadditions:white_plastic_transparent_slab",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Transparent Plastic Slabs are decorative blocks that serves no function other than aesthetics."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slab/transparent/pink",
+            "recipe2": "mekanismadditions:plastic/slab/transparent/recolor/pink"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slab/transparent/red",
+            "recipe2": "mekanismadditions:plastic/slab/transparent/recolor/red"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slab/transparent/orange",
+            "recipe2": "mekanismadditions:plastic/slab/transparent/recolor/orange"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slab/transparent/yellow",
+            "recipe2": "mekanismadditions:plastic/slab/transparent/recolor/yellow"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slab/transparent/lime",
+            "recipe2": "mekanismadditions:plastic/slab/transparent/recolor/lime"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slab/transparent/green",
+            "recipe2": "mekanismadditions:plastic/slab/transparent/recolor/green"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slab/transparent/cyan",
+            "recipe2": "mekanismadditions:plastic/slab/transparent/recolor/cyan"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slab/transparent/light_blue",
+            "recipe2": "mekanismadditions:plastic/slab/transparent/recolor/light_blue"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slab/transparent/blue",
+            "recipe2": "mekanismadditions:plastic/slab/transparent/recolor/blue"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slab/transparent/purple",
+            "recipe2": "mekanismadditions:plastic/slab/transparent/recolor/purple"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slab/transparent/magenta",
+            "recipe2": "mekanismadditions:plastic/slab/transparent/recolor/magenta"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slab/transparent/pink",
+            "recipe2": "mekanismadditions:plastic/slab/transparent/recolor/pink"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slab/transparent/white",
+            "recipe2": "mekanismadditions:plastic/slab/transparent/recolor/white"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slab/transparent/light_gray",
+            "recipe2": "mekanismadditions:plastic/slab/transparent/recolor/light_gray"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slab/transparent/gray",
+            "recipe2": "mekanismadditions:plastic/slab/transparent/recolor/gray"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slab/transparent/black",
+            "recipe2": "mekanismadditions:plastic/slab/transparent/recolor/black"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/slab/transparent/brown",
+            "recipe2": "mekanismadditions:plastic/slab/transparent/recolor/brown"
+        }
+    ]
+}

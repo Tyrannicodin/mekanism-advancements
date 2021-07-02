@@ -1,0 +1,97 @@
+{
+    "name": "Glow Plastic Stairs",
+    "icon": "mekanismadditions:white_plastic_glow_stairs",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Glow Plastic Stairs are decorative blocks that serves no function other than aesthetics."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/glow/pink",
+            "recipe2": "mekanismadditions:plastic/stairs/glow/recolor/pink"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/glow/red",
+            "recipe2": "mekanismadditions:plastic/stairs/glow/recolor/red"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/glow/orange",
+            "recipe2": "mekanismadditions:plastic/stairs/glow/recolor/orange"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/glow/yellow",
+            "recipe2": "mekanismadditions:plastic/stairs/glow/recolor/yellow"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/glow/lime",
+            "recipe2": "mekanismadditions:plastic/stairs/glow/recolor/lime"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/glow/green",
+            "recipe2": "mekanismadditions:plastic/stairs/glow/recolor/green"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/glow/cyan",
+            "recipe2": "mekanismadditions:plastic/stairs/glow/recolor/cyan"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/glow/light_blue",
+            "recipe2": "mekanismadditions:plastic/stairs/glow/recolor/light_blue"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/glow/blue",
+            "recipe2": "mekanismadditions:plastic/stairs/glow/recolor/blue"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/glow/purple",
+            "recipe2": "mekanismadditions:plastic/stairs/glow/recolor/purple"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/glow/magenta",
+            "recipe2": "mekanismadditions:plastic/stairs/glow/recolor/magenta"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/glow/pink",
+            "recipe2": "mekanismadditions:plastic/stairs/glow/recolor/pink"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/glow/white",
+            "recipe2": "mekanismadditions:plastic/stairs/glow/recolor/white"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/glow/light_gray",
+            "recipe2": "mekanismadditions:plastic/stairs/glow/recolor/light_gray"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/glow/gray",
+            "recipe2": "mekanismadditions:plastic/stairs/glow/recolor/gray"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/glow/black",
+            "recipe2": "mekanismadditions:plastic/stairs/glow/recolor/black"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/stairs/glow/brown",
+            "recipe2": "mekanismadditions:plastic/stairs/glow/recolor/brown"
+        }
+    ]
+}

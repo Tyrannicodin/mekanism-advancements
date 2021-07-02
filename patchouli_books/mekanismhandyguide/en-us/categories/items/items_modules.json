@@ -1,0 +1,6 @@
+{
+    "name": "Modules",
+    "description": "The following chapters are modules/units you can install onto your MekaSuit and MekaTool. $(p)View the $(l:item/modules/module_base)Module Base$(/l) chapter for a more in-depth explanation about how modules work.",
+    "icon": "mekanism:module_gravitational_modulating_unit",
+    "parent": "items/items"
+}

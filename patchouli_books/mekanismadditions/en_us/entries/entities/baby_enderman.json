@@ -1,0 +1,17 @@
+{
+    "name": "Baby Enderman",
+    "icon": "mekanismadditions:baby_enderman_spawn_egg",
+    "category": "entities",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "A Baby Enderman is, you know, a baby Enderman. It can still teleport, run pretty fast, etc. Just don't look at it in the eyes."
+        },
+        {
+            "type": "entity",
+            "name": "Baby Enderman",
+            "entity": "mekanismadditions:baby_enderman"
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "name": "Plastic Gates",
+    "icon": "mekanismadditions:white_plastic_fence_gate",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Plastic Gates are decorative blocks that serves no function other than aesthetics."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/fence_gate/pink",
+            "recipe2": "mekanismadditions:plastic/fence_gate/recolor/pink"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/fence_gate/red",
+            "recipe2": "mekanismadditions:plastic/fence_gate/recolor/red"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/fence_gate/orange",
+            "recipe2": "mekanismadditions:plastic/fence_gate/recolor/orange"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/fence_gate/yellow",
+            "recipe2": "mekanismadditions:plastic/fence_gate/recolor/yellow"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/fence_gate/lime",
+            "recipe2": "mekanismadditions:plastic/fence_gate/recolor/lime"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/fence_gate/green",
+            "recipe2": "mekanismadditions:plastic/fence_gate/recolor/green"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/fence_gate/cyan",
+            "recipe2": "mekanismadditions:plastic/fence_gate/recolor/cyan"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/fence_gate/light_blue",
+            "recipe2": "mekanismadditions:plastic/fence_gate/recolor/light_blue"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/fence_gate/blue",
+            "recipe2": "mekanismadditions:plastic/fence_gate/recolor/blue"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/fence_gate/purple",
+            "recipe2": "mekanismadditions:plastic/fence_gate/recolor/purple"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/fence_gate/magenta",
+            "recipe2": "mekanismadditions:plastic/fence_gate/recolor/magenta"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/fence_gate/pink",
+            "recipe2": "mekanismadditions:plastic/fence_gate/recolor/pink"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/fence_gate/white",
+            "recipe2": "mekanismadditions:plastic/fence_gate/recolor/white"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/fence_gate/light_gray",
+            "recipe2": "mekanismadditions:plastic/fence_gate/recolor/light_gray"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/fence_gate/gray",
+            "recipe2": "mekanismadditions:plastic/fence_gate/recolor/gray"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/fence_gate/black",
+            "recipe2": "mekanismadditions:plastic/fence_gate/recolor/black"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismadditions:plastic/fence_gate/brown",
+            "recipe2": "mekanismadditions:plastic/fence_gate/recolor/brown"
+        }
+    ]
+}

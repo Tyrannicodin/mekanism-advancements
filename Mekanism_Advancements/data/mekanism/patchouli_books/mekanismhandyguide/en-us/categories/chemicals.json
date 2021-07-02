@@ -1,5 +1,0 @@
-{
-    "name": "Chemicals",
-    "description": "Transport these with $(l:pipes/gas)Pressurized Tubes$(/l) and store them in $(l:storage/chemicals)Chemical Tanks$(/l) or a high capacity $(l:multiblocks/dynamic_tank)Dynamic Tank$(/l).",
-    "icon": "mekanism:ultimate_chemical_tank"
-  }

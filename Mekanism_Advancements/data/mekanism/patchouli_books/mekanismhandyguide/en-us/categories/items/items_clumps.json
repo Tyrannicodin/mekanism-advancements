@@ -1,6 +1,0 @@
-{
-    "name": "Clumps",
-    "description": "Clumps are items that is part of the $(l:ore_processing/tripling)3x Ore Processing$(/l) and beyond.$(p)There may be more clumps than the ones listed in your modpack. This is because mods like JAOPCA adds ore processing compatibility with other modded ores if applicable.$(p)The ones listed are based solely on Mekanism and Vanilla ores.",
-    "icon": "mekanism:clump_osmium",
-    "parent": "items/items"
-}

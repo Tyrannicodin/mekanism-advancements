@@ -1,6 +1,0 @@
-{
-    "name": "Blocks List",
-    "description": "A list of the blocks in Mekanism.$(p)See $(l:machines/general_gui)General Info on GUI's$(/l) for info on some config settings commonly found in blocks",
-    "icon": "mekanism:ultimate_energy_cube",
-    "sortnum": 99
-  }
