@@ -1,0 +1,31 @@
+{
+    "name": "Heat Generator",
+    "icon": "mekanismgenerators:heat_generator",
+    "category": "generators",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismgenerators:heat_generator",
+            "text": "\"A generator that uses the heat of lava or other burnable resources to produce energy\"$(p)The Heat Generator utilizes heat to produce energy. The more heat energy it receives, the higher its power production is. There are two forms of production: passive generation and active generation."
+        },
+        {
+            "type": "text",
+            "text": "*It does not matter whether or not is the lava a source block. An adjacent lava source and a flowing lava stream will have the same results.)"
+        },
+        {
+            "type": "text",
+            "title": "Passive Generation",
+            "text": "The Heat Generator can passively produce energy via adjacent heat sources, for example lava.*$(p)The lava can be anywhere adjacent to the heat generator, whether above it or below it, there will be no difference. You can also lava-log the heat generator, totalling up to 6 viable sides to provide passive generation."
+        },
+        {
+            "type": "text",
+            "title": "Active Generation",
+            "text": "The Heat Generator can actively produce energy via consuming combustibles (such as lava)/heat energy (nearby heaters or $(l:pipes/heat)Thermodynamic Conductors$(/l)). This often results in a much higher production rate than passive generation."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismgenerators:generator/heat"
+        }
+    ]
+}

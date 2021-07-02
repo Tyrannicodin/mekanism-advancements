@@ -1,0 +1,17 @@
+{
+    "name": "Fission Reactor Casing",
+    "icon": "mekanismgenerators:fission_reactor_casing",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismgenerators:fission_reactor_casing",
+            "text": "Fission Reactor Casings are part of the $(l:multiblocks/fission)Fission Reactor$(/l) multiblock.$(p)They form the frame and, optionally, the walls of the reactor."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismgenerators:fission_reactor/casing"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Turbine Vent",
+    "icon": "mekanismgenerators:turbine_vent",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismgenerators:turbine_vent",
+            "text": "Turbine Vents are part of the $(l:multiblocks/turbine)Industrial Turbine$(/l) multiblock.$(p)Vents are a necessity for an $(l:multiblocks/turbine)Industrial Turbine$(/l). Each provides an additional 32,000mB of max flow rate to the $(l:multiblocks/turbine)Industrial Turbine$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismgenerators:turbine/vent"
+        }
+    ]
+}

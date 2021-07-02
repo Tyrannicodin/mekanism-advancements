@@ -1,0 +1,17 @@
+{
+    "name": "Turbine Rotor",
+    "icon": "mekanismgenerators:turbine_rotor",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismgenerators:turbine_rotor",
+            "text": "Turbine Rotors are part of the $(l:multiblocks/turbine)Industrial Turbine$(/l) multiblock.$(p)Each Turbine Rotors allows you to add 2 more $(l:items/turbine_blade)Turbine Blades$(/l), thus increasing power production. Stack Turbine Rotors onto each other for even more blades."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismgenerators:turbine/rotor"
+        }
+    ]
+}

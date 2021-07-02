@@ -1,0 +1,17 @@
+{
+    "name": "Turbine Blade",
+    "icon": "mekanismgenerators:turbine_blade",
+    "category": "items/items",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismgenerators:turbine_blade",
+            "text": "Turbines Blades are part of the $(l:multiblocks/turbine)Industrial Turbine$(/l) multiblock.$(p)Each Turbine Blade needs to be placed on a $(l:blocks/turbine/turbine_rotor)Turbine Rotor$(/l), and each Turbine Blade will add onto the $(l:multiblocks/turbine)Industrial Turbine's$(/l) max power production."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismgenerators:turbine/blade"
+        }
+    ]
+}

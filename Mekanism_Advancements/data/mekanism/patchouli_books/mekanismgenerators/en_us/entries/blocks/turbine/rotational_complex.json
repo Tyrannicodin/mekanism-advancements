@@ -1,0 +1,17 @@
+{
+    "name": "Rotational Complex",
+    "icon": "mekanismgenerators:rotational_complex",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismgenerators:rotational_complex",
+            "text": "Rotational Complex are part of the $(l:multiblocks/turbine)Industrial Turbine$(/l) multiblock.$(p)Every $(l:multiblocks/turbine)Industrial Turbine$(/l) require one Rotational Complex, and it must be on top of the final $(l:blocks/turbine/turbine_rotor)Turbine Rotor$(/l) on the Turbine Rotor rod."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismgenerators:rotational_complex"
+        }
+    ]
+}

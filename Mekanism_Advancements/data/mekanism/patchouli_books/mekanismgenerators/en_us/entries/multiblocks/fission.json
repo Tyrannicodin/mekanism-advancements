@@ -1,0 +1,150 @@
+{
+    "name": "Fission Reactor",
+    "category": "multiblocks",
+    "icon": "mekanismgenerators:fission_reactor_port",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "\"Caution: Don't blow it up!\"$(p)The Fission Reactor is a multiblock that consumes $(l:chemicals/fissile_fuel)Fissile Fuel$(/l) and coolants (either $(l:chemicals/sodium)Sodium$(/l) or water) to produce $(l:chemicals/nuclear_waste)Nuclear Waste$(/l) and heated coolant (either $(l:chemicals/superheated_sodium)Superheated Sodium$(/l) or $(l:chemicals/steam)Steam$(/l))."
+        },
+        {
+            "type": "text",
+            "text": "The reactor itself will $(bold)not$() produce power. It requires an $(l:multiblocks/turbine)Industrial Turbine$(/l) to produce power. This is because the reactor will only produce $(l:chemicals/nuclear_waste)Nuclear Waste$(/l) and heated coolant (either $(l:chemicals/superheated_sodium)Superheated Sodium$(/l) or $(l:chemicals/steam)Steam$(/l)). See paged titled Water-Cooled Reactor and Sodium-Cooled Reactor for a more in-depth explanation.$(p)Max size: 18x18x18"
+        },
+        {
+            "type": "text",
+            "title": "Blocks Required",
+            "text": "$(li)$(l:blocks/fission/fission_reactor_casing)Fission Reactor Casings$(/l)$(li)$(l:blocks/fission/fission_reactor_port)Fission Reactor Ports$(/l)$(li)$(l:blocks/fission/fission_reactor_logic_adapter)Fission Reactor Logic Adapter$(/l) (optional)$(li)$(l:blocks/fission/fission_fuel_assembly)Fission Fuel Assemblies$(/l)$(li)$(l:blocks/fission/control_rod_assembly)Control Rod Assemblies$(/l)$(li)$(l:blocks/reactor_glass)Reactor Glass$(/l) (optional)"
+        },
+        {
+            "type": "text",
+            "title": "Construction Notes",
+            "text": "$(li)Each $(l:blocks/fission/fission_fuel_assembly)Fission Fuel Assembly$(/l) will add 1mB/t of max burn rate.$(li)Each $(l:blocks/fission/fission_fuel_assembly)Fission Fuel Assembly$(/l) contributes 4 m2 of Fuel Surface Area.$(li)A water-cooled reactor requires approximately 20,000mB/t of water to sustain every 1mB/t of burn rate.$(li)A $(l:chemicals/sodium)sodium$(/l)-cooled reactor requires approximately 200,000mB/t of $(l:chemicals/sodium)Sodium$(/l) to sustain every 1mB/t of burn rate."
+        },
+        {
+            "type": "text",
+            "title": "Construction Notes",
+            "text": "$(li)The temperature is one of the key things you will need to keep an eye on to ensure that there will be no disastrous outcomes. As temperature increases, so does the risk of a reactor meltdown.$(li2)Temperature: Temp < 600K$(br)Status: $(#00ff00)Safe$()$(li2)Temperature: 600K < Temp < 1000K$(br)Status: $(#ffdf00)Hot$()"
+        },
+        {
+            "type": "text",
+            "title": "Construction Notes",
+            "text": "$(li2)Temperature: 1000K < Temp < 1200K$(br)Status: $(#ff4500)Dangerous$(); extremely hot and risky, but is still under safe operating temperature$(li2)Temperature:  Temp > 1200K$(br)Status: $(#ff0000)Emergency$(); the reactor is exceeded safe operating temperature and will begin taking structural damage. If left unattended, it will result in a $(#ff0000)nuclear meltdown$()."
+        },
+        {
+            "type": "text",
+            "title": "Construction Notes",
+            "text": "$(li)The highest burn rate possible without exceeded safe operating temperature is 1,435mB/t. This will put the reactor at an operating temperature of 1,900K, just slightly below the 1,200K temperature limit. $(li)A Circuit Breaker is optional, but is recommended due to the possible catastrophic results from a nuclear meltdown. See the Circuit Breaker page for more details."
+        },
+        {
+            "type": "text",
+            "title": "Water-Cooled Reactor",
+            "text": "A water-cooled reactor uses water as coolant. In a way, it resembles a $(l:multiblocks/boiler)Thermoelectric Boiler$(/l) in that it boils water into steam.$(p)The key difference here is that it not only boils water into steam, but it also requires $(l:chemcials/fissile_fuel)Fissile Fuel$(/l) and, in addition to steam, produces $(l:chemicals/nuclear_waste)Nuclear Waste$(/l)."
+        },
+        {
+            "type": "text",
+            "title": "Water-Cooled Reactor",
+            "text": "It is also vital to have an $(l:multiblocks/turbine)Industrail Turbine$(/l) to use the steam to not only produce power, but to also condense the steam back into water. Doing so allows a \"closed-loop\" of coolant between the $(l:multiblocks/turbine)Industrial Turbine$(/l) and the Fission Reactor.$(p)For example, say you have a burn rate of 1mB/t, and you are using water as coolant. At a burn rate of 1mB/t, the Fission Reactor will boil water"
+        },
+        {
+            "type": "text",
+            "title": "Water-Cooled Reactor",
+            "text": "at a rate of approximately 20,000mB/t. Therefore, it will be producing steam at a rate of approximately 20,000mB/t.$(p)Now take the steam, and input them into the $(l:multiblocks/turbine)Industrial Turbine$(/l). The turbine will now have a flow rate of approximately 20,000mB/t (assuming the max flow rate is > 20,000mB/t), and will condense and output water at a rate of approximately 20,000mB/t (assuming the max water"
+        },
+        {
+            "type": "text",
+            "title": "Water-Cooled Reactor",
+            "text": "output is > 20,000mB/t).$(p)As a result, all of the water that was consumed by the Fission Reactor will be returned and ready to be reused."
+        },
+        {
+            "type": "text",
+            "title": "Sodium-Cooled Reactor",
+            "text": "A sodium-cooled reactor uses $(l:chemicals/sodium)Sodium$(/l) as coolant. $(l:chemicals/sodium)Sodium$(/l) is a much more efficient coolant. But using $(l:chemicals/sodium)Sodium$(/l) to cool a Fission Reactor will require more work and the addition of a $(l:multiblocks/boiler)Thermoelectric Boiler$(/l) to act as an intermediate heat-exchanger: cooling down $(l:chemicals/superheated_sodium)Superheated Sodium$(/l) into $(l:chemicals/sodium)Sodium$(/l) and heating up water into $(l:chemicals/steam)Steam$(/l)."
+        },
+        {
+            "type": "text",
+            "title": "Sodium-Cooled Reactor",
+            "text": "Although the Fission Reactor with a 1mB/t burn rate will heat $(l:chemicals/sodium)Sodium$(/l) at a rate of 200,000mB/t, the boiler not heat up 200,000mB/t of water. Rather, it will follow the same rules of a water-cooled reactor: heating up 20,000mB/t of water per 1mB/t burn rate."
+        },
+        {
+            "type": "text",
+            "title": "Circuit Breakers",
+            "text": "A Circuit Breaker is used to automatically trigger an event (e.g. deactivating a reactor) based on redstone signals. The $(l:blocks/fission/fission_reactor_logic_adapter)Fission Reactor Logic Adapter$(/l) has many options to choose from, each option will result in the FR-LA to output a redstone signal if the option's conditions are met."
+        },
+        {
+            "type": "text",
+            "title": "Circuit Breaker Example",
+            "text": "Set the right FR-LA to any setting besides \"Disabled\" and \"Activation\".$(br)Set the left FR-LA to \"Activation\".$(br)Place Redstone Dusts on the Wooden Planks.$(br)Place a Redstone Repeater on the Cobblestone.$(br)Place a Redstone Torch on the Dirt."
+        },
+        {
+            "type": "multiblock",
+            "text": "See the next page for an explanation on this Circuit Breaker example.",
+            "multiblock": {
+                "pattern": [
+                    [ "CCCCC    ", "CCCCC    ", "CCCCC    ", "CCCCC    ", "CCCCC    " ],
+                    [ "CGGGC    ", "G   G    ", "G Q G    ", "G   G    ", "CGGGC    " ],
+                    [ "CGGGC    ", "G   G    ", "G A G    ", "G   G    ", "CGGGC    " ],
+                    [ "CPGPC    ", "G   L S  ", "G A G Y 0", "G   L S  ", "CPGPC    " ],
+                    [ "CCCCC    ", "CCCCCW ED", "CCCCC    ", "CCCCCW   ", "CCCCC    " ]
+                ],
+                "mapping": {
+                    "C": "mekanismgenerators:fission_reactor_casing",
+                    "P": "mekanismgenerators:fission_reactor_port",
+                    "L": "mekanismgenerators:fission_reactor_logic_adapter",
+                    "Q": "mekanismgenerators:control_rod_assembly",
+                    "A": "mekanismgenerators:fission_fuel_assembly",
+                    "G": "mekanismgenerators:reactor_glass",
+                    "E": "minecraft:cobblestone",
+                    "W": "minecraft:oak_planks",
+                    "D": "minecraft:dirt",
+                    "S": "minecraft:stone",
+                    "Y": "minecraft:piston[facing=west]"
+                },
+                "offset": [0,-1,0]
+            }
+        },
+        {
+            "type": "text",
+            "title": "Circuit Breaker Example",
+            "text": "In this example, left FR-LA will automatically activate the reactor when the redstone signal is on. Beware; with this Circuit Breaker set up, the reactor will instantly turn on the reactor when the Redstone Torch is placed.$(p)With the right FR-LA set on \"High Temperature\", the moment the reactor reaches/exceeds 1200K the FR-LA will output a redstone signal. This redstone signal will activate the Piston"
+        },
+        {
+            "type": "text",
+            "title": "Circuit Breaker Example",
+            "text": "which will push the block, thus cutting off the activation redstone signal.$(p)Note that for this example, the right FR-LA is set to \"High Temperature\", but it can also work for any other options too."
+        },
+        {
+            "type": "text",
+            "title": "11x11x11 Fission Reactor",
+            "text": "The following is a 11x11x11 Fission Reactor with no Circuit Breaker (hopefully you have learned how to install one from the previous pages).$(p)It is suggested that you set the $(l:blocks/fission/fission_fuel_assembly)Fission Fuel Assemblies$(/l) in \"checkboard pattern\". This is because it is suggested that each $(l:blocks/fission/fission_fuel_assembly)Fission Fuel Assembly$(/l) have an empty space in each cardinal direction (north, east, south, west) to improve cooling."
+        },
+        {
+            "type": "multiblock",
+            "multiblock": {
+                "pattern": [
+                    [ "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G  Q Q Q  G", "G   Q Q   G", "G  Q Q Q  G", "G   Q Q   G", "G  Q Q Q  G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G  A A A  G", "G   A A   G", "G  A A A  G", "G   A A   G", "G  A A A  G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G  A A A  G", "G   A A   G", "G  A A A  G", "G   A A   G", "G  A A A  G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G  A A A  G", "G   A A   G", "G  A A A  G", "G   A A   G", "G  A A A  G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G  A A A  G", "G   A A   G", "G  A A A  G", "G   A A   G", "G  A A A  G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G  A A A  G", "G   A A   G", "G  A A A  G", "G   A A   G", "G  A A A  G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G  A A A  G", "G   A A   G", "G  A A A  G", "G   A A   G", "G  A A A  G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGGGGGGGGC", "G         G", "G         G", "G  A A A  G", "G   A A   G", "G  A A A  G", "G   A A   G", "G  A A A  G", "G         G", "G         G", "CGGGGGGGGGC" ],
+                    [ "CGGPGGGPGGC", "G         G", "G         G", "G  A A A  G", "G   A A   G", "G  A A A  G", "G   A A   G", "G  A A A  G", "G         G", "G         G", "CGGPGGGPGGC" ],
+                    [ "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCC0", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC", "CCCCCCCCCCC" ]
+                ],
+                "mapping": {
+                    "C": "mekanismgenerators:fission_reactor_casing",
+                    "P": "mekanismgenerators:fission_reactor_port",
+                    "Q": "mekanismgenerators:control_rod_assembly",
+                    "A": "mekanismgenerators:fission_fuel_assembly",
+                    "G": "mekanismgenerators:reactor_glass",
+                    "0": "mekanismgenerators:fission_reactor_casing"
+                },
+                "offset": [0,0,0]
+            }
+        }    
+    ]
+}
