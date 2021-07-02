@@ -1,0 +1,6 @@
+{
+    "name": "Metal Blocks",
+    "description": "A list of blocks made using Mekanism ingots",
+    "icon": "mekanism:block_osmium",
+    "parent": "blocks/blocks"
+}

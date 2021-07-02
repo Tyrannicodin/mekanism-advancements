@@ -1,0 +1,6 @@
+{
+    "name": "Ingots",
+    "description": "A list of Mekanism ingots.",
+    "icon": "mekanism:ingot_osmium",
+    "parent": "items/items"
+  }

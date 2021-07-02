@@ -1,0 +1,6 @@
+{
+    "name": "Nuggets",
+    "description": "A list of Mekanism nuggets.",
+    "icon": "mekanism:nugget_osmium",
+    "parent": "items/items"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Machines",
+    "description": "You can't have a tech mod without machines! These chapters will explain what each machines in Mekanism does. Machines consumes power to function, and Mekanism $(bold)by itself$() has no way to generate power (See Mekanism: Generators). Visit $(l:machines/general_gui)General Info on GUI's$(/l) for info about config settings almost all Mekanism machines have.",
+    "icon": "mekanism:metallurgic_infuser",
+    "parent": "blocks/blocks"
+}
