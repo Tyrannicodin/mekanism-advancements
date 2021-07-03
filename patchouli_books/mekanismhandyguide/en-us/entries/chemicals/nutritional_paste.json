@@ -1,0 +1,16 @@
+{
+    "name": "Nutritional Paste",
+    "icon": "mekanism:creative_chemical_tank",
+    "category": "chemicals",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Nutritional Paste is produced by processing food in a $(l:machines/nutritional_liquifier)Nutritional Liquifier$(/l). Each hunger bar will yield 100 mB of Nutritional Paste.$(p)To store Nutritional Paste, simply fill them up nn a $(l:item/tools/canteen)Canteen$(/l) or a $(l:item/equipment/mekasuit)Mekasuit Helmet$(/l)."
+        },
+        {
+            "type": "text",
+            "text": "To consume Nutritional Paste, hold $(k:use) with the Nutritional-Paste-filled-$(l:item/tools/canteen)Canteen$(/l), or install a $(l:item/modules/module_nutritional_injection_unit)Nutritional Injection Unit$(/l) onto your $(l:item/equipment/mekasuit)Mekasuit Helmet$(/l) to automatically consume Nutritional Paste when hungry."
+        }
+    ]
+}

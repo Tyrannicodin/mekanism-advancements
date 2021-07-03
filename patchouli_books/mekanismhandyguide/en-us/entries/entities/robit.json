@@ -1,0 +1,53 @@
+{
+    "name": "Robit",
+    "icon": "mekanism:robit",
+    "category": "entities",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "A Robit is a very helpful little companion. It acts like a minecraft pet.$(p)To spawn your own Robit, simply press $(k:use) on a $(l:machines/chargepad)Chargepad$(/l) with the Robit equipped in your hands. This $(l:machines/chargepad)Chargepad$(/l) will now act as the spawn point for your Robit when it is told to go home or if it runs out of power."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:robit",
+            "text": "The Robit has multiple different convenient abilities, all of which can be accessed in its GUI."
+        },
+        {
+            "type": "text",
+            "title": "Abilities",
+            "text": "$(bold)Crafting$()$(br)The Robit has a 3x3 crafting grid that acts like a normal Crafting Table.$(p)To access it, press the button that has a crafting grid icon on it in the Robit's GUI. The button should read \"Robit Crafting\"."
+        },
+        {
+            "type": "text",
+            "title": "Abilities",
+            "text": "$(bold)Storage$()$(br)The Robit has an internal inventory with 27 slots, equal to that of a single minecraft Chest. It's kinda like a backpack.$(p)To access it, press the button that has a chest icon on it in the Robit's GUI. The button should read\"Robit Inventory\"."
+        },
+        {
+            "type": "text",
+            "title": "Abilities",
+            "text": "$(bold)Smelting$()$(br)The Robit has a built-in furnace too! It requires no combustible, e.g. coal. Instead, it uses power as fuel similar to a $(l:machines/energized_smelter)Energized Smelter$(/l).$(p)To access, press the button that has a furnace icon on it in the Robit's GUI. The button should read \"Robit Smelting\"."
+        },
+        {
+            "type": "text",
+            "title": "Abilities",
+            "text": "$(bold)Anvil$()$(br)The Robit has an anvil feature as well! Like a normal anvil, it can repair, rename, and so on and so forth with the cost of experience.$(p)To access, press the button that has an anvil icon on it in the Robit's GUI. The button should read \"Robit Repair\"."
+        },
+        {
+            "type": "text",
+            "title": "Misc. Features",
+            "text": "$(bold)Teleport back home$()$(br)Pressing this button will teleport the Robit back to its spawn point (the $(l:machines/chargepad)Chargepad$(/l) you spawned it on).$(p)$(bold)Toggle drop pickup mode$()$(br)Pressing this button will toggle on/off auto-pickup mode. If enabled, the Robit will automatically walk over and pick up dropped items and store them in its inventory."
+        },
+        {
+            "type": "text",
+            "title": "Misc. Features",
+            "text": "$(bold)Rename this Robit$()$(br)Pretty self-explanatory. Press this button to rename your Robit.$(p)$(bold)Toggle follow mode$()$(br)Press this button to toggle on/off follow mode. If enabled, the Robit will follow you and teleport to you if you are too far, similar to a minecraft pet."
+        },
+        {
+            "type": "entity",
+            "entity": "mekanism:robit",
+            "name": "Robit",
+            "text": "A cute little Robit."
+        }
+    ]
+}

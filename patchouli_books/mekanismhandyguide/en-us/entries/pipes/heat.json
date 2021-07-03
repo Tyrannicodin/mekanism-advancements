@@ -1,0 +1,50 @@
+{
+  "name": "Thermodynamic Conductors",
+  "category": "blocks/blocks_pipes",
+  "icon": "mekanism:basic_thermodynamic_conductor",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Similar to the Universal Cable, the Thermodynamic Conductor is Mekanism's way of transmitting heat energy (essentially a heat pipe).$(2br)Transfer is lossy, depending on the biome the conductor is in. Warmer biomes (such as deserts) have a higher transfer efficiency (less heat is lost), while colder biomes (such as snow tundras) have a lower transfer efficiency (more"
+    },
+    {
+      "type": "text",
+      "text": "heat is lost). It is also advised to not make a long Thermodynamic Conductor network since the longer the network is, the more heat is lost.$(p)Like other transmission pipes, they can be configurated to be Push, Pull, None, or Normal by $(k:sneak) + right clicking on the connected bits with a $(l:item/configurator)Configurator$(/l)."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Redstone Sensitivity$(br)$()By right clicking on a Thermodynamic Conductor with a $(l:item/tools/configurator)Configurator$(/l), you can toggle Redstone Sensitivity on/off. When toggled $(bold)on$(), the Thermodynamic Conductor will interact with redstone signals. If the Thermodynamic Conductor is in contact with an active redstone signal, it will disconnect from any surrounding blocks/pipes. It stays this way until the redstone signal is gone. By default, Redstone Sensitivity is toggled off."
+    },
+    {
+      "type": "spotlight",
+      "item": "mekanism:basic_thermodynamic_conductor",
+      "text": "Hover over the item above to view stats."
+    },
+    {
+      "type": "spotlight",
+      "item": "mekanism:advanced_thermodynamic_conductor",
+      "text": "Hover over the item above to view stats."
+    },
+    {
+      "type": "spotlight",
+      "item": "mekanism:elite_thermodynamic_conductor",
+      "text": "Hover over the item above to view stats."
+    },
+    {
+      "type": "spotlight",
+      "item": "mekanism:ultimate_thermodynamic_conductor",
+      "text": "Hover over the item above to view stats."
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:transmitter/thermodynamic_conductor/basic",
+      "recipe2": "mekanism:transmitter/thermodynamic_conductor/advanced"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:transmitter/thermodynamic_conductor/elite",
+      "recipe2": "mekanism:transmitter/thermodynamic_conductor/ultimate"
+    }
+  ]
+}

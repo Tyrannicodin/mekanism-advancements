@@ -1,0 +1,12 @@
+{
+    "name": "Fissile Fuel",
+    "icon": "mekanism:creative_chemical_tank",
+    "category": "chemicals",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Fissile Fuel is fuel for the $(l:multiblocks/fission)Fission Reactor$(/l). It is not radioactive, thus it can be transported through a $(l:misc_blocks/quantum_entangloporter)Quantum Entangloporter$(/l) and will not release radiation when broken."
+        }
+    ]
+}

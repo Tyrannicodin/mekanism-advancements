@@ -1,0 +1,12 @@
+{
+    "name": "Polonium",
+    "icon": "mekanism:creative_chemical_tank",
+    "category": "chemicals",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Polonium is a radioactive substance that is later used to produce $(l:item/pellet_polonium)Polonium Pellets$(/l).$(p)Polonium is radioactive, hence they must be stored inside a radiotactive waste barrel and cannot be transported via a $(l:misc_blocks/quantum_entangloporter)Quantum Entangloporter$(/l)."
+        }
+    ]
+}

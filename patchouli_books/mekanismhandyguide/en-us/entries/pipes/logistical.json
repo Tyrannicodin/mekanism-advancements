@@ -1,0 +1,73 @@
+{
+  "name": "Logistical Transporters",
+  "category": "blocks/blocks_pipes",
+  "icon": "mekanism:basic_logistical_transporter",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "\"Ooooo...rainbow colors\"$(p)Logistical Transporters are used to transport items around.$(p)Like other transmission pipes, they can be configurated to be Push, Pull, None, or Normal by $(k:sneak) + right clicking on the connected bits with a $(l:item/tools/configurator)Configurator$(/l).It has 2 other cousins called the Diversion Transporter and the"
+    },
+    {
+      "type": "text",
+      "text": "Restrictive Transporter. $(p)Logistical Transporters can also be color coded for better organization by $(k:sneak) + right clicking the Logistical Transporter with a $(l:item/tools/configurator)Configurator$(/l). Doing so will help a Logistical Sorter decide which item goes where. See $(l:blocks/blocks_machines/logistical_sorter)Logistical Sorter$(/l) for more info."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Diversion Transporters$()$(br)This pipe basically tells the logistical system that it is -1000 blocks in length, making it the highest priority inventory that it will connect to. In other words, inventories connected to this network will be filled up first."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Restrictive Transporters$()$(br)Restrictive Transporters are the exact opposite of the Diversion Transporter. This pipe basically tells the logistical system that it is 1000 blocks in length, making it the highest lowest inventory that it will connect to. In other words, inventories connected to this network will be filled up last. This is useful for making an overflow system as well as an item voiding system since this is the last option where items in"
+    },
+    {
+      "type": "text",
+      "text": "the logistical system will go."
+    },
+    {
+      "type": "spotlight",
+      "item": "mekanism:basic_logistical_transporter",
+      "text": "Hover over the item above to view stats."
+    },
+    {
+      "type": "spotlight",
+      "item": "mekanism:advanced_logistical_transporter",
+      "text": "Hover over the item above to view stats."
+    },
+    {
+      "type": "spotlight",
+      "item": "mekanism:elite_logistical_transporter",
+      "text": "Hover over the item above to view stats."
+    },
+    {
+      "type": "spotlight",
+      "item": "mekanism:ultimate_logistical_transporter",
+      "text": "Hover over the item above to view stats."
+    },
+    {
+      "type": "spotlight",
+      "item": "mekanism:diversion_transporter",
+      "text": "Speed: 1m/s$(p)Pump rate: 2/s"
+    },
+    {
+      "type": "spotlight",
+      "item": "mekanism:restrictive_transporter",
+      "text": "Speed: 1m/s$(p)Pump rate: 2/s"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:transmitter/logistical_transporter/basic",
+      "recipe2": "mekanism:transmitter/logistical_transporter/advanced"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:transmitter/logistical_transporter/elite",
+      "recipe2": "mekanism:transmitter/logistical_transporter/ultimate"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:transmitter/diversion_transporter",
+      "recipe2": "mekanism:transmitter/restrictive_transporter"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Liquid Osmium",
+    "icon": "mekanism:creative_chemical_tank",
+    "category": "chemicals",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Liquid Osmium is a chemical produced and used by a $(l:machines/osmium_compressor)Osmium Compressor$(/l).$(p)Despite what its name implies, Liquid Osmium is a chemical and thus is stored in $(l:storage/chemicals)Chemical Tanks$(/l) rather than $(l:storage/liquid)Fluid Tanks$(/l)."
+        }
+    ]
+}

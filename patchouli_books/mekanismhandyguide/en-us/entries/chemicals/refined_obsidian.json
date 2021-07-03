@@ -1,0 +1,12 @@
+{
+    "name": "Refined Obsidian",
+    "icon": "mekanism:creative_chemical_tank",
+    "category": "chemicals",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Refined Obsidian is used in a $(l:machines/metallurgic_infuser)Metallurgic Infuser$(/l) to infuse items, e.g. $(l:item/components/alloy)Reinforced Alloys$(/l), with refined obsidian."
+        }
+    ]
+}

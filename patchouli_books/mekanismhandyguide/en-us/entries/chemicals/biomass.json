@@ -1,0 +1,12 @@
+{
+    "name": "Biomass",
+    "icon": "mekanism:creative_chemical_tank",
+    "category": "chemicals",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Biomass is used in a $(l:machines/metallurgic_infuser)Metallurgic Infuser$(/l) to infuse items, e.g. dirt, with biomass."
+        }
+    ]
+}

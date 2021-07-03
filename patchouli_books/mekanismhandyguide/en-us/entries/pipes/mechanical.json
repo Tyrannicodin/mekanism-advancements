@@ -1,0 +1,46 @@
+{
+    "name": "Mechanical Pipes",
+    "category": "blocks/blocks_pipes",
+    "icon": "mekanism:basic_mechanical_pipe",
+    "read_by_default": true,
+    "pages": [
+      {
+        "type": "text",
+        "text": "\"More like Meka-nical Pipes am I right?\"$(p)Mechanical Pipes are used to transport fluids. It can be used to connect to any blocks with Fluid Handlers in them.$(p)Like other transmission pipes, they can be configurated to be Push, Pull, None, or Normal by $(k:sneak) + right clicking on the connected bits with a $(l:item/tools/configurator)Configurator$(/l)."
+      },
+      {
+        "type": "text",
+        "text": "$(bold)Redstone Sensitivity$(br)$()By right clicking on a Mechanical Pipe with a $(l:item/tools/configurator)Configurator$(/l), you can toggle Redstone Sensitivity on/off. When toggled $(bold)on$(), the Mechanical Pipe will interact with redstone signals. If the Mechanical Pipe is in contact with an active redstone signal, it will disconnect from any surrounding blocks/pipes. It stays this way until the redstone signal is gone. By default, Redstone Sensitivity is toggled off."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:basic_mechanical_pipe",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:advanced_mechanical_pipe",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:elite_mechanical_pipe",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:ultimate_mechanical_pipe",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "crafting",
+        "recipe": "mekanism:transmitter/mechanical_pipe/basic",
+        "recipe2": "mekanism:transmitter/mechanical_pipe/advanced"
+      },
+      {
+        "type": "crafting",
+        "recipe": "mekanism:transmitter/mechanical_pipe/elite",
+        "recipe2": "mekanism:transmitter/mechanical_pipe/ultimate"
+      }
+    ]
+  }

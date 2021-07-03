@@ -1,0 +1,12 @@
+{
+    "name": "Spent Nuclear Waste",
+    "icon": "mekanism:creative_chemical_tank",
+    "category": "chemicals",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Spent Nuclear Waste is a waste product produced by the production of $(l:item/pellet_polonium)Polonium Pellets$(/l) and $(l:item/pellet_plutonium)Plutonium Pellets$(/l).$(p)Spent Nuclear Waste is radioactive, hence they must be stored inside a radiotactive waste barrel and cannot be transported via a $(l:misc_blocks/quantum_entangloporter)Quantum Entangloporter$(/l)."
+        }
+    ]
+}

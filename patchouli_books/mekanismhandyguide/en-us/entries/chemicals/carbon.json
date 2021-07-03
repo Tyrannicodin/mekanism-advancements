@@ -1,0 +1,12 @@
+{
+    "name": "Carbon",
+    "icon": "mekanism:creative_chemical_tank",
+    "category": "chemicals",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Carbon is an infuse-type that is used in a $(l:machines/metallurgic_infuser)Metallurgic Infuser$(/l) to infuse types with Carbon, e.g. infusing $(l:item/enriched_iron)Enriched Iron$(/l) with Carbon to produce $(l:item/dusts/dust_steel)Steel Dusts$(/l)."
+        }
+    ]
+}

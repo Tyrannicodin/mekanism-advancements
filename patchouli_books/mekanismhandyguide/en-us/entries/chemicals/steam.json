@@ -1,0 +1,16 @@
+{
+    "name": "Steam",
+    "icon": "mekanism:creative_chemical_tank",
+    "category": "chemicals",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Steam is a chemical that has a few different uses. You can obtain Steam from boiling water in a $(l:multiblocks/boiler)Thermoelectric Boiler$(/l).$(p)One of the uses of Steam is using it to hydrate some blocks/items (such as corals) in a $(l:machines/chemical_injection_chamber)Chemical Injection Chamber$(/l)."
+        },
+        {
+            "type": "text",
+            "text": "Another use of Steam is in an $(l:multiblocks/tubrine)Industrial Turbine$(/l) if you have Mekanism: Generators installed. This is used to produce power and a fairly dececnt rate."
+        }
+    ]
+}

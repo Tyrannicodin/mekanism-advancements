@@ -1,0 +1,12 @@
+{
+    "name": "Superheated Sodium",
+    "icon": "mekanism:creative_chemical_tank",
+    "category": "chemicals",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Superheated Sodium is the heated form of $(l:chemicals/sodium)Sodium$(/l) produced by a Sodium-Cooled $(l:multiblocks/fission)Fission Reactor$(/l). Superheated Sodium can be cooled back into $(l:chemicals/sodium)Sodium$(/l) in a $(l:multiblocks/boiler)Thermoelectric Boiler$(/l)."
+        }
+    ]
+}

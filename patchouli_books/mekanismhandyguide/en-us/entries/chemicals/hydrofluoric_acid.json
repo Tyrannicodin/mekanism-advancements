@@ -1,0 +1,12 @@
+{
+    "name": "Hydrofluoric Acid",
+    "icon": "mekanism:creative_chemical_tank",
+    "category": "chemicals",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Hydrofluoric Acid is a chemical used in the process of creating $(l:chemicals/fissile_fuel)Fissile Fuel$(/l)."
+        }
+    ]
+}

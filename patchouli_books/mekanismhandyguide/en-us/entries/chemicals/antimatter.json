@@ -1,0 +1,13 @@
+{
+    "name": "Antimatter",
+    "icon": "mekanism:creative_chemical_tank",
+    "category": "chemicals",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:creative_chemical_tank",
+            "text": "Antimatter is produced from a $(l:multiblocks/sps)SPS$(/l) using $(l:chemicals/polonium)Polonium$(/l).$(p)It is then used to create $(l:item/pellet_antimatter)Antimatter Pellets$(/l) or used in the $(l:machines/antiprotonic_nucleosynthesizer)Antiprotonic Nucleosynthesizer$(/l)."
+        }
+    ]
+}

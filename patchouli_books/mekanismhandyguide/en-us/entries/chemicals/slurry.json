@@ -1,0 +1,16 @@
+{
+    "name": "Slurries",
+    "icon": "mekanism:creative_chemical_tank",
+    "category": "chemicals",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Slurries are part of the $(l:ore_processing/quintupling)5x Ore Processing$(/l) system. There are two variants: clearn slurries and dirty slurries.$(p)$(bold)Dirty Slurries$()$(br)Dirty Slurries are the initial stages of slurries. They are made from processing ores in a $(l:machines/chemical_dissolution_chamber)Chemical Dissolution Chamber$(/l)."
+        },
+        {
+            "type": "text",
+            "text": "$(bold)Clean Slurries$()$(br)Clean slurries are the clean counterparts of slurries. They are made from processing dirty slurries in a $(l:machines/chemical_washer)Chemical Washer$(/l).$(p)Clean slurries can later be processed in a $(l:machines/chemical_crystallizer)Chemical Crystallizer$(/l) to produce ore crystals, each being worth 1 ingot of their respective ore once fully processed in the Ore Processing system."
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Lithium",
+    "category": "chemicals",
+    "icon": "mekanism:creative_chemical_tank",
+    "read_by_default": true,
+    "pages": [
+      {
+        "type": "text",
+        "text": "Lithium is produced by $(l:multiblocks/thermal_evaporation)evaporating$(/l) $(l:chemicals/gaseous_brine)brine$(/l).  It is processed into $(l:chemicals/tritium)Tritium$(/l) in a $(l:block/solar_neutron_activator)Solar Neutron Activator$(/l)."
+      }
+    ]
+  }

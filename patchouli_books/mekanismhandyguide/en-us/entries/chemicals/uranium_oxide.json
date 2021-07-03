@@ -1,0 +1,12 @@
+{
+    "name": "Uranium Oxide",
+    "icon": "mekanism:creative_chemical_tank",
+    "category": "chemicals",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Uranium Oxide is a chemical used in the process of making $(l:chemicals/fissile_fuel)Fissiel Fuel$(/l)."
+        }
+    ]
+}

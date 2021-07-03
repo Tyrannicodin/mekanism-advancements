@@ -1,0 +1,50 @@
+{
+  "name": "Universal Cables",
+  "category": "blocks/blocks_pipes",
+  "icon": "mekanism:basic_universal_cable",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Universal Cables are Mekanism's way to transfer power. They are capable of transferring Mekanism's power Joules (J), as well as a variety of other power types such as Forge Energy (FE), Thermal Expansion's Redstone Flux (RF), Buildcraft's Minecraftjoules (MJ - display only), and Industrialcraft Energy Unit (EU). This flexibility allows players to mix power generation from"
+    },
+    {
+      "type": "text",
+      "text": "different mods while still only using one type of cabling. Neat.$(p)Like other transmission pipes, they can be configurated to be Push, Pull, None, or Normal by $(k:sneak) + right clicking on the connected bits with a $(l:item/tools/configurator)Configurator$(/l)."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Redstone Sensitivity$(br)$()By right clicking on a Pressurized Tube with a $(l:item/tools/configurator)Configurator$(/l), you can toggle Redstone Sensitivity on/off. When toggled $(bold)on$(), the Pressurized Tube will interact with redstone signals. If the Pressurized Tube is in contact with an active redstone signal, it will disconnect from any surrounding blocks/tubes. It stays this way until the redstone signal is gone. By default, Redstone Sensitivity is toggled off."
+    },
+    {
+      "type": "spotlight",
+      "item": "mekanism:basic_universal_cable",
+      "text": "Hover over the item above to view stats."
+    },
+    {
+      "type": "spotlight",
+      "item": "mekanism:advanced_universal_cable",
+      "text": "Hover over the item above to view stats."
+    },
+    {
+      "type": "spotlight",
+      "item": "mekanism:elite_universal_cable",
+      "text": "Hover over the item above to view stats."
+    },
+    {
+      "type": "spotlight",
+      "item": "mekanism:ultimate_universal_cable",
+      "text": "Hover over the item above to view stats."
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:transmitter/universal_cable/basic",
+      "recipe2": "mekanism:transmitter/universal_cable/advanced"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:transmitter/universal_cable/elite",
+      "recipe2": "mekanism:transmitter/universal_cable/ultimate"
+    }
+  ]
+}
