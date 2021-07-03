@@ -1,0 +1,51 @@
+{
+    "name": "Digital Miner",
+    "icon": "mekanism:digital_miner",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:digital_miner",
+            "text": "\"A highly-advanced, filter-based, auto-miner that can mine whatever block you tell it to within a 32 block (max) radius.\"$(p)The Digital Miner will physically mine any block within its radius based on what filter you have set in."
+        },
+        {
+            "type": "text",
+            "text": "$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_anchor)Anchor Upgrades$(/l) (1)"
+        },
+        {
+            "type": "text",
+            "title": "Filters",
+            "text": "$(bold)ItemStack$()$(br)Insert the block you want it to mine on the left slot. Insert the block you want to replace the mined-block with on the left slot (optional).$(p)$(bold)Tag$()$(br)Set in the tag ID of the block you want to mine. For example, type in \"forge:ores/iron\" and press enter to set in a filter to mine ores that has the \"forge:ores/iron\" tag."
+        },
+        {
+            "type": "text",
+            "title": "Filters",
+            "text": "$(bold)Material$()$(br)This filter is slightly unique in that it does not mine based on what block you have inserted into the left slot. Instead, it will mine whatever blocks that uses the selected block as part of its recipe. It will also mine anything that crafts the selected block. $(p)The detection is not perfected yet as it may miss some blocks even though it can be crafted by the material specified. It"
+        },
+        {
+            "type": "text",
+            "title": "Filters",
+            "text": "will also mine similar materials even though it's not made out of the material specified, e.g. specify oak wood planks, it will mine spruce stairs. $(p)Example: Set Oak Planks as your selected block. The Digital Miner will now mine Oak Logs, Oak Planks, Crafting Tables, etc."
+        },
+        {
+            "type": "text",
+            "title": "Filters",
+            "text": "$(bold)Mod ID$()$(br)This filter will make the Digital Miner mine any block that is part of the specified mod. For example, if you type in \"mekanism\" and press enter, it will mine any blocks associated to Mekanism."
+        },
+        {
+            "type": "text",
+            "title": "Buttons",
+            "text": "$(bold)Auto-eject$()$(br)Automatically eject items into adjacent inventories.$(p)$(bold)Auto-pull$()$(br)Automatically pull items from the chest on its top port into its inventory. Turn this on if you want to replace mined blocks and have an external storage for replacement blocks."
+        },
+        {
+            "type": "text",
+            "title": "Buttons",
+            "text": "$(bold)Silk Touch$()$(br)Mines blocks with the silk-touch effect. For example, it will mine out stone instead of cobblestone. Turning this on will consume more power per tick.$(p)$(bold)Inverse Mode$()$(br)Mines anything $(bold)except$() the set filters.$(p)$(bold)Visuals$()$(br)Enable to get a visualization of the miner's range."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:digital_miner"
+        }
+    ]
+}

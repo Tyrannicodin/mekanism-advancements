@@ -1,0 +1,21 @@
+{
+    "name": "Electrolytic Separator",
+    "icon": "mekanism:electrolytic_separator",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:electrolytic_separator",
+            "text": "\"A machine that uses the process of electrolysis to split apart a certain gas into two different gases\" $(p)The Electrolytic Separator (ES) takes in a substance, and forms 2 new chemicals. For example, if you were to input water into an Electrolytic Separator, you would get Hydrogen and Oxygen."
+        },
+        {
+            "type": "text",
+            "text": "$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) (Note that Energy Upgrades will not reduce power consumption for the ES, they will only increase power capacity)$(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:electrolytic_separator"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Chemical Oxidizer",
+    "icon": "mekanism:chemical_oxidizer",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:chemical_oxidizer",
+            "text": "\"A machine capable of oxidizing solid materials into gas phase\"$(p)The Chemical Oxidizer converts an item into its gas/chemical counterpart...and that's it.$(p)$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:chemical_oxidizer"
+        }
+    ]
+}

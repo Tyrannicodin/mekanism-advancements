@@ -1,0 +1,17 @@
+{
+    "name": "Salt Block",
+    "icon": "mekanism:block_salt",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:block_salt",
+            "text": "\"Salty.\"$(p)The Salt Block is literally just a block of salt. I don't know what else to say. $(p)You can find salt block deposits spawning naturally in the Overworld, usually near water sources (e.g. oceans)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:storage_blocks/salt"
+        }
+    ]
+}

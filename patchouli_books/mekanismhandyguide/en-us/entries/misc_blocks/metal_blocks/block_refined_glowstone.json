@@ -1,0 +1,17 @@
+{
+    "name": "Refined Block",
+    "icon": "mekanism:block_refined_glowstone",
+    "category": "blocks/blocks_metal_blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:block_refined_glowstone",
+            "text": "A block made of $(l:item/ingots/ingot_refined_glowstone)Refined Glowstone Ingots$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:storage_blocks/refined_glowstone"
+        }
+    ]
+}

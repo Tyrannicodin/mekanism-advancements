@@ -1,0 +1,21 @@
+{
+    "name": "Structural Glass",
+    "icon": "mekanism:structural_glass",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:structural_glass",
+            "text": "Structural Glass can be used into any multiblocks as long as:$(li)They are not part of the multiblock's frame.$(li2)An exception being the $(l:thermal_evaporation)Thermal Evaporation Plant$(/l) where they cannot be part of the frame nor the base."
+        },
+        {
+            "type": "text",
+            "text": "$(li)The multiblock is not a reactor, in which case, $(l:misc_blocks/reactor_glass)Reactor Glass$(/l) must be used if you wish for a glass wall."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:structural_glass"
+        }
+    ]
+}

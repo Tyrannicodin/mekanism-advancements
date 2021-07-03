@@ -1,0 +1,17 @@
+{
+    "name": "QIO Exporter",
+    "icon": "mekanism:qio_exporter",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:qio_exporter",
+            "text": "\"A QIO-linked item export unit. Place on a block and export contents from your QIO system to the block.\"$(p)The QIO Exporter will export contents from your QIO system to the connected block. Like the $(l:misc_blocks/qio_importer)QIO Importer$(/l), it has filter options and supports speed upgrades."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:qio_exporter"
+        }
+    ]
+}

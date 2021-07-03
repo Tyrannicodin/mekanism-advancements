@@ -1,0 +1,31 @@
+{
+    "name": "Precision Sawmill",
+    "icon": "mekanism:precision_sawmill",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:precision_sawmill",
+            "text": "\"A machine used to process logs and other wood-based items more efficiently, as well as to obtain sawdust.\"$(p)The Precision Sawmill can be used to uncraft some wooden blocks/items (though some recipes will not yield 100 percent of the crafting cost of said item). It is typically used to obtain sawdust."
+        },
+        {
+            "type": "text",
+            "text": "$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:precision_sawmill",
+            "recipe2": "mekanism:factory/basic/sawing"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/advanced/sawing",
+            "recipe2": "mekanism:factory/elite/sawing"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/ultimate/sawing"
+        }
+    ]
+}

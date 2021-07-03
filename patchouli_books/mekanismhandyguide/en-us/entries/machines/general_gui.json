@@ -1,0 +1,102 @@
+{
+    "name": "General Info on GUI's",
+    "icon": "minecraft:paper",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "This entry will teach the basics of some of the common configurations in Mekanism Machines."
+        },
+        {
+            "type": "text",
+            "title": "Side Config",
+            "text": "Side configs is the button with six dots on it, it reads \"Side Config\".$(p)Side configs allow you to control how the machine interacts with transmitters. It can manage whether or not a machine's side will allow connection with a specific type of transmitter (e.g. $(l:pipes/power)Universal Cables$(/l))."
+        },
+        {
+            "type": "text",
+            "title": "Side Config",
+            "text": "Each button corresponds to its respective side of the machine. For example, setting the right button to Output (Blue) means the machine will output contents out the right side."
+        },
+        {
+            "type": "text",
+            "title": "Side Config",
+            "text": "There are a total of 8 types of configs:$(li)Items Config$(li)Fluid Config$(li)Gases Config$(li)Infuse Types Config$(li)Pigments Config$(li)Slurries Config$(li)Energy Config$(li)Heat Config"
+        },
+        {
+            "type": "text",
+            "title": "Side Config",
+            "text": "$(li)$(#6E0000)Input (Dark Red)$() - The machine will accept contents from this side.$(li)$(#29499A)Output (Blue)$() - The machine will eject contents out this side.$(li)$(#69299A)Input/Output (Purple)$() - The machine will accept $(bold)and$() eject contents from/out this side.$(li)$(#238418)Energy (Green)$() - The machine will accept contents that provide power (e.g. Redstone Dusts) from this side."
+        },
+        {
+            "type": "text",
+            "title": "Side Config",
+            "text": "$(li)$(#98A714)Extra (Yellow)$() - The machine will accept contents that goes into the extra slot (such as Infuse Types contents in the $(l:machines/metallurgic_infuser)Metallurgic Infuser$(/l)) from this side.$(li)$(#949494)None (Light Gray)$() - The machine will not accept nor eject contents from this side, and it will not connect to any transmitters on said side."
+        },
+        {
+            "type": "text",
+            "title":"Side Config",
+            "text": "$(li)Auto-eject - toggle this on for the machine to auto-eject items to adjacent inventories (note: it will auto-eject from any side that is set to $(#29499A)Output (Blue)$() or $(#69299A)Input/Output (Purple)$()).$(p)Sometimes it may say \"Can't Eject\", that just means it cannot auto-eject the contents. But you can still extract the contents if it has an $(#29499A)Output (Blue)$() side with a transmitter set to pull on said side."
+        },
+        {
+            "type": "text",
+            "title": "Transporter Config",
+            "text": "Transporter Config is the button with a pipe on it, it reads \"Transporter Config\".$(p)This config setting is specifically for item sorting. This will make more sense if you know how to \"color code\" in Mekanism Logistical System. See $(l:machines/logistical_sorter)Logistical Sorter$(/l) for more info about \"color coding\".$(p)$(li)Strict Input - toggles on/off strict input"
+        },
+        {
+            "type": "text",
+            "title": "Transporter Config",
+            "text": "$(bold)Strict Input$()$(br)Strict Input helps the $(l:machines/logistical_sorter)Logistical Sorter$(/l) determine what items to be redirected to the machine.$(p)For example, if Dirt is set to Blue, and the Input (top) is set to Blue, then the $(l:machines/logistical_sorter)Logistical Sorter$(/l) will input dirt into the machine (from the top of said machine) if $(l:pipes/logistical)Logistical Transporters$(/l) is connected between the $(l:machines/logistical_sorter)Logistical Sorter$(/l) and the machine."
+        },
+        {
+            "type": "text",
+            "title": "Transporter Config",
+            "text": "$(bold)Output$()$(br)Output helps to sort where the machine will eject items to.$(p)For example, say we have two chests, both connected to the machine's output side with $(l:machines/logistical_sorter)Logistical Sorter$(/l). One of the chest's connected $(l:machines/logistical_sorter)Logistical Sorter$(/l) is set to Blue, the other is set to Green."
+        },
+        {
+            "type": "text",
+            "title": "Transporter Config",
+            "text": "If you were to set Output (in the Transporter Configs) to Blue, then all of the items the machine ejects will be sent to the chest with the connected $(l:machines/logistical_sorter)Logistical Sorter$(/l) set to blue."
+        },
+        {
+            "type": "text",
+            "title": "Auto-sort",
+            "text": "Auto-sort is the button with a \"S\" on it, it reads \"Auto-sort\".$(p)Toggle this on to allow the machine to automatically distribute and process items evenly.$(p)So instead of having 1 slot filled with 50 Iron Ingots and 4 empty slots, turning this on will automatically sort the 50 ingots to the 5 slots, resulting in 10 ingots in each slot."
+        },
+        {
+            "type": "text",
+            "title": "Auto-sort",
+            "text": "Note: sorting like this will also cause the machine to consume more power per tick since there are more operations ongoing at the moment."
+        },
+        {
+            "type": "text",
+            "title": "Upgrades",
+            "text": "Upgrades is the button with an arrow on it, it reads \"Upgrades\".$(p)Click on this button to access the machine's upgrades. Here, you can install upgrades, remove upgrades, and check what upgrades the machine has."
+        },
+        {
+            "type": "text",
+            "title": "Upgrades",
+            "text": "Some machines can support upgrades other machines can't. The following is a list of upgrades Mekanism has to offer:$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l)$(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l)$(li)$(l:item/upgrades/upgrade_gas)Gas Upgrades$(/l)$(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l)$(li)$(l:item/upgrades/upgrade_filter)Filter Upgrades$(/l)$(li)$(l:item/upgrades/upgrade_anchor)Anchor Upgrades$(/l)"
+        },
+        {
+            "type": "text",
+            "title": "Security",
+            "text": "Security is the button with a lock on it, it reads $(br)\"Security:_____$(br)Owner:_____\"$(p)Click on this button to manage how other players can access the specific machine.$(li)Public - everyone can access the machine.$(li)Private - only you can access the machine.$(li)Trusted - only players you specified can access the machine."
+        },
+        {
+            "type": "text",
+            "title": "Redstone Detection",
+            "text": "Redstone Dectection is the button that looks like a switch with 1 and 0 on it, it reads \"Redstone Detection:_____\"$(p)Redstone Detection determines how the machine interacts with redstone signals:$(li)IGNORED - the machine will not be affected by redstone signals."
+        },
+        {
+            "type": "text",
+            "title": "Redstone Detection",
+            "text": "$(li)NORMAL - the machine will deactivate if there is no redstone signal direct at it, and the machine will activate if there is a redstone signal directed at it.$(li)INVERTED - this is like the opposite of NORMAl: the machine will deactivate if a redstone signal is directed at it, and the machine will activate if no redstone signla is directed at it."
+        },
+        {
+            "type": "text",
+            "title": "Power Consumption",
+            "text": "Power Consumption is an info box located on the bottom left of the machine.$(p)This box will inform you of:$(li)Using - how much power the machine is using per tick.$(li)Needed - how much power the machine needs to be full on power capacity.$(li)Unit - choice of power unit measurement, e.g. J for Joules."
+        }
+    ]
+}

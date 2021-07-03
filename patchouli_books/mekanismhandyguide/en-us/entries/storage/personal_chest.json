@@ -1,0 +1,18 @@
+{
+    "name": "Personal Chest",
+    "icon": "mekanism:personal_chest",
+    "category": "blocks/blocks_storage",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:personal_chest",
+            "text": "The Personal Chest is basically like a shulker box wth 54-slots (equivalent to a double chest). You can open it inside your inventory by right clicking the air with it. Alternatively, you can also set it down and it acts like a chest."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:personal_chest",
+            "text": "It won't act like an Ender Chest, which means you can have as many of these as you want since they won't share the same inventory."
+        }
+    ]
+}

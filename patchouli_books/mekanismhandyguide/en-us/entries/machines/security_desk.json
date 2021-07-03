@@ -1,0 +1,17 @@
+{
+    "name": "Security Desk",
+    "icon": "mekanism:security_desk",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:security_desk",
+            "text": "\"A central hub for managing the security of all your owned machinery.\"$(p)The Security Desk allows you manage your owned machineries. You can manage who can use your machines. All just in case you can't trust your friends to not be male genitalia."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:security_desk"
+        }
+    ]
+}

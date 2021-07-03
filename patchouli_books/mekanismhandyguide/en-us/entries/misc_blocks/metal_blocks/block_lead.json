@@ -1,0 +1,17 @@
+{
+    "name": "Lead Block",
+    "icon": "mekanism:block_lead",
+    "category": "blocks/blocks_metal_blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:block_lead",
+            "text": "A block made of $(l:item/ingots/ingot_lead)Lead Ingots$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:processing/lead/storage_blocks/from_ingots"
+        }
+    ]
+}

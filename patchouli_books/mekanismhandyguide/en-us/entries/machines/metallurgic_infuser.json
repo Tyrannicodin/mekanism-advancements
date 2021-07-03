@@ -1,0 +1,30 @@
+{
+    "name": "Metallurgic Infuser",
+    "icon": "mekanism:metallurgic_infuser",
+    "category": "blocks/blocks_machines",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:metallurgic_infuser",
+            "text": "\"A machine used to infuse various materials into (generally) metals to create metal alloys and other compounds.\" $(p)The Metallurgic Infuser is most likely where you will begin on your Mekanism journey. This machine will be vital in crafting key components, namely alloys and circuits, for"
+        },
+        {
+            "type": "text",
+            "text": "other Mekanism recipes. It uses Infuse Types as \"fuel\" for infusions.$(p)$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:metallurgic_infuser",
+            "recipe2": "mekanism:factory/basic/infusing"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/advanced/infusing",
+            "recipe2": "mekanism:factory/elite/infusing"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/ultimate/infusing"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Laser Amplifier",
+    "icon": "mekanism:laser_amplifier",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:laser_amplifier",
+            "text": "\"A block that can be used to merge, redirect, and amplify laser beams, with fine controls over when to fire.\"$(p)The Laser Amplifier is a configurable block to help redirect and merge lasers. It has five sides where lasers can fire into, all of which will be redirected to the side with the red square. It basically"
+        },
+        {
+            "type": "text",
+            "text": "combines the strength of all the laser and shoots them out.$(p)The Laser Amplifier is also used in the ignition process of a Fusion Reactor. You need to fire a short but powerful burst in order to start the reactor, otherwise too much heat will be lost. $(p)That is why you will set the Redstone Detection to normal so the Laser Amplifier will hold off from firing until a redstone signal has been giving."
+        },
+        {
+            "type": "text",
+            "text": "While it is in its dormant state, the Laser Amplifier will accumalate power of which it will fire all at once when given the permission to."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:laser_amplifier"
+        }
+    ]
+}

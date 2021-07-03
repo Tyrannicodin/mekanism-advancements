@@ -1,0 +1,104 @@
+{
+  "name": "Thermal Evaporation Plant",
+  "category": "multiblocks",
+  "icon": "mekanism:thermal_evaporation_controller",
+  "read_by_default": true,
+  "pages": [
+    {
+        "text": "\"As tempting as it may be, don't jump into a TEP filled with water, the water won't save you from fall damage.\"$(p)The Thermal Evaporation Plant (TEP) is a 4x4 base multiblock for producing concentrated solutions by evaporating their water contents using heat energy. Minimum height of a TEP is 3 blocks tall.$(p)Heat can be supplied via",
+        "type": "text"
+    },
+    {
+        "text": "Advanced Solar Generators, heaters, Fusion Reactor, heat generators, or Thermodynamic Conductors. Note that heat is inputted through a Thermal Evaporation Valve.$(p)Size limit: 4x4x18",
+        "type": "text"
+    },
+    {
+        "type": "text",
+        "text": "$(bold)Blocks that will be required:$()$(li)Thermal Evaporation Block $(li)Thermal Evaporation Controller $(li)Thermal Evaporation Valve $(li)Structural Glass (optional) $(li)Reactor Glass (optional) $(li)Advanced Solar Generators (optional)"
+    },
+    {
+        "type": "text",      
+        "title": "Construction Notes",
+        "text": "$(li)A TEP $(bold)MUST $()have one Thermal Evaporation Controller.$(li)The top four corner blocks can be left empty or, if you prefer a rectangular style, can be TEP blocks.$(li2)The top four corner blocks can also be replaced with Advanced Solar Generators if you have Mekanism: Generators installed (which if you don't, what are you doing with your life?)."
+
+    },
+    {
+        "text": "$(bold)Production information:$(br)$(bold)Max $()Production is based on height (A x 60 = Max Production (mB/t), where A is height). For example, a 13 blocks tall TEP would produce at a rate of 780mB/t.",
+        "type": "text"
+    },
+    {
+        "text" : "This is a minimum size TEP, 3 blocks high.",
+        "type": "multiblock",
+        "multiblock": {
+           "pattern": [
+                [ "TTTT", "T  T", "T  T", "TTTT"],
+                [ "TTVT", "T  0", "T  T", "TTVT"],
+                [ "TTTT", "TTTT", "TTTT", "TTTT"]
+            ],
+            "mapping": {
+                "T": "mekanism:thermal_evaporation_block",
+                "0": "mekanism:thermal_evaporation_controller[facing=south]",
+                "V": "mekanism:thermal_evaporation_valve"
+            },
+            "offset": [0,-1,0]
+        }
+    },
+    {
+        "text": "This is a medium size TEP, 10 blocks high. But this time we will be using some Structural Glass.",
+        "type": "multiblock",
+        "multiblock": {
+            "pattern": [
+                [ "TTTT", "T  T", "T  T", "TTTT" ],
+                [ "TGGT", "G  G", "G  G", "TGGT" ],
+                [ "TGGT", "G  G", "G  G", "TGGT" ],
+                [ "TGGT", "G  G", "G  G", "TGGT" ],
+                [ "TGGT", "G  G", "G  G", "TGGT" ],
+                [ "TGGT", "G  G", "G  G", "TGGT" ],
+                [ "TGGT", "G  G", "G  G", "TGGT" ],
+                [ "TGGT", "G  G", "G  G", "TGGT" ],
+                [ "TGVT", "G  0", "G  G", "TGVT" ],
+                [ "TTTT", "TTTT", "TTTT", "TTTT" ]
+            ],
+            "mapping": {
+                "T": "mekanism:thermal_evaporation_block",
+                "V": "mekanism:thermal_evaporation_valve",
+                "0": "mekanism:thermal_evaporation_controller[facing=south]",
+                "G": "mekanism:structural_glass"
+            },
+            "offset": [0,-1,0]
+        }
+    },
+    {
+        "type": "multiblock",
+        "text": "This is a max size TEP, 18 blocks high.",
+        "multiblock": {
+            "pattern": [
+                [ " TT ", "T  T", "T  T", " TT " ],
+                [ "TTTT", "T  T", "T  T", "TTTT" ],
+                [ "TTTT", "T  T", "T  T", "TTTT" ],                
+                [ "TTTT", "T  T", "T  T", "TTTT" ],                
+                [ "TTTT", "T  T", "T  T", "TTTT" ],
+                [ "TTTT", "T  T", "T  T", "TTTT" ],
+                [ "TTTT", "T  T", "T  T", "TTTT" ],
+                [ "TTTT", "T  T", "T  T", "TTTT" ],
+                [ "TTTT", "T  T", "T  T", "TTTT" ],
+                [ "TTTT", "T  T", "T  T", "TTTT" ],
+                [ "TTTT", "T  T", "T  T", "TTTT" ],
+                [ "TTTT", "T  T", "T  T", "TTTT" ],
+                [ "TTTT", "T  T", "T  T", "TTTT" ],
+                [ "TTTT", "T  T", "T  T", "TTTT" ],
+                [ "TTTT", "T  T", "T  T", "TTTT" ],
+                [ "TTTT", "T  T", "T  T", "TTTT" ],                
+                [ "TTVT", "T  0", "T  T", "TTVT" ],
+                [ "TTTT", "TTTT", "TTTT", "TTTT" ]
+            ],
+            "mapping": {
+                "T": "mekanism:thermal_evaporation_block",
+                "0": "mekanism:thermal_evaporation_controller[facing=south]",
+                "V": "mekanism:thermal_evaporation_valve"
+            },
+            "offset": [0,-1,0]
+        }
+    }
+   ]
+}

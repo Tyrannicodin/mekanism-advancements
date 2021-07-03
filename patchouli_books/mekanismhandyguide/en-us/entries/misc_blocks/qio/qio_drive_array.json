@@ -1,0 +1,17 @@
+{
+    "name": "QIO Drive Array",
+    "icon": "mekanism:qio_drive_array",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:qio_drive_array",
+            "text": "\"The foundation of any Quantum Item Orchestration system. QIO Drives are stored here.\"$(p)The QIO Drive Array is where you can manage your $(l:item/qio_drives)QIO Drives$(/l) and view how full your items/types capacity are."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:qio_drive_array"
+        }
+    ]
+}

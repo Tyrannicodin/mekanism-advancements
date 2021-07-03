@@ -1,0 +1,17 @@
+{
+    "name": "SPS Casing",
+    "icon": "mekanism:sps_casing",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:sps_casing",
+            "text": "SPS Casings are part of the $(l:multiblocks/sps)SPS$(/l) multiblock. $(p)They form the frace and, optionally, the walls of the SPS."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:sps_casing"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Dynamic Tank",
+    "category": "multiblocks",
+    "icon": "mekanism:dynamic_valve",
+    "read_by_default": true,
+    "pages": [
+      {
+        "type": "text",
+        "text": "\"What's a puny fluid tank got when they're up against a $(bold)DYNAMIC TANK$().\" $(p)The Dynamic Tank is a multiblock structure that can hold both gas and fluid, albeit only one type of gas/fluid at once. The total capacity is defined by the size of your multiblock. $(p)Size limit: 18x18x18"
+      },
+      {
+        "type": "text",
+        "text": "$(bold)Blocks required:$()$(li)Dyanmic Tank $(li)Dynamic Valve $(li)Structural Glass"
+      },
+      {
+        "type": "text",
+        "title": "Construction Notes",
+        "text": "Construction Notes:$()$(li)The tank's length, width, and height can be any number within the size limit - e.g. 3x4x5.$(li)Total capcity is the volume of the multiblock (including base, walls, roof and frames) times 64,000mB."
+      },
+      {
+        "type": "multiblock",
+        "text": "A 3x3x4 Dynamic Tank",
+        "multiblock": {
+          "pattern": [
+            [ "TTT", "TTT", "TTT" ],
+            [ "TTT", "T T", "TTT" ],
+            [ "TVT", "T T", "TVT" ],
+            [ "TTT", "TT0", "TTT" ]
+          ],
+          "mapping": {
+            "T": "mekanism:dynamic_tank",
+            "V": "mekanism:dynamic_valve",
+            "G": "mekanism:structural_glass",
+            "0": "mekanism:dynamic_tank"
+          }
+        }
+      },
+      {
+        "type": "multiblock",
+        "text": "A 10x10x10 Dynamic Tank, but with some Structural Glass",
+        "multiblock": {
+          "pattern": [
+            [ "TTTTTTTTTT", "TTTTTTTTTT", "TTTTTTTTTT", "TTTTTTTTTT", "TTTTTTTTTT", "TTTTTTTTTT", "TTTTTTTTTT", "TTTTTTTTTT", "TTTTTTTTTT", "TTTTTTTTTT" ],
+            [ "TGGGGGGGGT", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "TGGGGGGGGT" ],
+            [ "TGGGGGGGGT", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "TGGGGGGGGT" ],
+            [ "TGGGGGGGGT", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "TGGGGGGGGT" ],
+            [ "TGGGGGGGGT", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "TGGGGGGGGT" ],
+            [ "TGGGGGGGGT", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "TGGGGGGGGT" ],
+            [ "TGGGGGGGGT", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "TGGGGGGGGT" ],
+            [ "TGGGGGGGGT", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "TGGGGGGGGT" ],
+            [ "TGGGGGGGGT", "G        G", "G        G", "G        V", "G        G", "G        G", "G        V", "G        G", "G        G", "TGGGGGGGGT" ],
+            [ "TTTTTTTTTT", "TTTTTTTTTT", "TTTTTTTTTT", "TTTTTTTTTT", "TTTTTTTTT0", "TTTTTTTTTT", "TTTTTTTTTT", "TTTTTTTTTT", "TTTTTTTTTT", "TTTTTTTTTT" ]
+          ],
+          "mapping":{
+            "T": "mekanism:dynamic_tank",
+            "G": "mekanism:structural_glass",
+            "V": "mekanism:dynamic_valve",
+            "0": "mekanism:dynamic_tank"
+          }
+        }
+      }
+    ]
+}

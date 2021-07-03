@@ -1,0 +1,59 @@
+{
+    "name": "Bins",
+    "category": "blocks/blocks_storage",
+    "icon": "mekanism:basic_bin",
+    "read_by_default": true,
+    "pages": [
+      {
+        "type": "text",
+        "text": "Bins are storage blocks which can hold large amounts of a single item. It will retain its inventory when broken. Each tier increases the storage capacity.$(p)To store something in a Bin right-click any side while holding an item or stack. This will store what's in your hand."
+      },
+      {
+        "type": "text",
+        "text": "Double right-click to put the complete amount of an item in your inventory to the bin.$(p)Left-click on the front of the bin to extract a stack. $(k:sneak)-click to extract a single item.$(p)Items can be piped into the bin from the top, and piped out from the bottom. NB: other mods' item handlers are not restricted in this manner."
+      },
+      {
+        "type": "text",
+        "text": "You can also use the bin while it is in your inventory. Place it in your crafting grid and you can extract stacks by pulling them from the output grid. You can insert single stacks by putting the bin along with a stack in the crafting grid and picking up the bin from the output grid."
+      },
+      {
+        "type": "text",
+        "text": "If you $(k:sneak)-click the bin with a $(l:item/configurator)Configurator$(/l) it will be placed into auto-eject mode. This is indicated by lighter-colored accents. In this mode it will eject items out of the bottom automatically."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:basic_bin",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:advanced_bin",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:elite_bin",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:ultimate_bin",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:creative_bin",
+        "text": "Holds infinite items, does not deplete when withdrawing items."
+      },
+      {
+        "type": "crafting",
+        "recipe": "mekanism:bin/basic",
+        "recipe2": "mekanism:bin/advanced"
+      },
+      {
+        "type": "crafting",
+        "recipe": "mekanism:bin/elite",
+        "recipe2": "mekanism:bin/ultimate"
+      }
+    ]
+  }

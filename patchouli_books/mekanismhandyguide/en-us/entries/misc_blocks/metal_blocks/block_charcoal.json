@@ -1,0 +1,17 @@
+{
+    "name": "Charcoal Block",
+    "icon": "mekanism:block_charcoal",
+    "category": "blocks/blocks_metal_blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:block_charcoal",
+            "text": "A block made of Charcoal."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:storage_blocks/charcoal"
+        }
+    ]
+}

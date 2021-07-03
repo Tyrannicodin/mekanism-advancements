@@ -1,0 +1,17 @@
+{
+    "name": "Seismic Vibrator",
+    "icon": "mekanism:seismic_vibrator",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:seismic_vibrator",
+            "text": "\"A machine that uses seismic vibrations to provide information on differing layers of the world.\"$(p)The Seismic Vibrator works alongside with the $(l:item/seismic_reader)Seismic Reader$(/l) to identify the types of blocks underneath the surface layer."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:seismic_vibrator"
+        }
+    ]
+}

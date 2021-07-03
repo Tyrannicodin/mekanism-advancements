@@ -1,0 +1,31 @@
+{
+    "name": "Purification Chamber",
+    "icon": "mekanism:purification_chamber",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:purification_chamber",
+            "text": "\"An advanced machine capable of processing ores into three clumps, serving as the initial stage of 3x ore processing.\" $(p)The Purification Chamber is mainly used in the Ore Processing system. Using Oxygen, it can turn ores into Clumps, and Shard into Clumps."
+        },
+        {
+            "type": "text",
+            "text": "$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_gas)Gas Upgrades (8) $(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:purification_chamber",
+            "recipe2": "mekanism:factory/basic/purifying"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/advanced/purifying",
+            "recipe2": "mekanism:factory/elite/purifying"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/ultimate/purifying"
+        }
+    ]
+}

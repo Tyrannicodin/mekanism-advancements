@@ -1,0 +1,17 @@
+{
+    "name": "Copper Block",
+    "icon": "mekanism:block_copper",
+    "category": "blocks/blocks_metal_blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:block_copper",
+            "text": "A block made of $(l:item/ingots/ingot_copper)Copper Ingots$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:processing/copper/storage_blocks/from_ingots"
+        }
+    ]
+}

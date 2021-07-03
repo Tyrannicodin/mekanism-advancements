@@ -1,0 +1,62 @@
+{
+  "name": "Induction Matrix",
+  "category": "multiblocks",
+  "icon": "mekanism:basic_induction_cell",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "\"Would you take the Red Pill or the Blue Pill?\"$(p)The Induction Matrix is like a big brother to the Energy Cubes. In short, they can store a ton of power. The capacity of a Induction Matrix is not based on the size of the multiblock, but rather how many Induction Cells are in it. The input and output rate of an Induction Matrix is defined by how many Induction Providers"
+    },
+    {
+      "type": "text",
+      "text": "are in it. $(p)Both the cells and the providers will add onto the stats of a Matrix, they are cumalative. For example, if you were to have two Basic Induction Cells (+8 GJ capacity each) in a Matrix, the total capacity of said Matrix will be 16 GJ. The same rule applies to Providers. If you have two Basic Induction Providers (+256 kJ/t input/output rate each), then the total input/output rate will be 512 kJ/t."
+    },
+    {
+      "type": "text",
+      "text": "The Induction Cells/Providers in a Matrix does not have to the be the same tier either. You can have 1 Basic Induction Cell, 1 Advanced Induction Cell, and 1 Elite Induction Provider in a Matrix and that is still valid.$(p)Size limit: 18x18x18"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Blocks required:$()$(li)Induction Casing$(li)Induction Port$(li)Any tier of Induction Cell$(li)Any tier of Induction Provider$(li)Sturctural Glass (optional)"
+    },
+    {
+      "type": "multiblock",
+      "text": "A 3x3x4 Matrix with 1 Basic Induction Cell and 1 Basic Inducton Provider.",
+      "multiblock": {
+        "pattern": [
+          [ "CCC", "CCC", "CCC" ],
+          [ "CCC", "CBC", "CCC" ],
+          [ "CCC", "CPV", "CCC" ],
+          [ "CCC", "CC0", "CCC" ]
+        ],
+        "mapping": {
+          "C": "mekanism:induction_casing",
+          "0": "mekanism:induction_casing",
+          "V": "mekanism:induction_port",
+          "B": "mekanism:basic_induction_cell",
+          "P": "mekanism:basic_induction_provider"
+        }
+      }
+    },
+    {
+      "type": "multiblock",
+      "text": "A 5x3x3 Matrix with 2 Advanced Induction Cells and 1 Advanced Induction Provider and some Structural Glass",
+      "multiblock": {
+        "pattern": [
+          [ "CCC", "CCC", "CCC", "CCC", "CCC" ],
+          [ "CGC", "GAG", "GPV", "GAG", "CGC" ],
+          [ "CCC", "CCC", "CC0", "CCC", "CCC" ]
+        ],
+        "mapping": {
+          "C": "mekanism:induction_casing",
+          "0": "mekanism:induction_casing",
+          "V": "mekanism:induction_port",
+          "A": "mekanism:advanced_induction_cell",
+          "P": "mekanism:advanced_induction_provider",
+          "G": "mekanism:structural_glass"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+    "name": "Fluid Tanks",
+    "category": "blocks/blocks_storage",
+    "icon": "mekanism:basic_fluid_tank",
+    "read_by_default": true,
+    "pages": [
+      {
+        "type": "text",
+        "text": "\"This is a bucket.\"$(br)\"Dear god...\"$(br)\"There's more.\"$(br)\"No...\"$(p)Fluid tanks are like chemical tanks, but you know, store fluids instead. They can be placed as a block or used in Bucket mode ($(k:sneak) + $(k:key.mekanism.mode) to toggle). They will retain their inventory when broken. They come in the four tiers, each tier being double the capacity"
+      },
+      {
+        "type": "text",
+        "text": "and output rate of its predecessor."
+      },
+      {
+        "type": "text",
+        "text": "$(bold)As a block:$(br)$()You may use a $(l:pipes/mechanical)Mechanical Pipe$(/l) that is set to Pull in order to extract the fluid out of the tank. ($(k:sneak) + right click on a fluid tank with a $(l:item/configurator)Configurator$(/l) to turn on auto eject mode. This is indicated by the lighter-colored accents on the fluid tank. When auto eject is activated, the fluid tank will automatically eject fluids out of the bottom of the tank."
+      },
+      {
+        "type": "text",
+        "text": "$(bold)Bucket Mode:$(br)$()You can hold ($(k:sneak) and scroll or $(k:sneak) + $(k:key.mekanism.mode) to change Bucket Mode. If bucket mode is set to True, the fluid tank will act like a bucket, being able to physically dump fluid out (($(k:sneak) + right click) and scoop up fluid (right click).$(p)However, by setting it to True, it also removes the ability to place the fluid tank. Bucket mode must be set to off in order to place the fluid tank."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:basic_fluid_tank",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:advanced_fluid_tank",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:elite_fluid_tank",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:ultimate_fluid_tank",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:creative_fluid_tank",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "crafting",
+        "recipe": "mekanism:fluid_tank/basic",
+        "recipe2": "mekanism:fluid_tank/advanced"
+      },
+      {
+        "type": "crafting",
+        "recipe": "mekanism:fluid_tank/elite",
+        "recipe2": "mekanism:fluid_tank/ultimate"
+      }
+    ]
+  }

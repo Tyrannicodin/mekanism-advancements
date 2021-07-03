@@ -1,0 +1,31 @@
+{
+    "name": "Combiner",
+    "icon": "mekanism:combiner",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:combiner",
+            "text": "\"A machine used to combine items together. For example, dusts and cobblestone to form their ore counterparts.\"$(p)I mean...there's not much else to say is there? You can combine dusts and cobblestone to get their ore counterparts, or two dyes to get a different color dye (2x than how much you would normally get by"
+        },
+        {
+            "type": "text",
+            "text": "using a crafting grid, e.g. 1 red dye and 1 white dye would give 4 pink dyes).$(p)$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:combiner",
+            "recipe2": "mekanism:factory/basic/combining"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/advanced/combining",
+            "recipe2": "mekanism:factory/elite/combining"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/ultimate/combining"
+        }
+    ]
+}

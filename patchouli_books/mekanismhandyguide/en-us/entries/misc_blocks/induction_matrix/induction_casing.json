@@ -1,0 +1,17 @@
+{
+    "name": "Induction Casing",
+    "icon": "mekanism:induction_casing",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:induction_casing",
+            "text": "Induction Casings are part of the $(l:multiblocks/induction_matrix)Induction Matrix$(/l) multiblock."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:induction/casing"
+        }
+    ]   
+}

@@ -1,0 +1,17 @@
+{
+    "name": "QIO Importer",
+    "icon": "mekanism:qio_importer",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:qio_importer",
+            "text": "\"A QIO-linked item import unit. Place on a block and import its contents to your QIO system.\"$(p)The QIO Importer will import items from the connected inventory into your QIO system. Like the $(l:misc_blocks/qio_exporter)QIO Exporter$(/l), it has filter options and supports speed upgrades."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:qio_importer"
+        }
+    ]
+}

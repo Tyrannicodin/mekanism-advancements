@@ -1,0 +1,21 @@
+{
+    "name": "Isotopic Centrifuge",
+    "icon": "mekanism:isotopic_centrifuge",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:isotopic_centrifuge",
+            "text": "\"A machine with one single purpose: to spin its contents really, REALLY fast.\" $(p)Search up \"Gravitron Ride\". Yeah that, but more sciency in this case. $(p)Pukes bags not included."
+        },
+        {
+            "type": "text",
+            "text": "$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:isotopic_centrifuge"
+        }
+    ]
+}

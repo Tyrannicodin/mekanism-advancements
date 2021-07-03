@@ -1,0 +1,26 @@
+{
+    "name": "Quantum Entangloporter",
+    "icon": "mekanism:quantum_entangloporter",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:quantum_entangloporter",
+            "text": "\"A highly-advanced block capable of transmitting any practical resource across long distances and dimensions.\"$(p)The Quantum Entangloporter (QE) is a block that can wirelessly transfer contents, be it items, energy, fluids, etc. By default, it's auto-eject transfer rate is equivalent to the ultimate variant of the specific"
+        },
+        {
+            "type": "text",
+            "text": "substance. For example, say you want to transfer chemicals, then it would auto-eject at a rate of 2,056mB/t.$(p)$(bold)Supported Upgrades:$()$(br)$(li)$(l:item/upgrades/upgrade_anchor)Anchor Upgrades$(/l) (1)"
+        },
+        {
+            "type": "text",
+            "title": "Frequencies",
+            "text": "For two QE's to connect, they have to be set to the same frequency. Once they have been set to the same frequency, they share the same inventory contents."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:quantum_entangloporter"        
+        }
+    ]
+}

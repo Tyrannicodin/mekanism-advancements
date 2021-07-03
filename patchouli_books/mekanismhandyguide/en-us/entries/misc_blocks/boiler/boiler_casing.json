@@ -1,0 +1,17 @@
+{
+    "name": "Boiler Casing",
+    "category": "blocks/blocks",
+    "icon": "mekanism:boiler_casing",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:boiler_casing",
+            "text": "Boiler Casings are part of the $(l:multiblocks/boiler)Boiler$(/l) multiblock."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:boiler_casing"
+        }
+    ]
+}

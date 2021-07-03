@@ -1,0 +1,17 @@
+{
+    "name": "Boiler Valve",
+    "category": "blocks/blocks",
+    "icon": "mekanism:boiler_valve",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:boiler_valve",
+            "text": "Boiler Valves are part of the $(l:multiblocks/boiler)Boiler$(/l) multiblock.$(p)They allow you to input/output fluids/chemicals into/from the $(l:multiblocks/boiler)Boiler$(/l)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:boiler_valve"
+        }
+    ]
+}

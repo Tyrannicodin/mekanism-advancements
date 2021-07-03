@@ -1,0 +1,17 @@
+{
+    "name": "Superheating Element",
+    "icon": "mekanism:superheating_element",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:superheating_element",
+            "text": "Superheating Elements are part of the $(l:multiblocks/boiler)Thermoelectric Boiler$(/l) multiblock."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:superheating_element"
+        }
+    ]
+}

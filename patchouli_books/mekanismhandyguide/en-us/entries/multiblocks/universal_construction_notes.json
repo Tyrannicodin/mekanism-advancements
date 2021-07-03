@@ -1,0 +1,24 @@
+{
+    "name": "Universal Construction Notes",
+    "category": "multiblocks",
+    "icon": "mekanism:configuration_card",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Here are some rules that all, if not most, multiblocks follow:$(li1)A valid multiblock structure will flash with \"active redstone\" particles upon completion.$(li)The area of any multiblock's wall (that means excluding the frame) can be structural glass rather than the multiblock's block. $(li2)Exceptions to this rule are Fusion Reactors and Fission Reactors, in which"
+        },
+        {
+            "type": "text",
+            "text": "case Reactor Glass must be used. $(li2)You can also use Reactor Glass rather than Structural Glass for any multiblock if you prefer.$(li)The area (again, that exludes the frame) of the base and roof of a multiblock can be Structural Glass/Reactor Glass (whichever is necessary).$(li2)An exception to this rule are TEP's, in which case their 4x4 base must be built out of Thermal Evaporation Blocks.$(li)Ports and Valves: $(li2)There's no limit to how"
+        },
+        {
+            "type": "text",
+            "text": "many valves you can put on a side of a multiblock. You can have a multiblock's wall literally just filled with valves and it will still form. The total number of valves you can have, however, is limited by your multiblock size.$(li2)There is no minimum for the number of valves a multiblock must have, either. Although it is advised to have at least 2 valves, one for input and one for output.$(li2)Ports follow the same rule. There's no limit to how many ports you can put on one side"
+        },
+        {
+            "type": "text",
+            "text": "of a multiblock. The number of ports you can have is limited by your multiblock size.$(li)The shape/dimensions of a multiblock can be anything as long as it does not surpass its size limit and is rectangular.$(li2)Exceptions to this rule are TEP's, Fusion Reactors, SPS's, Industrial Turbines, and Teleporters. These multiblocks have set size rules."
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Dynamic Valve",
+    "icon": "mekanism:dynamic_valve",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:dynamic_valve",
+            "text": "Dynamic Valves are part of the $(l:multiblocks/dynamic_tank)Dynamic Tank$(/l) multiblock.$(p)They allow you to input/output fluids/chemicals into/from the $(l:multiblocks/dynamic_tank)Dynamic Tank$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:dynamic_valve"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Chemical Dissolution Chamber",
+    "icon": "mekanism:chemical_dissolution_chamber",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:chemical_dissolution_chamber",
+            "text": "\"An ultimate machine used to chemically dissolve all impurities of an ore, leaving an unprocessed slurry behind.\"$(p)The Chemical Dissolution Chamber is used for the fifth and final step of the Mekanism Ore Processing system. Using Sulfuric Acid, it turns ores into their slurry counterparts. It also turns Fluorite into"
+        },
+        {
+            "type": "text",
+            "text": "Hydrofluoric Acid, an ingredient in making Fissile Fuel.$(p)$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_gas)Gas Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:chemical_dissolution_chamber"
+        }
+    ]
+}

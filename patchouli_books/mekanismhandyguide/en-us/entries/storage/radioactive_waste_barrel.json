@@ -1,0 +1,21 @@
+{
+    "name": "Radioactive Waste Barrel",
+    "icon": "mekanism:radioactive_waste_barrel",
+    "category": "blocks/blocks_storage",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:radioactive_waste_barrel",
+            "text": "The Radioactive Waste Barrel is what you would use to store radiaoactive materials. Each barrel can store 64,000mB of radioactive material. They can also be configurated to auto-eject out of the bottom by $(k:sneak) + right clicking it with a $(l:item/tools/configurator)Configurator$(/l)."
+        },
+        {
+            "type": "text",
+            "text": "The following list are radioactive substances that are stored in Radioactive Waste Barrels:$(li)$(l:chemicals/nuclear_waste)Nuclear Waste$(/l)$(li)$(l:chemicals/spent_nuclear_waste)Spent Nuclear Waste$(/l)$(li)$(l:chemicals/polonium)Polonium$(/l)$(li)$(l:chemicals/plutonium)Plutonium$(/l)$(p)Contents inside the Radioactive Waste Barrel will also slowly decay over time at a rate of 1mB/min (default configs)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:radioactive_waste_barrel"
+        }
+    ]
+}

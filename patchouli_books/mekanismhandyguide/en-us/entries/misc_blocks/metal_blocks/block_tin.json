@@ -1,0 +1,17 @@
+{
+    "name": "Tin Block",
+    "icon": "mekanism:block_tin",
+    "category": "blocks/blocks_metal_blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:block_tin",
+            "text": "A block made of $(l:item/ingots/ingot_tin)Tin Ingots$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:processing/tin/storage_blocks/from_ingots"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Refined Obsidian Block",
+    "icon": "mekanism:block_refined_obsidian",
+    "category": "blocks/blocks_metal_blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:block_refined_obsidian",
+            "text": "A block made of $(l:item/ingots/ingot_refined_obsidian)Refined Obsidian Ingots$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:storage_blocks/refined_obsidian"
+        }
+    ]
+}

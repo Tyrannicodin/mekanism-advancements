@@ -1,0 +1,18 @@
+{
+    "name": "Modification Station",
+    "icon": "mekanism:modification_station",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:modification_station",
+            "text": "\"An advanced workbench capable of installing and removing modules from modular equipment (i.e. MekaSuit!)\"$(p)The Modification Station will allow you to install and remove modules (also called units) onto your MekaSuit/MekaTool. See Modules (a sub category in Item List) for what kinds of modules"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:modification_station",
+            "text": "Mekanism has."
+        }
+    ]
+}

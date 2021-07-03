@@ -1,0 +1,21 @@
+{
+    "name": "Laser",
+    "icon": "mekanism:laser",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:laser",
+            "text": "\"An advanced form of linear energy transfer that utilizes an extremely collimated beam of light.\"$(p)I mean, it's a laser. What'd you expect?$(p)The laser consumes power to fire a deadly beam of laser. The laser beam can break any breakable blocks, that includes"
+        },
+        {
+            "type": "text",
+            "text": "obsidian. $(p)Water will not obstruct the laser. Any items will also get incinerated if it falls into the path of the laser beam.$(p)The Laser is also used to jumpstart a Fusion Reactor.$(p)Note: do $(bold)NOT$() stand in the path of a laser beam. If you do, the least your worries will be that you are on fire."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:laser"
+        }
+    ]
+}

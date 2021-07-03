@@ -1,0 +1,84 @@
+{
+  "name": "Thermoelectric Boiler",
+  "category": "multiblocks",
+  "icon": "mekanism:boiler_valve",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "\"Wait, this isn't a sauna?\"$(p)The Thermoelectric Boiler, or just Boiler for short, is a multiblock structure that is capable of, as its name implies, boiling using heat energy."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Blocks required:$()$(li)Superheating Element$(li)Pressure Disperser$(li)Boiler Casing$(li)Boiler Valve$(li)Structural Glass (optional)"
+    },
+    {
+      "type": "text",
+      "title": "Construction Notes",
+      "text": "$(li)A Boiler must have at least 1 Superheating Element. Any additional Superheating Elements must be adjacent to each other. It is not necessary to have an entire layer of Superheating Elements.$(li)A Boiler must have a layer of Pressure Disperser. This layer must be entirely built out of Pressure Dispersers. This layer also forms the barrier between the water cavity and steam cavity."
+    },
+    {
+      "type": "text",
+      "text": "$(li2)You may have additional empty layers above the Pressure Disperser layer to provide the Boiler with a steam cavity (an area to store steam).$(li)Each Superheating Element adds 320,000mB to the Boil Capacity.$(li)The Max Water capacity is volume of the boiler (including the base, walls, and frame) from its base to the top most water cavity layer (the layer below the Pressure Disperser layer), excluding the number of"
+    },
+    {
+      "type": "text",
+      "text": "superheaters, multiplied by 16,000mB.$(li2)In a mathematical formula, it would be: C = (V - S) x 16,000.$(li3)C is Max Water Capacity in mB.$(li3)V is the volume of the boiler.$(li3)S is the number of Superheating Elements in the boiler.$(li)The Heated Coolant Tank capacity is 16 times the Max Water capacity.$(li)The Max Steam capacity is the volume from the Pressure"
+    },
+    {
+      "type": "text",
+      "text": "Disperser layer (included) to the top most steam cavity layer (layer below the roof of the Boiler) multiplied by 160,000mB.$(li)Max Coolant Tank capacity is the Max Steam capacity times 1.6.$(li)The Max Boil Rate of a boiler is dependent on its temperature. For example, you may have a Boil Capacity of 640,000mB, but you would still need to reach the necessary temperature in order to reach said Boil Capacity.$(li2)Heat can be increased by"
+    },
+    {
+      "type": "text",
+      "text": "Fusion Reactors, heaters, Thermodynamic Conductors (does not have to be inserted through a valve, they will connect to any Boiler Casings), and heat generators."
+    },
+    {
+      "type": "multiblock",
+      "text": "A 3x3x5 Boiler with 1 Superheating Element and 1 Pressure Disperser.",
+      "multiblock": {
+        "pattern": [
+          [ "CCC", "CCC", "CCC" ],
+          [ "CGC", "GPG", "CGC" ],
+          [ "CGC", "G G", "CGC" ],
+          [ "CVC", "VSV", "CVC" ],
+          [ "CCC", "CC0", "CCC" ]
+        ],
+        "mapping": {
+          "C": "mekanism:boiler_casing",
+          "V": "mekanism:boiler_valve",
+          "S": "mekanism:superheating_element",
+          "P": "mekanism:pressure_disperser",
+          "0": "mekanism:boiler_casing",
+          "G": "mekanism:structural_glass"
+        }
+      }
+    },
+    {
+      "type": "multiblock",
+      "text": "A 10x10x10 Boiler.",
+      "multiblock": {
+        "pattern": [
+          [ "CCCCCCCCCC", "CCCCCCCCCC", "CCCCCCCCCC", "CCCCCCCCCC", "CCCCCCCCCC", "CCCCCCCCCC", "CCCCCCCCCC", "CCCCCCCCCC", "CCCCCCCCCC", "CCCCCCCCCC" ],
+          [ "CGGGGGGGGC", "GPPPPPPPPG", "GPPPPPPPPG", "GPPPPPPPPG", "GPPPPPPPPG", "GPPPPPPPPG", "GPPPPPPPPG", "GPPPPPPPPG", "GPPPPPPPPG", "CGGGGGGGGC" ],
+          [ "CGGGGGGGGC", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "CGGGGGGGGC" ],
+          [ "CGGGGGGGGC", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "CGGGGGGGGC" ],
+          [ "CGGGGGGGGC", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "CGGGGGGGGC" ],
+          [ "CGGGGGGGGC", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "CGGGGGGGGC" ],
+          [ "CGGGGGGGGC", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "CGGGGGGGGC" ],
+          [ "CGGGGGGGGC", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "G        G", "CGGGGGGGGC" ],
+          [ "CGGGGGGGGC", "GSSSSSSSSG", "GSSSSSSSSG", "GSSSSSSSSV", "GSSSSSSSSG", "GSSSSSSSSG", "GSSSSSSSSV", "GSSSSSSSSG", "GSSSSSSSSG", "CGGGGGGGGC" ],
+          [ "CCCCCCCCCC", "CCCCCCCCCC", "CCCCCCCCCC", "CCCCCCCCCC", "CCCCCCCCC0", "CCCCCCCCCC", "CCCCCCCCCC", "CCCCCCCCCC", "CCCCCCCCCC", "CCCCCCCCCC" ]
+        ],
+        "mapping": {
+          "C": "mekanism:boiler_casing",
+          "V": "mekanism:boiler_valve",
+          "S": "mekanism:superheating_element",
+          "P": "mekanism:pressure_disperser",
+          "0": "mekanism:boiler_casing",
+          "G": "mekanism:structural_glass"
+        }
+      }
+    }
+  ]
+}

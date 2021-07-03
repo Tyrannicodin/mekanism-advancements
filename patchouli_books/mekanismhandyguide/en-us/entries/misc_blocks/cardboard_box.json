@@ -1,0 +1,21 @@
+{
+    "name": "Cardboard Box",
+    "icon": "mekanism:cardboard_box",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:cardboard_box",
+            "text": "\"What's in the box!?\"$(p)The Cardboard Box is a box...made out of cardboard. $(p)The Cardboard Box can be used to move blocks while retaining the blocks data. Basically, you put the block into the box. Then you can break the box and move it around without worrying the lost of contents."
+        },
+        {
+            "type": "text",
+            "text": "To box a block, $(k:use) a block while holding the box and volià! The block is now boxed. $(p)You can now break the box, then place it back down somewhere and $(k:sneak) + $(k:use) on the boxed block to unbox it.$(p)My English teacher would be so proud of me using alliteration so many times."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:cardboard_box"
+        }
+    ]
+}

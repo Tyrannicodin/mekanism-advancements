@@ -1,0 +1,17 @@
+{
+    "name": "Dynamic Tank",
+    "icon": "mekanism:dynamic_tank",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:dynamic_tank",
+            "text": "Dynamic Tanks are part of the $(l:multiblocks/dynamic_tank)Dynamic Tank$(/l) multiblock."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:dynamic_tank"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Laser Tractor Beam",
+    "icon": "mekanism:laser_tractor_beam",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:laser_tractor_beam",
+            "text": "\"A block used to merge and redirect laser beams. Collects drops from blocks it has broken.\"$(p)The Laser Tractor Beam is similar to the $(l:misc_blocks/laser_amplifier)Laser Amplifier$(/l) in that it can merge and redirect laser beams."
+        },
+        {
+            "type": "text",
+            "text": "However, the key difference between the two is that the Laser Tractor Beam will collect any items that falls into its path will be collected and stored in its inventory (27 slots). $(p)This also means any blocks it breaks will automatically be collected and stored in its inventory."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:laser_tractor_beam"
+        }
+    ]
+}

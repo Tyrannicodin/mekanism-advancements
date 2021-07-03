@@ -1,0 +1,56 @@
+{
+    "name": "Logistical Sorter",
+    "icon": "mekanism:logistical_sorter",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:logistical_sorter",
+            "text": "\"A filter-based, advanced sorting machine that can auto-eject specific items out of and into adjacent inventories and $(l:/pipes/logistical)Logistical Transporters$(/l).\"$(p)The Logistical Sorter is a very helpful tool for organizing your storage system. It can direct items to go a specific route and end in a specific inventory using the"
+        },
+        {
+            "type": "text",
+            "text": "\"color coding\" system.$(p)$(bold)Supported Upgrades:$()$(br)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "text",
+            "title": "Filters",
+            "text": "$(bold)ItemStack$()$(br)Insert the item/block you want it to sort on the left slot. Set a color for this item by clicking on the blank box below it (optional).$(p)$(bold)Tag$()$(br)Set in the tag ID of the item/block you want to sort. For example, type in \"forge:ores/iron\" and press enter to set in a filter to sort any ores that has the \"forge:ores/iron\" tag."
+        },
+        {
+            "type": "text",
+            "title": "Filters",
+            "text": "$(bold)Material$()$(br)This filter is slightly unique in that it does not only sort based on what block you have inserted into the left slot. But also it will sort whatever items/blocks that uses the specified block as part of its recipe. It will also mine anything that crafts the specified block. $(p)The detection is not perfected yet as it may skip some items/blocks even though it"
+        },
+        {
+            "type": "text",
+            "title": "Filters",
+            "text": "can be crafted by the material specified. It will also sort similar materials even though it's not made out of the material specified, e.g. specify oak wood planks, it will mine spruce stairs. $(p)Example: Set Oak Planks as your selected block. The Logistical Sorter will now sort Oak Logs, Oak Planks, Crafting Tables, etc."
+        },
+        {
+            "type": "text",
+            "title": "Filters",
+            "text": "$(bold)Mod ID$()$(br)This filter will make the Logistical sort any item/block that is part of the specified mod. For example, if you type in \"mekanism\" and press enter, it will sort any items/blocks associated to Mekanism."
+        },
+        {
+            "type": "text",
+            "title": "Color Coding",
+            "text": "Let's have a demonstration. You have 4 chests, all of which are connected to the same logistical network. Chest A is the chest that you want to extract items out of and sort. $(p)There's three different items in Chest A: stone, dirt, and sticks. You want the stones to go to Chest B, dirt to Chest C, and sticks to Chest D."
+        },
+        {
+            "type": "text",
+            "title": "Color Coding",
+            "text": "1. $(k:sneak) + right click a $(l:pipe/logistical)Logistical Transporter$(/l) with a $(l:item/tools/configurator)Configurator$(/l). Doing so would set a color for the Logistical Transporter.$(p)2. Color code each Logistical Transporter that is conencted to a chest (except for the one connecting to Chest A) with the following colors:$(br)Chest B = blue$(br)Chest C = Green$(br)Chest D = Cyan"
+        },
+        {
+            "type": "text",
+            "title": "Color Coding",
+            "text": "3. Right click on the Logistical Sorter to view its GUI. Click on New Filter and set a filter for stone (blue), dirt (green), and stick (cyan).$(p)Now the Logistical Sorter should begin sending stone into Chest B, dirt into Chest C, and sticks into Chest D. And that's it!"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:logistical_sorter"
+        }
+    ]
+}

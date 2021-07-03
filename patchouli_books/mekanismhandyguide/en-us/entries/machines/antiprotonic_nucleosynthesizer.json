@@ -1,0 +1,18 @@
+{
+    "name": "Antiprotonic Nucleosynthesizer",
+    "icon": "mekanism:antiprotonic_nucleosynthesizer",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:antiprotonic_nucleosynthesizer",
+            "text": "\"A machine which uses bits of antimatter and mass amounts of energy to atomically transmute various resources.\"$(p)The Antiprotonic Nucleosynthesizer uses $(l:chemicals/antimatter)Antimatter$(/l) and a lot of power to transform certain items/blocks into a more valuable/useful items/blocks."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:antiprotonic_nucleosynthesizer",
+            "text": "$(bold)Supporter Upgrades:$()$(br)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        }
+    ]
+}

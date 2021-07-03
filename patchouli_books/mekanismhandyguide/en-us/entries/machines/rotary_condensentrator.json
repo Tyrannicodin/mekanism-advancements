@@ -1,0 +1,21 @@
+{
+    "name": "Rotary Condensentrator",
+    "icon": "mekanism:rotary_condensentrator",  
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:rotary_condensentrator",
+            "text": "\"A machine capable of converting gases into their fluid form and vice versa\"$(p)Well...yeah. I mean it's self-explanatory. What do you want me to say? It has two modes:$(br)$(bold)Condensentrating:$() Converts gases into fluids.$(br)$(bold)Decondensentrating:$() Converts fluids into gases."
+        },
+        {
+            "type": "text",
+            "text": "$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:rotary_condensentrator"
+        }
+    ]
+}

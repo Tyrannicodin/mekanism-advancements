@@ -1,0 +1,21 @@
+{
+    "name": "Oredictionificator",
+    "icon": "mekanism:oredictionificator",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:oredictionificator",
+            "text": "\"A machine used to unify and translate between various items and blocks using the Ore Dictionary.\"$(p)The Oredictionificator can convert items/blocks into different items/blocks that have the same OreID."
+        },
+        {
+            "type": "text",
+            "text": "For example, say you have 2 mods, Mod A and Mod B, that have steel ingots. You want to convert the steel ingots from Mod A into the steel ingots from Mod B. You can do that using some filters and the Oredictionificator."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:oredictionificator"
+        }
+    ]
+}

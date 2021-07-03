@@ -1,0 +1,21 @@
+{
+    "name": "Chemical Crystallizer",
+    "icon": "mekanism:chemical_crystallizer",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:chemical_crystallizer",
+            "text": "\"An ultimate machine used to crystallize purified ore slurry into ore crystals.\"$(p)The Chemical Crystallizer crystallizes the chemical in its inventory into its item counterpart. It is used for the fifth and last step of Mekanism's Ore Processing system as it takes in Clean Slurries and crystallizes them"
+        },
+        {
+            "type": "text",
+            "text": "into their respective crystals. $(p)$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:chemical_crystallizer"
+        }
+    ]
+}

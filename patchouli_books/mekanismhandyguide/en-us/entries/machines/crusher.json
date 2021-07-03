@@ -1,0 +1,36 @@
+{
+    "name": "Crusher",
+    "icon": "mekanism:crusher",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:crusher",
+            "text": "\"A machine used to crush ingots into their dust counterparts, as well as perform many other operations.\"$(p)The crusher, as it name implies, crushes stuff. Most of it recipes are crushing items/blocks to their dust/crushed counterparts. For example, ingots would get"
+        },
+        {
+            "type": "text",
+            "text": "crushed into their dust counterparts. $(p)The crusher also produces bio-fuel from crushing plant matter. Different plants yield different amount of bio-fuel. The bio-fuel can be then used as an Infuse Type or for a Bio-Generator (from Mekanism: Generators) to produce power. $(p)$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "text",
+            "title": "Ore Processing",
+            "text": "The Crusher is part of third step to ore processing. Working alongside with a $(l:purification_chamber)Purification Chamber$(/l), ores will yield 3x as much. See Ore Processing (category) for more information about Mekanism's Ore Processing."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:crusher",
+            "recipe2": "mekanism:factory/basic/crushing"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/advanced/crushing",
+            "recipe2": "mekanism:factory/elite/crushing"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/ultimate/crushing"
+        }
+    ]
+}

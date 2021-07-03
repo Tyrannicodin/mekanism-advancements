@@ -1,0 +1,17 @@
+{
+    "name": "Steel Casing",
+    "category": "blocks/blocks",
+    "icon": "mekanism:steel_casing",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:steel_casing",
+            "text": "\"A sturdy, steel-based casing used as a foundation for machinery.\"$(p)The steel casing serves no real purpose other than be used for crafting stuff.$(p)I guess it kinda looks like scaffolding."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:steel_casing"
+        }
+    ]
+}

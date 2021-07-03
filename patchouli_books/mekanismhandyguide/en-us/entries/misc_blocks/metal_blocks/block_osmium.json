@@ -1,0 +1,17 @@
+{
+    "name": "Osmium Block",
+    "icon": "mekanism:block_osmium",
+    "category": "blocks/blocks_metal_blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:block_osmium",
+            "text": "A block made of $(l:item/ingots/ingot_osmium)Osmium Ingots$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:processing/osmium/storage_blocks/from_ingots"
+        }
+    ]
+}

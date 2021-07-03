@@ -1,0 +1,17 @@
+{
+    "name": "Thermal Evaporation Controller",
+    "icon": "mekanism:thermal_evaporation_controller",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:thermal_evaporation_controller",
+            "text": "Thermal Evaporation Controllers are part of the $(l:thermal_evaporation)Thermal Evaporation Plant$(/l) multiblock.$(p)They allow you to view a GUI regarding the height, temperature, production rate (mB/t), and contents of the $(l:thermal_evaporation)Thermal Evaporation Plant$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:thermal_evaporation/controller"
+        }
+    ]
+}

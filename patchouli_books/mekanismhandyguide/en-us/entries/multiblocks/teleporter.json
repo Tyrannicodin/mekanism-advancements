@@ -1,0 +1,33 @@
+{
+  "name": "Teleporter",
+  "category": "multiblocks",
+  "icon": "mekanism:teleporter",
+  "read_by_default": true,
+  "pages": [
+    {
+        "type": "text",
+        "text": "\"Beam me up, Scotty.\"$(p)The Teleporter is a multiblock that allows players to go from Point A to Point B via teleportation. The size of a teleporter is 3x4, consiting of Teleporter Frames and a Teleporter. $(p)The Teleporter must be powered and set to a frequency in order to be functional. Two Teleporters"
+    },
+    {
+        "type": "text",
+        "text": "must be set to the same frequency in order for them to connect. $(p)Teleporters also double as teleportation points for your Portable Teleporter.$(p)$(bold)Blocks required:$()$(li)Teleporter (only one per Teleporter) $(li)Teleporter Frame" 
+    },
+    {
+        "type": "multiblock",
+        "text": "A 3x4 teleporter.",
+        "multiblock": {
+          "pattern": [
+            [ "F", "F", "F" ], 
+            [ "F", " ", "F" ], 
+            [ "F", " ", "F" ], 
+            [ "F", "0", "F" ]
+          ],
+          "mapping": {
+            "F": "mekanism:teleporter_frame",
+            "0": "mekanism:teleporter"
+          },
+          "offset": [0,0,0]
+      }
+    }
+  ]
+}

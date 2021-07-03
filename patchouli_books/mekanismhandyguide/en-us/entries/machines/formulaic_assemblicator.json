@@ -1,0 +1,58 @@
+{
+    "name": "Formulaic Assemblicator",
+    "icon": "mekanism:formulaic_assemblicator",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:formulaic_assemblicator",
+            "text": "\"A machine that uses energy to rapidly craft items and blocks from Crafting Formulas. Doubles as an advanced crafting bench.\"$(p)The Formulaic Assemblicator acts like a Crafting Table, but can automate crafting recipes using power. It has multiple buttons that can help in configurations."
+        },
+        {
+            "type": "text",
+            "title": "Stock Control",
+            "text": "Stock Control limits how much items can be its inventory. For example, if you are automating a recipe that invovles two different items, Item A and Item B, Stock Control will make it so that the entire inventory of the Formulaic Assemblicator won't just be Item A or Item B. In other words, it makes sure that the inventory will have space for the crafting components."
+        },
+        {
+            "type": "text",
+            "title": "Stock Control",
+            "text": "This button is disabled if:$(li)There is no encoded $(l:item/crafting_formula)Crafting Formula$(/l)"
+        },
+        {
+            "type": "text",
+            "title": "Fill/Empty Grid",
+            "text": "Fill/Empty Grid, when pressed, will move items from its inventory to their respective places in the crafting recipe if there is an encoded recipe. If there is no encoded recipe, this button will only empty the crafting grid. $(p)This is automatic and disabled if Auto-Mode is activated."
+        },
+        {
+            "type": "text",
+            "title": "Craft Single Item",
+            "text": "Craft Single Item, when pressed, will only craft the item once. $(p)This button is disabled if:$(li)You don't have all the required ingredients in the crafting grid.$(li)Auto-Mode is activated."
+        },
+        {
+            "type": "text",
+            "title": "Craft Available Items",
+            "text": "Craft Available Items is like the Craft Single Item button, but it will craft as much as possible with what it has in the inventory. For example, if you have the required ingredients (in the Formulaic Assemblicator's inventory) to craft the item 7 times, pressing this button will automatically and instantly craft the item 7 times. $(p)This button is disabled if:$(li)You don't have all the"
+        },
+        {
+            "type": "text",
+            "title": "Crafting Available Items",
+            "text": "required ingredients in the crafting grid.$(li)Auto-Mode is activated."
+        },
+        {
+            "type": "text",
+            "title": "Auto-Mode",
+            "text": "Auto-Mode, when activated, will automatically fill the crafting grid with the required ingredients if present in its inventory. It will also automatically craft said ingredients into the desired item. $(p)To use Auto-Mode, you must insert a $(l:item/crafting_formula)Crafting Formula$(/l) with a recipe encoded into it. The Formulaic Assemblicator must also be supplied with power."
+        },
+        {
+            "type": "text",
+            "title": "Auto-Mode",
+            "text": "This button is disabled if:$(li)There is no encoded $(l:item/crafting_formula)Crafting Formula$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:formulaic_assemblicator",
+            "text": "$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8)"
+        }
+    ]
+}

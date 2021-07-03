@@ -1,0 +1,36 @@
+{
+    "name": "Chemical Injection Chamber",
+    "icon": "mekanism:chemical_injection_chamber",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:chemical_injection_chamber",
+            "text": "\"An elite machine capable of processing ores into four shards, serving as the initial stage 4x ore processing.\"$(p)The Chemical Injection Chamber, as its name implies, injects chemicals into blocks/items to produce chemical-injected-items/blocks. It can inject Water Vapor/Steam into your dead corals and bring them"
+        },
+        {
+            "type": "text",
+            "text": "back to life!$(p)$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_gas)Gas Upgrades (8) $(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "text",
+            "title": "Ore Processing",
+            "text": "The Chemical Injection Chamber serves as the fourth step in Mekanism Ore Processing. By using Hydrogen Chloride, it can turn ores into shards (4), thus quadrupling your ores yield. See Ore Processing (category) for more details on Mekanism's Ore Processing."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:chemical_injection_chamber",
+            "recipe2": "mekanism:factory/basic/injecting"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/advanced/injecting",
+            "recipe2": "mekanism:factory/elite/injecting"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/ultimate/injecting"
+        }
+    ]
+}

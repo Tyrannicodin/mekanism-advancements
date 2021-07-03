@@ -1,0 +1,23 @@
+{
+    "name": "Industrial Alarm",
+    "icon": "mekanism:industrial_alarm",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:industrial_alarm",
+            "text": "\"Not just your everyday alarm... this is an industrial alarm!\"$(p)The Industrial Alarm is activated via a redstone signal. Once activated, it will make an obnoxious, stereotypical, annoying alarm blare."
+        },
+        {
+            "type": "text",
+            "title": "Usage",
+            "text": "The Industrial Alarm can be tied to anything that can output a redstone signal. For example, you want to trigger an alarm whenever your $(l:multiblocks/induction_matrix)Induction Matrix$(/l) is full. $(p)To do this, you will need to have a Redstone Comparator next to an $(l:misc_blocks/induction_port)Induction Port$(/l) and make sure that it is measuring the Matrix' capacity. In other words, have the side with two redstone torches be next to the port. $(p)Now place down 15 redstone dusts in between the comparator and the Industrion Alarm, and there you have it. Now when the Matrix is full, the Redstone Comparator will output a redstone signal strength of 15, thus triggering the alarm."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:industrial_alarm",
+            "text": "Or you can be a good person and jumpscare your friends with it by having them step on a pressure plate that is connected to an alarm."
+        }
+    ]
+}

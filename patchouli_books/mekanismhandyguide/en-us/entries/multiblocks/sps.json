@@ -1,0 +1,52 @@
+{
+    "name": "Supercritical Phase Shifter",
+    "icon": "mekanism:sps_port",
+    "category": "multiblocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "\"We here at Mekanism .Inc will not be responsible for any incidents involving players touching the obvious-do-not-touch-electrical-ball......touch it, I dare you.\"$(p)The Supercritical Phase Shifter (SPS) is a late game multiblock. Using a butt-ton of power, it can produce $(l:chemicals/antimatter)Antimatter$(/l) from $(l:chemicals/polonium)Polonium$(/l) (1,000mB of $(l:chemicals/polonium)Polonium$(/l) per 1mB of $(l:chemicals/antimatter)Antimatter$(/l))."
+        },
+        {
+            "type": "text",
+            "title": "Construction Notes",
+            "text": "$(li)The SPS size and shape does not vary; it only has one shape and size (which is on the multiblock page).$(li)It takes about 1 GJ of power to produce 1mB/t of $(l:chemicals/antimatter)Antimatter$(/l).$(li)Although the size and shape of the SPS cannot vary, the number of $(l:misc_blocks/sps/supercharged_coil)Supercharged Coils$(/l) can."
+        },
+        {
+            "type": "text",
+            "title": "Construction Notes",
+            "text": "$(li2)More $(l:misc_blocks/sps/supercharged_coil)Supercharged Coils$(/l) does not increase production rate. Production rate is still dependent on the throughput of power and $(l:chemicals/polonium)Polonium$(/l).$(li)Since it is quite expensive to craft $(l:misc_blocks/sps/sps_casing)SPS Casings$(/l) and $(l:misc_blocks/sps/sps_port)SPS Ports$(/l), it is recommended that you use as much $(l:misc_blocks/structural_glass)Structural Glass$(/l) as posible."
+        },
+        {
+            "type": "text",
+            "title": "Construction Notes",
+            "text": "$(li)The max production rate of $(l:chemicals/antimatter)Antimatter$(/l) is 2mB/t. This is because the SPS can only hold 2,000mB of $(l:chemicals/polonium)Polonium$(/l), thus the max throughput rate of polonium will be 2,000mB/t."
+        },
+        {
+            "type": "multiblock",
+            "text": "A SPS with 4 $(l:misc_blocks/sps/supercharged_coil)Supercharged Coils$(/l).",
+            "multiblock": {
+                "pattern": [
+                    [ "  CCC  ", " CGGGC ", "CGGPGGC", "CGGGGGC", "CGGPGGC", " CGGGC ", "  CCC  " ],
+                    [ " CGGGC ", "C     C", "G     G", "G     G", "G     G", "C     C", " CGGGC " ],
+                    [ "CGGGGGC", "G     G", "G     G", "G     G", "G     G", "G     G", "CGGGGGC" ],
+                    [ "CGGPGGC", "G  E  G", "G     G", "PS   NP", "G     G", "G  W  G", "CGGPGGC" ],
+                    [ "CGGGGGC", "G     G", "G     G", "G     G", "G     G", "G     G", "CGGGGGC" ],
+                    [ " CGGGC ", "C     C", "G     G", "G     G", "G     G", "C     C", " CGGGC " ],
+                    [ "  CCC  ", " CGGGC ", "CGGGGGC", "CGGGGG0", "CGGGGGC", " CGGGC ", "  CCC  " ]
+                ],
+                "mapping": {
+                    "C": "mekanism:sps_casing",
+                    "P": "mekanism:sps_port",
+                    "N": "mekanism:supercharged_coil[facing=north]",
+                    "E": "mekanism:supercharged_coil[facing=east]",
+                    "S": "mekanism:supercharged_coil[facing=south]",
+                    "W": "mekanism:supercharged_coil[facing=west]",
+                    "G": "mekanism:structural_glass",
+                    "0": "mekanism:sps_casing"
+                }
+            }
+        }
+    ]
+}

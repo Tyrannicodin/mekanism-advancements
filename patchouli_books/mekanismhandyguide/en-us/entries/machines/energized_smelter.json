@@ -1,0 +1,31 @@
+{
+    "name": "Energized Smelter",
+    "icon": "mekanism:energized_smelter",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:energized_smelter",
+            "text": "\"A simple machine that serves as a Mekanism-based furnace that runs off of energy.\" $(p)The Energized Smelter is basically a furnace, but uses power instead of combustibles as fuel. Save that coal for the amount of steel you are gonna need for future projects. Whatever the furnace can smelt, the Energized Smelter"
+        },
+        {
+            "type": "text",
+            "text": "can do it too, just 10x better. $(p)$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:energized_smelter",
+            "recipe2": "mekanism:factory/basic/smelting"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/advanced/smelting",
+            "recipe2": "mekanism:factory/elite/smelting"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/ultimate/smelting"
+        }
+    ]
+}

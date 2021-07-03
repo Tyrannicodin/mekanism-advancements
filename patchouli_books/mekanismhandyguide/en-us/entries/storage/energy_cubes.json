@@ -1,0 +1,47 @@
+{
+    "name": "Energy Cubes",
+    "category": "blocks/blocks_storage",
+    "icon": "mekanism:basic_energy_cube",
+    "read_by_default": true,
+    "pages": [
+      {
+        "type": "text",
+        "text": "An Energy Cube is an advanced type of battery that is compatible with multiple energy systems. The Input/Output mode of the side can be configured in the GUI. They come in four tiers, each having 4x the capacity and output rate of their predecessor."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:basic_energy_cube",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:advanced_energy_cube",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:elite_energy_cube",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:ultimate_energy_cube",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "spotlight",
+        "item": "mekanism:creative_energy_cube",
+        "text": "Hover over the item above to view stats."
+      },
+      {
+        "type": "crafting",
+        "recipe": "mekanism:energy_cube/basic",
+        "recipe2": "mekanism:energy_cube/advanced"
+      },
+      {
+        "type": "crafting",
+        "recipe": "mekanism:energy_cube/elite",
+        "recipe2": "mekanism:energy_cube/ultimate"
+      }
+    ]
+  }

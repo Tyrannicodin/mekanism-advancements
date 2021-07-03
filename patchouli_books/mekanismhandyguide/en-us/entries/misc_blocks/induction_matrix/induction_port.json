@@ -1,0 +1,17 @@
+{
+    "name": "Induction Port",
+    "icon": "mekanism:induction_port",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:induction_port",
+            "text": "Induction Ports are part of the $(l:multiblocks/induction_matrix)Induction Matrix$(/l) multiblock.$(p)They allow you to input/output energy into/from the $(l:multiblocks/induction_matrix)Induction Matrix$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:induction/port"
+        }
+    ]
+}

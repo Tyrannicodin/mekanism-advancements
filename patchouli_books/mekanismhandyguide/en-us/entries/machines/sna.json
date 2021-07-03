@@ -1,0 +1,21 @@
+{
+    "name": "Solar Neutron Activator",
+    "icon": "mekanism:solar_neutron_activator",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:solar_neutron_activator",
+            "text": "\"A machine that directs the neutron radiation of the sun into its internal reservoir, allowing the slow creation of various isotopes.\"$(p)The Solar Neutron Activator (SNA) converts chemicals to a new chemical by utilizing sunlight. If a solid block is placed directly above the SNA, the SNA will not function. You"
+        },
+        {
+            "type": "text",
+            "text": "may place transparent blocks like glass above the SNA and that will be fine.$(p)Though there is no visible port, you input chemicals from the bottom of the SNA. The only visible port is the output port."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:solar_neutron_activator"
+        }
+    ]
+}

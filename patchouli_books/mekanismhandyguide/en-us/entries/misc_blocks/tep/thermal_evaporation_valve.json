@@ -1,0 +1,17 @@
+{
+    "name": "Thermal Evaporation Valve",
+    "icon": "mekanism:thermal_evaporation_valve",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:thermal_evaporation_valve",
+            "text": "Thermal Evaporation Valves are part of the $(l:thermal_evaporation)Thermal Evaporation Plant$(/l) multiblock.$(p)They allow you to input/output fluids/chemicals into/from the $(l:thermal_evaporation)Thermal Evaporation Plant$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:thermal_evaporation/valve"
+        }
+    ]
+}

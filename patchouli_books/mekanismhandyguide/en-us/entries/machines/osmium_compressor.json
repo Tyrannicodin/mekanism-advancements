@@ -1,0 +1,31 @@
+{
+    "name": "Osmium Compressor",
+    "icon": "mekanism:osmium_compressor",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:osmium_compressor",
+            "text": "\"A fairly advanced machine used to compress osmium into various dusts in order to create their ingot counterparts.\"$(p)The Osmium Compressor is what you would use to craft more advanced ingots using their dust counterparts. It uses Liquid Osmium as fuel. Each osmium ingot provides 200mB of"
+        },
+        {
+            "type": "text",
+            "text": "Liquid Osmium, and an Osmium Block would provide 1,800mB of Liquid Osmium. $(p)$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:osmium_compressor",
+            "recipe2": "mekanism:factory/basic/compressing"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/advanced/compressing",
+            "recipe2": "mekanism:factory/elite/compressing"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/ultimate/compressing"
+        }
+    ]
+}

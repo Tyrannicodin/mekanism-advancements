@@ -1,0 +1,17 @@
+{
+    "name": "SPS Port",
+    "icon": "mekanism:sps_port",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:sps_port",
+            "text": "SPS Ports are part of the $(l:multiblocks/sps)SPS$(/l) multiblock. $(p)They allow you to input Polonium and power into the $(l:misc_blocks/sps/supercharged_coil)Supercharged Coils$(/l), and output $(l:chemicals/antimatter)Antimatter$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:sps_port"
+        }
+    ]
+}

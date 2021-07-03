@@ -1,0 +1,25 @@
+{
+    "name": "Electric Pump",
+    "icon": "mekanism:electric_pump",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:electric_pump",
+            "text": "\"An advanced upgradable pump, capable of extracting any type of fluid.\"$(p)The Electric Pump can physically extract any fluids using power. Water is a unique case in that, by default, it will not get physically extracted. In other words, the Electrical Pump can continuously pump out buckets"
+        },
+        {
+            "type": "text",
+            "text": "of water from a single water source. The Electrical Pump's range is configurable, but by default it is set to 80 blocks. $(p)As of Mekanism V10.0.21, the Electrical Pump with 6, 7, and 8 $(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) extracts at the same speed (1,000mB/t). Thus, adding more than 6 speed upgrades is a waste and needlessly uses more power."
+        },
+        {
+            "type": "text",
+            "text": "$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_filter)Filter Upgrades$(/l) (1)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:electric_pump"
+        }
+    ]
+}

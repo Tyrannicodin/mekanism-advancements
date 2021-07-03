@@ -1,0 +1,21 @@
+{
+    "name": "Chemical Washer",
+    "icon": "mekanism:chemical_washer",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:chemical_washer",
+            "text": "\"An ultimate machine that cleans unprocessed slurry and prepares it for crystallization\"$(p)The Chemical Washer is used for the fifth and final step of Mekanism's Ore Processing system. Using water, it washes slurries into their clean counterparts so that they can be crystallized into their"
+        },
+        {
+            "type": "text",
+            "text": "respective crystals.$(p)Note: Do not use these to wash your laundries. $(p)$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:chemical_washer"
+        }
+    ]
+}

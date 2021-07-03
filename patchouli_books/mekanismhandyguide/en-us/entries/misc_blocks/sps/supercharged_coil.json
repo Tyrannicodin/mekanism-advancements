@@ -1,0 +1,17 @@
+{
+    "name": "Supercharged Coil",
+    "icon": "mekanism:supercharged_coil",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:supercharged_coil",
+            "text": "\"Used in Supercritical Phase Shifter multiblock to supply large quantities of energy. Must be attached to a $(l:misc_blocks/SPS_port)SPS Port$(/l).\"$(p)The Supercharged Coil is part of the $(l:multiblocks/SPS)SPS multiblock$(/l) and is used in the process of making Antimatter."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:supercharged_coil"
+        }
+    ]
+}

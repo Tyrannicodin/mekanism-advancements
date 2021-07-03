@@ -1,0 +1,21 @@
+{
+    "name": "Nutritional Liquifier",
+    "icon": "mekanism:nutritional_liquifier",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:nutritional_liquifier",
+            "text": "\"A machine that is capable of processing any foods into non-dangerous, easily-digestible Nutritional Paste.\"$(p)The Nutritiona Liquifier will take any food and convert them into Nutritional Paste. How much mB of Nutritional Paste each food give is based on how much hunger points they offer. Each hunger point is"
+        },
+        {
+            "type": "text",
+            "text": "100mB of Nutritional Paste . For example, a piece of steak will give 4 hunger points, thus it will produce 400mB of Nutrtional Paste. A baked potato gives 2 and a half hunger points, thus it will produce 250mB of Nutritional Paste.$(p)$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:nutritional_liquifier"
+        }
+    ]
+}

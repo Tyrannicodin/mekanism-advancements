@@ -1,0 +1,17 @@
+{
+    "name": "Pressure Disperser",
+    "icon": "mekanism:pressure_disperser",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:pressure_disperser",
+            "text": "Pressure Dispersers are part of the $(l:multiblocks/boiler)Thermoelectric Boiler$(/l) and the $(l:multiblocks/industrial_turbine)Industiral Turbine$(/l) multiblocks."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:pressure_disperser"
+        }
+    ]
+}

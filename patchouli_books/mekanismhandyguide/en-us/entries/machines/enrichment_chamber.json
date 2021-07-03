@@ -1,0 +1,48 @@
+{
+    "name": "Enrichment Chamber",
+    "category": "blocks/blocks_machines",
+    "icon": "mekanism:enrichment_chamber",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:enrichment_chamber",
+            "text": "\"A simple machine used to enrich ores into two of their dust counterparts, as well as perform many other operations.\" $(p)The Enrichment Chamber has a lot of uses. For example, rather than getting 1 dye out of your flowers, you get 2! Need Gravel? Put in some sand and boom, you got yourself"
+        },
+        {
+            "type": "text",
+            "text": "some gravel. $(p)The Enrichment Chamber also allows you to enrich Redstone, Diamond Dust, Tin Dust, Gold Dust, Coal/Charcoal, Refined Obsidian Dust into their enriched counterparts. Doing so will make them 8x more efficient when it comes to using them for infusion. For instance, a regular redstone dust would give 10mB of redstone infusion. But an Enriched Redstone would give 80mB of redstone infusion!"
+        },
+        {
+            "type": "text",
+            "text": "$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "text",
+            "title": "Ore Processing",
+            "text": "The Enrichment Chamber can also increase your ores yield:$(br)Have an ore that needs to be smelted? Don't just put it into a furnace, put it into an Enrichment Chmaber first instead! The Enrichment Chamber will turn that ore into it's dust counterpart (2 of them). Then smelt those two dusts and you get 2 ingots instead of 1! See Ore Processing (category) for more information about Mekanism's Ore Processing."
+        },
+        {
+            "type": "text",
+            "text": "That's not it though. There are ores that don't need to be smelted, such as diamond ores. But those ores can be processed as well if you mine them out with a silk-touch enchanted pickaxe. If you mine out, say a redstone ore, with a silk-touch tool, and put that redstone ore into a Enrichment Chmaber, you get 12 Redstone Dust! That's more than the 4-5 Redstone Dust you would have otherwise gotten if you had mined it right then and there without silk-touch and processing (with Fortune 3, you"
+        },
+        {
+            "type": "text",
+            "text": "would still only get an average of 10 dust per ore)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:enrichment_chamber",
+            "recipe2": "mekanism:factory/basic/enriching"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/advanced/enriching",
+            "recipe2": "mekanism:factory/elite/enriching"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:factory/ultimate/enriching"
+        }
+    ]
+}

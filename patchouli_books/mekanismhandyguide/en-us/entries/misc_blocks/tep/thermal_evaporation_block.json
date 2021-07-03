@@ -1,0 +1,17 @@
+{
+    "name": "Thermal Evaporation Block",
+    "icon": "mekanism:thermal_evaporation_block",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:thermal_evaporation_block",
+            "text": "Thermal Evaporation Blocks are part of the $(l:thermal_evaporation)Thermal Evaporation Plant$(/l) multiblock."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:thermal_evaporation/block"
+        }
+    ]
+}

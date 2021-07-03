@@ -1,0 +1,17 @@
+{
+    "name": "Bronze Block",
+    "icon": "mekanism:block_bronze",
+    "category": "blocks/blocks_metal_blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:block_bronze",
+            "text": "A block made of $(l:item/ingots/ingot_bronze)Bronze Ingots$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:storage_blocks/bronze"
+        }
+    ]
+}

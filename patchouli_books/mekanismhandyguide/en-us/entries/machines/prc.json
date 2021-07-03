@@ -1,0 +1,21 @@
+{
+    "name": "Pressurized Reaction Chamber",
+    "icon": "mekanism:pressurized_reaction_chamber",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:pressurized_reaction_chamber",
+            "text": "\"An advanced machine that processes a solid, liquid and gaseous mixture and creates both a gaseous and solid product.\"$(p)The Pressurized Reaction Chamber (PRC) takes in a fluid, a chemical, and items/blocks to create a new item and a new chemical."
+        },
+        {
+            "type": "text",
+            "text": "$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_muffling)Muffling Upgrades$(/l) (4)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:pressurized_reaction_chamber"
+        }
+    ]
+}

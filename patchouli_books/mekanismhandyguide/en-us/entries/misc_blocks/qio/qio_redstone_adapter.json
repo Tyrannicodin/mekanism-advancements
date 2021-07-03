@@ -1,0 +1,27 @@
+{
+    "name": "QIO Redstone Adapter",
+    "icon": "mekanism:qio_redstone_adapter",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:qio_redstone_adapter",
+            "text": "\"A QIO-linked redstone adapter. Use to monitor your QIO system's contents.\"$(p)The QIO Redstone Adapter (QIO-RA) is used to give a redstone signal output if the specific threshold is reached/exceeded (can be set in the QIO Redstone Adapter's GUI)."
+        },
+        {
+            "type": "text",
+            "title": "GUI",
+            "text": "$(bold)Item Type$()$(br)The QIO-RA has an empty slot to it's left. Here you can choose which block for the QIO-RA to specifically detect for. $(p)$(bold)Trigger Count$()$(br)The trigger count is a number that you will set as the threshold. If the Stored Count reaches/exceeds this number, then a redstone signal (15 strength) will be outputted."
+        },
+        {
+            "type": "text",
+            "title": "GUI",
+            "text": "$(bold)Stored Count$()$(br)The Stored Count is the total number of the specified item in the QIO system."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:qio_redstone_adapter"
+        }
+    ]
+}

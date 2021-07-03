@@ -1,0 +1,19 @@
+{
+    "name": "Fluidic Plenisher",
+    "icon": "mekanism:fluidic_plenisher",
+    "category": "blocks/blocks_machines",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:fluidic_plenisher",
+            "text": "\"A machine that is capable of creating entire lakes by filling ravines with fluids.\"$(p)The Fluidic Plenisher is the opposite of the $(l:blocks_machines/electric_pump)Electric Pumps$(/l). It pumps out fluids in its inventory to the blocks under it."
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "mekanism:fluidic_plenisher",
+            "text": "$(bold)Supported Upgrades:$()$(li)$(l:item/upgrades/upgrade_speed)Speed Upgrades$(/l) (8) $(li)$(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) (8)"
+        }
+    ]
+}

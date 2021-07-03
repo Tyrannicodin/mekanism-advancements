@@ -1,0 +1,17 @@
+{
+    "name": "QIO Dashboard",
+    "icon": "mekanism:qio_dashboard",
+    "category": "blocks/blocks",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:qio_dashboard",
+            "text": "\"A placeable monitor used to access a Quantum Item Orchestration sysmtem's contents.\"$(p)The QIO Dashboard can be placed and connected to any QIO frequency to access the QIO's contents."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:qio_dashboard"
+        }
+    ]
+}
