@@ -1,0 +1,17 @@
+{
+    "name": "Electrolytic Core",
+    "icon": "mekanism:electrolytic_core",
+    "category": "items/items",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:electrolytic_core",
+            "text": "The Electrolytic Core is a crafting component used to craft some machines/items.$(p)I know it looks and sounds fancy, but there's not much else to it."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:electrolytic_core"
+        }
+    ]
+}

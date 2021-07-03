@@ -1,0 +1,13 @@
+{
+    "name": "Polonium Pellet",
+    "icon": "mekanism:pellet_polonium",
+    "category": "items/items",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:pellet_polonium",
+            "text": "Polonium Pellets are crafting components used to craft some late-game items. Obtaining them would require a $(l:multiblocks/fission_reactor)Fission Reactor$(/l)."
+        }
+    ]
+}

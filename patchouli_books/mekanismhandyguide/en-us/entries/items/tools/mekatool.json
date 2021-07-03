@@ -1,0 +1,21 @@
+{
+    "name": "Meka-Tool",
+    "icon": "mekanism:meka_tool",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:meka_tool",
+            "text": "The Meka-Tool is a highly configurable late-game tool. It is very versatile in that it can act as a weapon, a pickaxe, an axe, etc. Using a $(l:machines/modification_station)Modification Station$(/l), modules/units can be installed onto Meka-Tool."
+        },
+        {
+            "type": "text",
+            "text": "Press $(k:key.mekanism.module_tweaker) to access the Module Tweaker GUI. Here you can configurate the modules installed on each MekaSuit armor piece.$(p)Note: even though the Meka-Tool includes a $(l:items/tools/configurator)Configurator$(/l), it does not have a Configurator's capabilities."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:meka_tool"
+        }
+    ]
+}

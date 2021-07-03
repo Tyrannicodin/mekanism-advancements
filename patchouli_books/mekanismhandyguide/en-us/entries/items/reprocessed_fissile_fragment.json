@@ -1,0 +1,13 @@
+{
+    "name": "Reprocessed Fissile Fragment",
+    "icon": "mekanism:reprocessed_fissile_fragment",
+    "category": "items/items",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:reprocessed_fissile_fragment",
+            "text": "Reprocessed Fissile Fragments is used to recycle Fissile Fuel...and that's about it..."
+        }
+    ]
+}

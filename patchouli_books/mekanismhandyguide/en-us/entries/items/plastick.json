@@ -1,0 +1,17 @@
+{
+    "name": "PlaStick",
+    "icon": "mekanism:hdpe_stick",
+    "category": "items/items",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:hdpe_stick",
+            "text": "The PlaStick is useless without Mekanism: Additions. I$(p)f you have Mekanism: Addtions installed, PlaStick is used to craft plastic fences and fence gates"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:hdpe_stick"
+        }
+    ]
+}

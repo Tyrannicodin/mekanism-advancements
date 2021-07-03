@@ -1,0 +1,17 @@
+{
+    "name": "Dosimeter",
+    "icon": "mekanism:dosimeter",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:dosimeter",
+            "text": "The Dosimeter, when right clicking with it, will tell you your radiation dosage by sending a message into the chat. Basically, you want to keep the number as green as you can. Normal radiation dosage is 99.999 nSv."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:dosimeter"
+        }
+    ]
+}

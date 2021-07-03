@@ -1,0 +1,17 @@
+{
+    "name": "Uranium Nugget",
+    "icon": "mekanism:nugget_uranium",
+    "category": "items/items_nuggets",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:nugget_uranium",
+            "text": "A Uranium Nugget. It's \"a\", not \"an\"."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:processing/uranium/nugget/from_ingot"
+        }
+    ]
+}

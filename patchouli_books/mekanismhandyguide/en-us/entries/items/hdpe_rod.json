@@ -1,0 +1,17 @@
+{
+    "name": "HDPE Rod",
+    "icon": "mekanism:hdpe_rod",
+    "category": "items/items",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:hdpe_rod",
+            "text": "The HDPE Rod is a crafting component used to craft $(l:item/plastick)PlaStick$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:hdpe_rod"
+        }
+    ]
+}

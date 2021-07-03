@@ -1,0 +1,17 @@
+{
+    "name": "HDPE Sheet",
+    "icon": "mekanism:hdpe_sheet",
+    "category": "items/items",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:hdpe_sheet",
+            "text": "The HDPE Sheet is a crafting component used to craft more advanced items/blocks."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:hdpe_sheet"
+        }
+    ]
+}

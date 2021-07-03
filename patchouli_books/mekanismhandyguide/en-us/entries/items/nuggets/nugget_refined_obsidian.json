@@ -1,0 +1,17 @@
+{
+  "name": "item.mekanism.nugget_refined_obsidian",
+  "category": "items/items_nuggets",
+  "icon": "mekanism:nugget_refined_obsidian",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mekanism:nugget_refined_obsidian",
+      "text": "A Refined Obsidian Nugget. Amazing."
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:nuggets/refined_obsidian"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Portable QIO Dashboard",
+    "icon": "mekanism:portable_qio_dashboard",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:portable_qio_dashboard",
+            "text": "The Portable QIO Dashboard allows you to access your QIO storage from anywhere. Right click with it and the QIO interface (of the same frequency) will pop up."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:portable_qio_dashboard"
+        }
+    ]
+}

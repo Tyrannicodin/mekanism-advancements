@@ -1,0 +1,17 @@
+{
+    "name": "item.mekanism.nugget_bronze",
+    "category": "items/items_nuggets",
+    "icon": "mekanism:nugget_bronze",
+    "read_by_default": true,
+    "pages": [
+      {
+        "type": "spotlight",
+        "item": "mekanism:nugget_bronze",
+        "text": "A Bronze Nugget. Yep."
+      },
+      {
+        "type": "crafting",
+        "recipe": "mekanism:nuggets/bronze"
+      }
+    ]
+  }

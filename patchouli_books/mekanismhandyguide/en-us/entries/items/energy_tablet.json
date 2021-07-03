@@ -1,0 +1,17 @@
+{
+    "name": "Energy Tablet",
+    "icon": "mekanism:energy_tablet",
+    "category": "items/items",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:energy_tablet",
+            "text": "The Energy Tablet is basically a battery. It can be charged via several ways, for example in the output slot of $(l:storage/energy_cubes)Energy Cubes$(/l).$(p)To use it, simply put it into a power input slot of a machine. In Mekanism, the power input slot is the slot with a blue minus symbol."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:energy_tablet"
+        }
+    ]
+}

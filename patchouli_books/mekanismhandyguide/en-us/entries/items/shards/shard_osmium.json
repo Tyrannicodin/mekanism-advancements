@@ -1,0 +1,13 @@
+{
+    "name": "Osmium Shard",
+    "icon": "mekanism:shard_osmium",
+    "category": "items/items_shards",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:shard_osmium",
+            "text": "Osmium Shards are part of the $(l:ore_processing/quadrupling)4x Ore Processing$(/l) and beyond."
+        }
+    ] 
+}

@@ -1,0 +1,17 @@
+{
+    "name": "item.mekanism.upgrade_speed",
+    "category": "items/items_upgrades",
+    "icon": "mekanism:upgrade_speed",
+    "read_by_default": true,
+    "pages": [
+      {
+        "type": "spotlight",
+        "item": "mekanism:upgrade_speed",
+        "text": "\"I...am....speed.\" $(p)Speed Upgrades is to increase the running speed of a machine. Note that every speed upgrade makes the machine 33% faster, and the Power Usage increases with ~77% (33²%), which makes for an increase in power usage for each operation with 33%.$(p)$(bold)The machine must have enough buffer to run one operation or it will not run at all. It is recommended that you also install $(l:item/upgrades/upgrade_energy)Energy Upgrades$(/l) and $(l:item/upgrades/upgrade_gas)Gas Upgrads$(/l) alongside with Speed Upgrades. $(p)Max upgrades per machine:"
+      },
+      {
+        "type": "crafting",
+        "recipe": "mekanism:upgrade_speed"
+      }
+    ]
+}

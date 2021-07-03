@@ -1,0 +1,17 @@
+{
+    "name": "Copper Nugget",
+    "icon": "mekanism:nugget_copper",
+    "category": "items/items_nuggets",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:nugget_copper",
+            "text": "A Copper Nugget. Cool."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:processing/copper/nugget/from_ingot"
+        }
+    ]
+}

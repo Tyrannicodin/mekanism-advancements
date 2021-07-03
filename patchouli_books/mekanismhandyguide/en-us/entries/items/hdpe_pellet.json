@@ -1,0 +1,13 @@
+{
+    "name": "HDPE Pellet",
+    "icon": "mekanism:hdpe_pellet",
+    "category": "items/items",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:hdpe_pellet",
+            "text": "The HDPE Pellet is a crafting component used to craft $(l:item/hdpe_sheet)HDPE Sheets$(/l) and $(l:item/hdpe_rod)HDPE Rods$(/l)."
+        }
+    ]
+}

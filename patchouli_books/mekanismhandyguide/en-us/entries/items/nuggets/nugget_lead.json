@@ -1,0 +1,17 @@
+{
+    "name": "Lead Nugget",
+    "icon": "mekanism:nugget_lead",
+    "category": "items/items_nuggets",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:nugget_lead",
+            "text": "A Lead Nugget. Nice."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:processing/lead/nugget/from_ingot"
+        }
+    ]
+}

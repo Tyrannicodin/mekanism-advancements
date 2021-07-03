@@ -1,0 +1,17 @@
+{
+    "name": "item.mekanism.nugget_steel",
+    "category": "items/items_nuggets",
+    "icon": "mekanism:nugget_steel",
+    "read_by_default": true,
+    "pages": [
+      {
+        "type": "spotlight",
+        "item": "mekanism:nugget_steel",
+        "text": "A Steel Nugget. Interesting."
+      },
+      {
+        "type": "crafting",
+        "recipe": "mekanism:nuggets/steel"
+      }
+    ]
+  }

@@ -1,0 +1,21 @@
+{
+    "name": "item.mekanism.configuration_card",
+    "category": "items/items_gear",
+    "icon": "mekanism:configuration_card",
+    "read_by_default": true,
+    "pages": [
+      {
+        "type": "spotlight",
+        "item": "mekanism:configuration_card",
+        "text": "An item used to copy configuration data from one machine to another.$(p)To copy data to the card, $(k:sneak) + $(k:use) on the source machine, then $(k:use) the destination machine. Chat messages will inform you of the success/failure."
+      },
+      {
+        "type": "text",
+        "text": "Supported machines: $(li)$(l:machines/digital_miner)Digital Miner$(/l) $(li)$(l:storage/energy_cubes)Energy Cubes$(/l) $(li)$(l:machines/formulaic_assemblicator)Formulaic Assemblicator$(/l) $(li)$(l:machines/logistical_sorter)Logistical Sorter$(/l) $(li)$(l:machines/oredictionificator)Oredictionificator$(/l) $(br)and any machine with configurable sides."
+      },
+      {
+        "type": "crafting",
+        "recipe": "mekanism:configuration_card"
+      }
+    ]
+  }

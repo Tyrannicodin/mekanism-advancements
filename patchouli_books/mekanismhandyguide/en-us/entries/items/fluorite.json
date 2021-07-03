@@ -1,0 +1,13 @@
+{
+    "name": "Fluorite",
+    "category": "items/items",
+    "icon": "mekanism:fluorite_gem",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:fluorite_gem",
+            "text": "Fluorite is a gem-like material that can be obtained from Fluorite Ores. It is usually used to craft/make more advanced materials/blocks."
+        }
+    ]
+}

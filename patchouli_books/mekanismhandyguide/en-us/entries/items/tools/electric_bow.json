@@ -1,0 +1,17 @@
+{
+  "name": "Electric Bow",
+  "category": "items/items_gear",
+  "icon": "mekanism:electric_bow",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mekanism:electric_bow",
+      "text": "\"Arrows not included.\"$(p)Much like a normal bow, but uses energy instead of having durability. It can also shoot fire arrows on fire (toggle with $(k:key.keyboard.n))."
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:electric_bow"
+    }
+  ]
+}

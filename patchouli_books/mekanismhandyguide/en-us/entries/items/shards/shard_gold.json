@@ -1,0 +1,13 @@
+{
+    "name": "Gold Shard",
+    "icon": "mekanism:shard_gold",
+    "category": "items/items_shards",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:shard_gold",
+            "text": "Gold Shards are part of the $(l:ore_processing/quadrupling)4x Ore Processing$(/l) and beyond."
+        }
+    ] 
+}

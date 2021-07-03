@@ -1,0 +1,13 @@
+{
+    "name": "Antimatter Pellet",
+    "icon": "mekanism:pellet_antimatter",
+    "category": "items/items",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:pellet_antimatter",
+            "text": "The Antimatter Pellet is an item that can be used to craft some pretty powerful late-game stuff. $(p)Antimatter Pellets are produced in a $(l:multiblocks/SPS)SPS$(/l)."
+        }
+    ]
+}

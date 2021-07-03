@@ -1,0 +1,17 @@
+{
+    "name": "Tin Nugget",
+    "icon": "mekanism:nugget_tin",
+    "category": "items/items_nuggets",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:nugget_tin",
+            "text": "A Tin Nugget. Fascinating."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:processing/tin/nugget/from_ingot"
+        }
+    ]
+}

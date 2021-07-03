@@ -1,0 +1,17 @@
+{
+    "name": "Osmium Nugget",
+    "icon": "mekanism:nugget_osmium",
+    "category": "items/items_nuggets",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:nugget_osmium",
+            "text": "An Osmium Ingot. Fun."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:processing/osmium/nugget/from_ingot"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "item.mekanism.bio_fuel",
+    "category": "items/items",
+    "icon": "mekanism:bio_fuel",
+    "read_by_default": true,
+    "pages": [
+      {
+        "type": "spotlight",
+        "item": "mekanism:bio_fuel",
+        "link_recipe": true,
+        "text": "A fuel made from plant material in a $(l:machines/crusher)Crusher$(/l).$(p)Used in a $(l:generators/bio_generator)Bio-Generator$(/l) (Mekanism:Generators required) for power or in a $(l:machines/prc)Pressurized Reaction Chamber$(/l) to produce $(l:chemicals/ethylene)Ethylene$(/l) and $(l:item/substrate)Substrate$(/l)."
+      }
+    ]
+  }

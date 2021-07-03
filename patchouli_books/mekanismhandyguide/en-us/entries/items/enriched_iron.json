@@ -1,0 +1,18 @@
+{
+  "name": "item.mekanism.enriched_iron",
+  "category": "items/items",
+  "icon": "mekanism:enriched_iron",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mekanism:enriched_iron",
+      "text": "Enriched Iron serves as a crafting component. It has no real purpose other than that."
+    },
+    {
+      "type": "spotlight",
+      "item": "mekanism:enriched_iron",
+      "link_recipe": true
+    }
+  ]
+}

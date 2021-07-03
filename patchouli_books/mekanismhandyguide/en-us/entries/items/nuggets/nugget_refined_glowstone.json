@@ -1,0 +1,17 @@
+{
+  "name": "item.mekanism.nugget_refined_glowstone",
+  "category": "items/items_nuggets",
+  "icon": "mekanism:nugget_refined_glowstone",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mekanism:nugget_refined_glowstone",
+      "text": "A Refined Glowstone Nugguet. Do not eat."
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:nuggets/refined_glowstone"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Lead Shard",
+    "icon": "mekanism:shard_lead",
+    "category": "items/items_shards",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:shard_lead",
+            "text": "Lead Shards are part of the $(l:ore_processing/quadrupling)4x Ore Processing$(/l) and beyond."
+        }
+    ] 
+}

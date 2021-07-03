@@ -1,0 +1,42 @@
+{
+    "name": "Enriched Infuse Types",
+    "icon": "mekanism:enriched_redstone",
+    "category": "items/items",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Enriched Infuse Types are more effecient forms of their respective counterparts. In other words, they will yield more Infuse Type when used in an $(l:machines/metallurgic_infuser)Infuser$(/l) compared to their respective non-enriched counterpart."
+        },
+        {
+            "type": "spotlight",
+            "item": "mekanism:enriched_redstone",
+            "link_recipe": true
+        },
+        {
+            "type": "spotlight",
+            "item": "mekanism:enriched_diamond",
+            "link_recipe": true
+        },
+        {
+            "type": "spotlight",
+            "item": "mekanism:enriched_refined_obsidian",
+            "link_recipe": true
+        },
+        {
+            "type": "spotlight",
+            "item": "mekanism:enriched_carbon",
+            "link_recipe": true
+        },
+        {
+            "type": "spotlight",
+            "item": "mekanism:enriched_gold",
+            "link_recipe": true
+        },
+        {
+            "type": "spotlight",
+            "item": "mekanism:enriched_tin",
+            "link_recipe": true
+        }
+    ]
+}

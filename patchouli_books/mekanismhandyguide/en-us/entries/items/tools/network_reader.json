@@ -1,0 +1,17 @@
+{
+  "name": "Network Reader",
+  "category": "items/items_gear",
+  "icon": "mekanism:network_reader",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mekanism:network_reader",
+      "text": "Right click on any pipe and it will send information about the targeted pipe network to chat."
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:network_reader"
+    }
+  ]
+}

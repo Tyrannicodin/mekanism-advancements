@@ -1,0 +1,32 @@
+{
+  "name": "Tier Installers",
+  "category": "items/items",
+  "icon": "mekanism:basic_tier_installer",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Upgrade the tier of a block in world without needing to put it in a crafting grid. $(k:sneak) + $(k:use) to apply the tier installer onto an applicable block. $(p)Tier Installers can upgrade just about anything that have Basic, Advanced, Elite, and Ultimate tiers, e.g. factory machines."
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:tier_installer/basic",
+      "text": "Upgrades block to basic tier. Used to turn machines into their factory variant."
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:tier_installer/advanced",
+      "text": "Upgrades block to Advanced tier. Requires block to be Basic tier first."
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:tier_installer/elite",
+      "text": "Upgrades block to Elite tier. Requires block to be Advanced tier first."
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:tier_installer/ultimate",
+      "text": "Upgrades block to Ultimate tier. Requires block to be Elite tier first."
+    }
+  ]
+}

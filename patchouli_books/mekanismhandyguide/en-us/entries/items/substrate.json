@@ -1,0 +1,13 @@
+{
+    "name": "Substrate",
+    "icon": "mekanism:substrate",
+    "category": "items/items",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:substrate",
+            "text": "Substrates are used to craft $(l:item/hdpe_pellet)HDPE Pellets$(/l) or more Substrates."
+        }
+    ]
+}

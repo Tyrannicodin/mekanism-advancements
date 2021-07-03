@@ -1,0 +1,30 @@
+{
+    "name": "Dictionary",
+    "icon": "mekanism:dictionary",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:dictionary",
+            "text": "\"Don't worry, you won't have to read much.\"$(p)The Dictionary allows you to check the ore dictionary and can be used in conjunction with the Digital Miner for a more precise mining experience. Additionally, it can be used with the Logistical Sorter to organize blocks and items, and it can be used with"
+        },
+        {
+            "type": "text",
+            "text": "the Oredictionificator to unify ores from different mods."
+        },
+        {
+            "type": "text",
+            "title": "Use",
+            "text": "Right click on any block with the dictionary in hand and it should tell you its dictionary key, if it has one. You can also $(k:sneak) + right click to open a GUI. From here, you can place blocks or items from your inventory in the GUI's slot and it will display all the available keys for it. For example, coal has both the coal and itemCoal keys associated with it."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:dictionary"
+        },
+        {
+            "type": "text",
+            "text": "Props to the Mekanism wiki for this one. I honestly have no idea how to use this thing. And yeah, I just copy and pasted from it."
+        }
+    ]
+}

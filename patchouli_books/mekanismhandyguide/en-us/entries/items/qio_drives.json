@@ -1,0 +1,23 @@
+{
+    "name": "QIO Drives",
+    "icon": "mekanism:qio_drive_base",
+    "category": "items/items",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:qio_drive_base",
+            "text": "QIO Drives are what gives you storage space for your QIO system. Each tier of QIO drive differ in total items and types capacity. $(p)Insert drives into a $(l:misc_blocks/qio_drive_array)QIO Drive Array$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:qio_drive_base",
+            "recipe2": "mekanism:qio_drive_hyper_dense"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:qio_drive_time_dilating",
+            "recipe2": "mekanism:qio_drive_supermassive"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Dirty Netherite Scrap",
+    "icon": "mekanism:dirty_netherite_scrap",
+    "category": "items/items",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:dirty_netherite_scrap",
+            "text": "Dirty Netherite Scraps are part of the ore processing of Ancient Debris."
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Geiger Counter",
+    "icon": "mekanism:geiger_counter",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:geiger_counter",
+            "text": "The Geiger Counter, when right clicked in the air, will tell you the surrounding radiation exposure by sending a message into chat. The redder the number is, the faster your should get out of that area. 99.999 nSv is normal radiation exposure, so you won't be growing an extra leg any time soon."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:geiger_counter"
+        }
+    ]
+}

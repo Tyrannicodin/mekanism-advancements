@@ -1,0 +1,27 @@
+{
+  "name": "item.mekanism.crafting_formula",
+  "category": "items/items",
+  "icon": "mekanism:crafting_formula",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mekanism:crafting_formula",
+      "text": "Used in the $(l:machines/formulaic_assemblicator)Formulaic Assemblicator$(/l) to encode a crafting recipe for automatic operation."
+    },
+    {
+      "type": "text",
+      "title": "Usage",
+      "text": "Open up a $(l:machines/formulaic_assemblicator)Formulaic Assemblicator's$(/l) GUI, and put in the crafting recipe of the item you want to craft. BUT before you press craft, insert one or more crafting formula into that blank spot left to the crafting grid. Then press encode.$(p)Now the recipe has been encoded into the Crafting Formula, and if you insert the Crafting Formula into any $(l:machines/formulaic_assemblicator)Formulaic Assemblicator$(/l), the recipe will pop up in the"
+    },
+    {
+      "type": "text",
+      "title": "Usage",
+      "text": "crafting grid. $(p)$(k:sneak) + $(k:use) the air with the Crafting Formula to clear the encoded recipe."
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:crafting_formula"
+    }
+  ]
+}
