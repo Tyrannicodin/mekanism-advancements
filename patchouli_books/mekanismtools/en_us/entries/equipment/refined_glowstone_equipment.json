@@ -1,0 +1,27 @@
+{
+    "name": "Refined Glowstone Equipment",
+    "icon": "mekanismtools:refined_glowstone_chestplate",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismtools:refined_glowstone_chestplate",
+            "text": "Refined Glowstone Equipment are armor and shields made from $(l:item/ingots/ingot_refined_glowstone)Refined Glowstone Ingots$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:refined_glowstone/armor/helmet",
+            "recipe2": "mekanismtools:refined_glowstone/armor/chestplate"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:refined_glowstone/armor/leggings",
+            "recipe2": "mekanismtools:refined_glowstone/armor/boots"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:refined_glowstone/shield"
+        }
+    ]
+}

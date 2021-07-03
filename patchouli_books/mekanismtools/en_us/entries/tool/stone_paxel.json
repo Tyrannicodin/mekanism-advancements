@@ -1,0 +1,17 @@
+{
+    "name": "Stone Paxel",
+    "icon": "mekanismtools:stone_paxel",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismtools:stone_paxel",
+            "text": "The Stone Paxel simultaneously acts as an axe, pickaxe, and shovel. "
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:stone_paxel"
+        }
+    ]
+}

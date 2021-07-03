@@ -1,0 +1,17 @@
+{
+    "name": "Wood Paxel",
+    "icon": "mekanismtools:wood_paxel",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismtools:wood_paxel",
+            "text": "The Wood Paxel simultaneously acts as an axe, pickaxe, and shovel. "
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:wood_paxel"
+        }
+    ]
+}

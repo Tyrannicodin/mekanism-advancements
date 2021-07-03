@@ -1,0 +1,28 @@
+{
+    "name": "Bronze Tools",
+    "icon": "mekanismtools:bronze_pickaxe",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismtools:bronze_pickaxe",
+            "text": "Bronze Tools are tools made from $(l:item/ingots/ingot_bronze)Bronze Ingots$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:bronze/tools/pickaxe",
+            "recipe2": "mekanismtools:bronze/tools/axe"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:bronze/tools/shovel",
+            "recipe2": "mekanismtools:bronze/tools/hoe"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:bronze/tools/sword",
+            "recipe2": "mekanismtools:bronze/tools/paxel"
+        }
+    ]
+}

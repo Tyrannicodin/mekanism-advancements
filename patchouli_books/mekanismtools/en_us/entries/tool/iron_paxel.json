@@ -1,0 +1,17 @@
+{
+    "name": "Iron Paxel",
+    "icon": "mekanismtools:iron_paxel",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismtools:iron_paxel",
+            "text": "The Iron Paxel simultaneously acts as an axe, pickaxe, and shovel. "
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:iron_paxel"
+        }
+    ]
+}

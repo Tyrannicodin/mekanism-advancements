@@ -1,0 +1,27 @@
+{
+    "name": "Lapis Lazuli Equipment",
+    "icon": "mekanismtools:lapis_lazuli_chestplate",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismtools:lapis_lazuli_chestplate",
+            "text": "Lapis Lazuli Equipment are armor and shields made from Lapis Lazuli's."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:lapis_lazuli/armor/helmet",
+            "recipe2": "mekanismtools:lapis_lazuli/armor/chestplate"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:lapis_lazuli/armor/leggings",
+            "recipe2": "mekanismtools:lapis_lazuli/armor/boots"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:lapis_lazuli/shield"
+        }
+    ]
+}

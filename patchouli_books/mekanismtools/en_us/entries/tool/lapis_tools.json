@@ -1,0 +1,28 @@
+{
+    "name": "Lapis Tools",
+    "icon": "mekanismtools:lapis_lazuli_pickaxe",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismtools:lapis_lazuli_pickaxe",
+            "text": "Lapis Lazuli Tools are tools made from Lapis Lazuli's."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:lapis_lazuli/tools/pickaxe",
+            "recipe2": "mekanismtools:lapis_lazuli/tools/axe"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:lapis_lazuli/tools/shovel",
+            "recipe2": "mekanismtools:lapis_lazuli/tools/hoe"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:lapis_lazuli/tools/sword",
+            "recipe2": "mekanismtools:lapis_lazuli/tools/paxel"
+        }
+    ]
+}

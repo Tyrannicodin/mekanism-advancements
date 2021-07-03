@@ -1,0 +1,13 @@
+{
+    "name": "Netherite Paxel",
+    "icon": "mekanismtools:netherite_paxel",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismtools:netherite_paxel",
+            "text": "The Netherite Paxel simultaneously acts as an axe, pickaxe, and shovel. "
+        }
+    ]
+}

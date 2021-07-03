@@ -1,0 +1,27 @@
+{
+    "name": "Steel Equipment",
+    "icon": "mekanismtools:steel_chestplate",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismtools:steel_chestplate",
+            "text": "Steel Equipment are armor and shields made from $(l:item/ingots/ingot_steel)Steel Ingots$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:steel/armor/helmet",
+            "recipe2": "mekanismtools:steel/armor/chestplate"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:steel/armor/leggings",
+            "recipe2": "mekanismtools:steel/armor/boots"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:steel/shield"
+        }
+    ]
+}

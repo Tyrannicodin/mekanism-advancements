@@ -1,0 +1,28 @@
+{
+    "name": "Steel Tools",
+    "icon": "mekanismtools:steel_pickaxe",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismtools:steel_pickaxe",
+            "text": "Steel Tools are tools made from $(l:item/ingots/ingot_steel)Steel Ingots$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:steel/tools/pickaxe",
+            "recipe2": "mekanismtools:steel/tools/axe"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:steel/tools/shovel",
+            "recipe2": "mekanismtools:steel/tools/hoe"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:steel/tools/sword",
+            "recipe2": "mekanismtools:steel/tools/paxel"
+        }
+    ]
+}

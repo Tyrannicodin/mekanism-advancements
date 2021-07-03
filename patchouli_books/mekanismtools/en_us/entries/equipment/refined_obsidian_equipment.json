@@ -1,0 +1,27 @@
+{
+    "name": "Refined Obsidian Equipment",
+    "icon": "mekanismtools:refined_obsidian_chestplate",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismtools:refined_obsidian_chestplate",
+            "text": "Refined Obsidian Equipment are armor and shields made from $(l:item/ingots/ingot_refined_obsidian)Refined Obsidian Ingots$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:refined_obsidian/armor/helmet",
+            "recipe2": "mekanismtools:refined_obsidian/armor/chestplate"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:refined_obsidian/armor/leggings",
+            "recipe2": "mekanismtools:refined_obsidian/armor/boots"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:refined_obsidian/shield"
+        }
+    ]
+}

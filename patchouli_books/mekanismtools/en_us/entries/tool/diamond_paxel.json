@@ -1,0 +1,17 @@
+{
+    "name": "Diamond Paxel",
+    "icon": "mekanismtools:diamond_paxel",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismtools:diamond_paxel",
+            "text": "The Diamond Paxel simultaneously acts as an axe, pickaxe, and shovel. "
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:diamond_paxel"
+        }
+    ]
+}

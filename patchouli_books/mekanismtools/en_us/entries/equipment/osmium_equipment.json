@@ -1,0 +1,27 @@
+{
+    "name": "Osmium Equipment",
+    "icon": "mekanismtools:osmium_chestplate",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismtools:osmium_chestplate",
+            "text": "Osmium Equipment are armor and shields made from $(l:item/ingots/ingot_osmium)Osmium Ingots$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:osmium/armor/helmet",
+            "recipe2": "mekanismtools:osmium/armor/chestplate"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:osmium/armor/leggings",
+            "recipe2": "mekanismtools:osmium/armor/boots"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:osmium/shield"
+        }
+    ]
+}

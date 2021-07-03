@@ -1,0 +1,17 @@
+{
+    "name": "Gold Paxel",
+    "icon": "mekanismtools:gold_paxel",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismtools:gold_paxel",
+            "text": "The Gold Paxel simultaneously acts as an axe, pickaxe, and shovel. "
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:gold_paxel"
+        }
+    ]
+}

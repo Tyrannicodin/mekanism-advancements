@@ -1,0 +1,28 @@
+{
+    "name": "Refined Obsidian Tools",
+    "icon": "mekanismtools:refined_obsidian_pickaxe",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismtools:refined_obsidian_pickaxe",
+            "text": "Refined Obsidian Tools are tools made from $(l:item/ingots/ingot_refined_obsidian)Refined Obsidian Ingots$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:refined_obsidian/tools/pickaxe",
+            "recipe2": "mekanismtools:refined_obsidian/tools/axe"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:refined_obsidian/tools/shovel",
+            "recipe2": "mekanismtools:refined_obsidian/tools/hoe"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:refined_obsidian/tools/sword",
+            "recipe2": "mekanismtools:refined_obsidian/tools/paxel"
+        }
+    ]
+}

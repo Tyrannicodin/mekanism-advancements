@@ -1,0 +1,28 @@
+{
+    "name": "Osmium Tools",
+    "icon": "mekanismtools:osmium_pickaxe",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismtools:osmium_pickaxe",
+            "text": "Osmium Tools are tools made from $(l:item/ingots/ingot_osmium)Osmium Ingots$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:osmium/tools/pickaxe",
+            "recipe2": "mekanismtools:osmium/tools/axe"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:osmium/tools/shovel",
+            "recipe2": "mekanismtools:osmium/tools/hoe"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:osmium/tools/sword",
+            "recipe2": "mekanismtools:osmium/tools/paxel"
+        }
+    ]
+}

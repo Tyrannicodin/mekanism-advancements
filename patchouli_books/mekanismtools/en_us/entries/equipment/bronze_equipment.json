@@ -1,0 +1,27 @@
+{
+    "name": "Bronze Equipment",
+    "icon": "mekanismtools:bronze_chestplate",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanismtools:bronze_chestplate",
+            "text": "Bronze Equipment are armor and shields made from $(l:item/ingots/ingot_bronze)Bronze Ingots$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:bronze/armor/helmet",
+            "recipe2": "mekanismtools:bronze/armor/chestplate"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:bronze/armor/leggings",
+            "recipe2": "mekanismtools:bronze/armor/boots"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanismtools:bronze/shield"
+        }
+    ]
+}
