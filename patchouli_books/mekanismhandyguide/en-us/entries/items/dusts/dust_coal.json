@@ -1,0 +1,14 @@
+{
+    "name": "item.mekanism.dust_coal",
+    "category": "items/items_dusts",
+    "icon": "mekanism:dust_coal",
+    "read_by_default": true,
+    "pages": [
+      {
+        "type": "spotlight",
+        "item": "mekanism:dust_coal",
+        "text": "Coal Dusts are the dust counterpart of Coal.",
+        "link_recipe": true
+      }
+    ]
+  }

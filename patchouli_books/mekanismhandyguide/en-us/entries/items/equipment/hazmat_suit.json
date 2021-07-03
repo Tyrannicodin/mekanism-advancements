@@ -1,0 +1,23 @@
+{
+    "name": "Hazmat Suit",
+    "category": "items/items_gear",
+    "icon": "mekanism:hazmat_mask",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:hazmat_mask",
+            "text": "The hazmat suit will protect you from surrounding radiation. You have to wear all the pieces of the hazmat suit in order to receive full protection from radiation. Otherwise, your radiation dosage will increase. see the $(l:item/tools/dosimeter)Dosimeter$(/l) and the $(l:item/tools/geiger_counter)Geiger Counter$(/l) for more tools to help with radiation."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:hazmat_mask",
+            "recipe2": "mekanism:hazmat_gown"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:hazmat_pants",
+            "recipe2": "mekanism:hazmat_boots"
+        }
+    ]
+}

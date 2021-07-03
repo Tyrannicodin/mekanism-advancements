@@ -1,0 +1,17 @@
+{
+    "name": "Excavation Escalation Unit",
+    "icon": "mekanism:module_excavation_escalation_unit",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_excavation_escalation_unit",
+            "text": "Excavation Escalation Units will increase the digging speed on any blocks.$(p)As you install more of these units, you get will get more efficiency options in the Module Tweaker."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_excavation_escalation_unit"
+        }
+    ]
+}

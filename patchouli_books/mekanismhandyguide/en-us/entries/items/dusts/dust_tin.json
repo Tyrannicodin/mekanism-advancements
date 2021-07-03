@@ -1,0 +1,13 @@
+{
+    "name": "Tin Dust",
+    "icon": "mekanism:dust_tin",
+    "category": "items/items_dusts",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:dust_tin",
+            "text": "Some Tin Dust. Wow."
+        }
+    ]
+}

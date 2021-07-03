@@ -1,0 +1,31 @@
+{
+    "name": "Module Base",
+    "icon": "mekanism:module_base",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_base",
+            "text": "The Module Base is a crafting component used to craft multiple modules (also called Units in-game). These modules are then installed onto $(l:item/equipment/mekasuit)MekaSuit armor pieces$(/l) and the $(l:item/tools/mekatool)Meka-Tool$(/l).$(p)Think of modules as upgrades. Modules are compatible with each other, except for exclusive ones which will have"
+        },
+        {
+            "type": "text",
+            "text": "some incompatibilities with other units. $(p)Some modules can also have multiple of it installed. More often than not, this means the more of it you install, the more effective the module can be."
+        },
+        {
+            "type": "text",
+            "title": "Compatibility",
+            "text": "Most of Mekanism's modules are compatible with each other. For example, $(l:item/modules/module_vein_mining_unit)Vein Mining Units$(/l) are compatible with $(l:item/modules/module_attack_amplification_unit)Attack Amplification Units$(/l). Thus, they both can be activated and function simultaneously."
+        },
+        {
+            "type": "text",
+            "title": "Exclusive Modules",
+            "text": "Some modules may be Exclusive Modules. These modules will have an indigo-purple colored name in the Module Tweaker (press $(k:key.mekanism.module_tweaker) to access). This means that only one of these exclusive modules can be activated at once.$(p)For instance, if you have a $(l:item/modules/module_jetpack_unit)Jetpack Unit$(/l) and a $(l:item/modules/module_gravitational_modulating_unit)Gravitational Modulating Unit$(/l) installed on the same MekaSuit Bodyarmor, only one of either of them can be activated at once."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_base"
+        }
+    ]
+}

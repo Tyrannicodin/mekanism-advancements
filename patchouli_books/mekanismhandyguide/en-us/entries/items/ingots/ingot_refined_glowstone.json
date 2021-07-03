@@ -1,0 +1,13 @@
+{
+  "name": "item.mekanism.ingot_refined_glowstone",
+  "category": "items/items_ingots",
+  "icon": "mekanism:ingot_refined_glowstone",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mekanism:ingot_refined_glowstone",
+      "link_recipe": true
+    }
+  ],
+  "read_by_default": true
+}

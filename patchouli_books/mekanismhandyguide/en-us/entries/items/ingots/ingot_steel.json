@@ -1,0 +1,17 @@
+{
+    "name": "Steel Ingot",
+    "category": "items/items_ingots",
+    "icon": "mekanism:ingot_steel",
+    "read_by_default": true,
+    "pages": [
+      {
+        "type": "spotlight",
+        "item": "mekanism:ingot_steel",
+        "text": "Steel ingots are used in many Mekanism recipes. Make sure to keep some around at all times."
+      },
+      {
+        "type": "smelting",
+        "recipe": "mekanism:processing/steel/ingot/from_dust_smelting"
+      }
+    ]
+  }

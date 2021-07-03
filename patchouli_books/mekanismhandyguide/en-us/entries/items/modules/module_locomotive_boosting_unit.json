@@ -1,0 +1,17 @@
+{
+    "name": "Locomotive Boosting Unit",
+    "icon": "mekanism:module_locomotive_boosting_unit",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_locomotive_boosting_unit",
+            "text": "Locomotive Boosting Units will allow you to boost your sprinting speed. It can be configured from 0.0 sprint boost, to a 0.5 sprint boost.$(p)Note that your hunger consumption rate would also increase as you run faster.$(p)Max units per pants: 4"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_locomotive_boosting_unit"
+        }
+    ]
+}

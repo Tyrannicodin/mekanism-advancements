@@ -1,0 +1,18 @@
+{
+    "name": "Uranium Ingot",
+    "icon": "mekanism:ingot_uranium",
+    "category": "items/items_ingots",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:ingot_uranium",
+            "text": "Uranium Ingots is used to make Yellow Cake Uranium, an ingredient in making Fissile Fuel."
+        },
+        {
+            "type": "smelting",
+            "recipe": "mekanism:processing/uranium/ingot/from_ore_smelting",
+            "recipe2": "mekanism:processing/uranium/ingot/from_dust_smelting"
+        }
+    ]
+}

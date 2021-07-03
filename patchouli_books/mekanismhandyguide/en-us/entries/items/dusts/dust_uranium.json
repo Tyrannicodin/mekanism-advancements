@@ -1,0 +1,13 @@
+{
+    "name": "Uranium Dust",
+    "icon": "mekanism:dust_uranium",
+    "category": "items/items_dusts",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:dust_uranium",
+            "text": "Some Uranium Dust. Dusty."
+        }
+    ]
+}

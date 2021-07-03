@@ -1,0 +1,18 @@
+{
+    "name": "Osmium Ingot",
+    "icon": "mekanism:ingot_osmium",
+    "category": "items/items_ingots",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:ingot_osmium",
+            "text": "The Osmium Ingot is a crucial resource that is used in many Mekanism recipes."
+        },
+        {
+            "type": "smelting",
+            "recipe": "mekanism:processing/osmium/ingot/from_ore_smelting",
+            "recipe2": "mekanism:processing/osmium/ingot/from_dust_smelting"
+        }
+    ]
+}

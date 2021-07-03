@@ -1,0 +1,14 @@
+{
+    "name": "Fluorite Dust",
+    "icon": "mekanism:dust_fluorite",
+    "category": "items/items_dusts",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:dust_fluorite",
+            "text": "Fuorite Dusts are the dust counterpart of $(l:item/fluorite)Fluorite$(/l).",
+            "link_recipe": true
+        }
+    ]
+}

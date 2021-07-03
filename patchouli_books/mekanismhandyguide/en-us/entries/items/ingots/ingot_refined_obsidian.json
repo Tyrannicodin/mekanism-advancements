@@ -1,0 +1,13 @@
+{
+    "name": "Refined Obsidian Ingot",
+    "icon": "mekanism:ingot_refined_obsidian",
+    "category": "items/items_ingots",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:ingot_refined_obsidian",
+            "text": "The Refined Obsidian Ingot is used in many advanced machines."
+        }
+    ]
+}

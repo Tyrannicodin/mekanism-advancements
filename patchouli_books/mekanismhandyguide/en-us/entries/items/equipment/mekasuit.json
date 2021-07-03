@@ -1,0 +1,27 @@
+{
+    "name": "MekaSuit",
+    "icon": "mekanism:mekasuit_helmet",
+    "category": "items/items_gear",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:mekasuit_helmet",
+            "text": "The MekaSuit is a highly configurable late-game armor set. Like many other Mekanism tools/equipments, it uses power instead of having durability. Using a $(l:machines/modification_station)Modification Station$(/l), modules/units can be installed onto MekaSuit armor pieces."
+        },
+        {
+            "type": "text",
+            "text": "Press $(k:key.mekanism.module_tweaker) to access the Module Tweaker GUI. Here you can configurate the modules installed on each MekaSuit armor piece."
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:mekasuit_helmet",
+            "recipe2": "mekanism:mekasuit_bodyarmor"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:mekasuit_pants",
+            "recipe2": "mekanism:mekasuit_boots"
+        }
+    ]
+}

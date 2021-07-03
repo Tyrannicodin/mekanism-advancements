@@ -1,0 +1,17 @@
+{
+    "name": "Attack Amplification Unit",
+    "icon": "mekanism:module_attack_amplification_unit",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_attack_amplification_unit",
+            "text": "Attack Amplification Units will boost your $(l:item/tools/mekatool)Meka-Tool's$(/l) attack damage.$(p)Max units per Mekatool: 4"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_attack_amplification_unit"
+        }
+    ]
+}

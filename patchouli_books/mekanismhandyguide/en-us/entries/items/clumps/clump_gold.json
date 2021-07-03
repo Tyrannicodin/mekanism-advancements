@@ -1,0 +1,13 @@
+{
+    "name": "Gold Clump",
+    "icon": "mekanism:clump_gold",
+    "category": "items/items_clumps",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:clump_gold",
+            "text": "Gold Clumps are part of the $(l:ore_processing/tripling)3x Ore Processing$(/l) and beyond."
+        }
+    ] 
+}

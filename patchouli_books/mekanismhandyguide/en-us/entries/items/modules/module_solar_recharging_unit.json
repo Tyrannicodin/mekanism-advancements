@@ -1,0 +1,17 @@
+{
+    "name": "Solar Recharging Unit",
+    "icon": "mekanism:module_solar_recharging_unit",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_solar_recharging_unit",
+            "text": "Solar Recharging Units will charge your $(l:item/equipment/mekasuit)MekaSuit$(/l) during direct exposure to sunlight. Blocks such as glass will not impede the charging process. $(p)Max units per helmet: 8"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_solar_recharging_unit"
+        }
+    ]
+}

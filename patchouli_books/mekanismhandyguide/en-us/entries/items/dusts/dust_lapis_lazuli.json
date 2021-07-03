@@ -1,0 +1,13 @@
+  {
+    "name": "item.mekanism.dust_lapis_lazuli",
+    "category": "items/items_dusts",
+    "icon": "mekanism:dust_lapis_lazuli",
+    "pages": [
+      {
+        "type": "spotlight",
+        "item": "mekanism:dust_lapis_lazuli",
+        "text": "Lapis Lazuli Dusts are the dust counterpart of Lapis Lazuli.",
+        "link_recipe": true
+      }
+    ]
+  }

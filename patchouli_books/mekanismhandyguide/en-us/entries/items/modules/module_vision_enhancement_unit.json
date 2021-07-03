@@ -1,0 +1,17 @@
+{
+    "name": "Vision Enhancement Unit",
+    "icon": "mekanism:module_vision_enhancement_unit",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_vision_enhancement_unit",
+            "text": "Vision Enhancement Units will improve your night vision.$(p)You can press $(k:key.mekanism.head_mode) to toggle it on or off without going into the Module Tweaker.$(p)Max units per helmet: 4"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_vision_enhancement_unit"
+        }
+    ]
+}

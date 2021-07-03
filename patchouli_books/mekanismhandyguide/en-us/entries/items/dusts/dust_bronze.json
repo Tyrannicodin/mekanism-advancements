@@ -1,0 +1,14 @@
+{
+    "name": "item.mekanism.dust_bronze",
+    "category": "items/items_dusts",
+    "icon": "mekanism:dust_bronze",
+    "read_by_default": true,
+    "pages": [
+      {
+        "type": "spotlight",
+        "item": "mekanism:dust_bronze",
+        "text": "Bronze Dusts are the dust counterpart of $(l:item/ingots/ingot_bronze)Bronze Ingots$(/l).",
+        "link_recipe": true
+      }
+    ]
+  }

@@ -1,0 +1,21 @@
+{
+    "name": "Inhalation Purification Unit",
+    "icon": "mekanism:module_inhalation_purification_unit",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_inhalation_purification_unit",
+            "text": "Inhalation Purification Units will protect you from selected potion effects including beneficial, neutral, and harmful ones. Using its stored energy, it can nullify the potion effects."
+        },
+        {
+            "type": "text",
+            "text": "The potion may still look like it is in effect (e.g. black hearts and injuring noises when hit with a Potion of Decay), but in actuality the player will not receive any of its effects.$(p)Max unit per helmet: 1"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_inhalation_purification_unit"
+        }
+    ]
+}

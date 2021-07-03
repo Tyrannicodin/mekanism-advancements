@@ -1,0 +1,17 @@
+{
+    "name": "Vein Mining Unit",
+    "icon": "mekanism:module_vein_mining_unit",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_vein_mining_unit",
+            "text": "Vein Mining Units will allow you to mine ore veins and cut down trees with usually just one break of a block. You know the Ore Excavation mod? Yeah, basically that.$(p)Extended Mode will vein mine any blocks rather than just logs and ores.$(p)Max units per Meka-Tool: 4"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_vein_mining_unit"
+        }
+    ]
+}

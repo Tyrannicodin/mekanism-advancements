@@ -1,0 +1,18 @@
+{
+    "name": "Lead Ingot",
+    "icon": "mekanism:ingot_lead",
+    "category": "items/items_ingots",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:ingot_lead",
+            "text": "The lead ingot is mostly used for radiation related items/gears/blocks and crafting QIO drives."
+        },
+        {
+            "type": "smelting",
+            "recipe": "mekanism:processing/lead/ingot/from_ore_smelting",
+            "recipe2": "mekanism:processing/lead/ingot/from_dust_smelting"
+        }
+    ]
+}

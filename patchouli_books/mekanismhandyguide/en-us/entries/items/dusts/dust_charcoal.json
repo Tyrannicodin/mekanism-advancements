@@ -1,0 +1,14 @@
+{
+  "name": "item.mekanism.dust_charcoal",
+  "category": "items/items_dusts",
+  "icon": "mekanism:dust_charcoal",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mekanism:dust_charcoal",
+      "text": "Charcoal Dusts are the dust counterpart of Charcoal.",
+      "link_recipe": true
+    }
+  ]
+}

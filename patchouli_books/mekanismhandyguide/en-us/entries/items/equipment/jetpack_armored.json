@@ -1,0 +1,32 @@
+{
+  "name": "Armored Jetpack",
+  "category": "items/items_gear",
+  "icon": "mekanism:jetpack_armored",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mekanism:jetpack_armored",
+      "text": "The Armored Jetpack is an upgraded version of the $(l:item/equipment/jetpack)Jetpack$(/l). It is intended to provide 12 armor points, offering slightly better protection than a Diamond Chestplate with Protection IV. Numbers accurate as of Minecraft 1.7.10."
+    },
+    {
+      "type": "text",
+      "text": "The Jetpack can be filled up wherever $(l:chemicals/hydrogen)Hydrogen$(/l) is outputted into a slot (total 24,000mB).$(br)Here are a few examples:$(li)It can be placed in the $(l:block/blocks_machines/electrolytic_separator)Electrolytic Separator's$(/l) left output slot (where Hydrogen is outputted) after placing water in the machine's input slot$(li)It can be placed in a $(l:tanks/gas)Chemical Tank's$(/l) output slot.",
+      "title": "Fueling"
+    },
+    {
+      "type": "text",
+      "text": "The Jetpack has three modes to choose from, which can be toggled by pressing the $(k:key.mekanism.chest_mode) key.$(li)$(bold)Regular$() (default): Press $(k:key.jump) to increase your height and release to fall. Note that you will take fall damage unless you carefully lower yourself to the ground.$(li)$(bold)Hover$(): Constant flight, without the need to level yourself like you do with Regular mode. Press $(k:jump) to increase altitude and",
+      "title": "Modes"
+    },
+    {
+      "type": "text",
+      "title": "Modes",
+      "text": "press $(k:sneak) to decrease. Note that this mode constantly consumes Hydrogen, but at a reduced rate as compared to Regular mode.$(li)$(bold)Disabled$(): The Jetpack is disabled."
+    },
+    {
+      "type": "crafting",
+      "recipe": "mekanism:jetpack_armored"
+    }
+  ]
+}

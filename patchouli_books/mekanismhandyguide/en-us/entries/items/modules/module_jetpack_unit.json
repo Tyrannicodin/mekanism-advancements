@@ -1,0 +1,21 @@
+{
+    "name": "Jetpack Unit",
+    "icon": "mekanism:module_jetpack_unit",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_jetpack_unit",
+            "text": "Jetpack Units will allow your MekaSuit Bodyarmor to have the functions of a $(l:item/equipment/jetpack)Jetpack$(/l). Once applied, the MekaSuit Bodyarmor will have an internal storage for hydrogen (48,000mb). "
+        },
+        {
+            "type": "text",
+            "text": "The Jetpack Unit is best paired with the $(l:item/modules/module_electrolytic_breathing_unit)Electrolytic Breathing Unit$(/l). Doing so allows the accumulation of hydrogen when underwater or in the rain. $(p)Alternatively, hydrogen can manually be refueled using a $(l:storage/gas)Chemical Tank$(/l) or anything else that can output Hydrogen.$(p)Max units per bodyarmor: 1"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_jetpack_unit"
+        }
+    ]
+}

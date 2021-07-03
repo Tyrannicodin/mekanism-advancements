@@ -1,0 +1,21 @@
+{
+    "name": "Radiation Shielding Unit",
+    "icon": "mekanism:module_radiation_shielding_unit",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_radiation_shielding_unit",
+            "text": "Radiation Shielding Units will allow your MekaSuit armor piece to protect you from radiation, similar to the $(l:item/equipment/hazmat_suit)Hazmat Suit$(/l). $(p)Note that once you have been exposed to deadly doses of radiation without protection and began taking damage, wearing MekaSuit armor pieces with Radiation Shielding Units"
+        },
+        {
+            "type": "text",
+            "text": "installed will $(bold)not$() prevent you from taking damage. Instead, it will only prevent the increase of radiation dosage.$(p)In addition, all of your MekaSuit armor pieces must have a Radiation Shielding Unit installed for full protection against radiation.$(p)Max units per armor piece: 1"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_radiation_shielding_unit"
+        }
+    ]
+}

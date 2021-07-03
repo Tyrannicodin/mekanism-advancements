@@ -1,0 +1,14 @@
+{
+    "name": "Copper Dust",
+    "icon": "mekanism:dust_copper",
+    "category": "items/items_dusts",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:dust_copper",
+            "text": "Copper Dusts are the dust counterpart of $(l:item/ingots/ingots_copper/)Copper Ingots$(/l).",
+            "link_recipe": true
+        }
+    ]
+}

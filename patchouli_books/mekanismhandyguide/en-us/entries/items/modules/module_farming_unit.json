@@ -1,0 +1,17 @@
+{
+    "name": "Farming Unit",
+    "icon": "mekanism:module_farming_unit",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_farming_unit",
+            "text": "Farming Units allow you to tilt soil, strip logs, and flatten soil. Well, yeah. $(p)Max units per Meka-Tool: 4"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_farming_unit"
+        }
+    ]
+}

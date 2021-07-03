@@ -1,0 +1,17 @@
+{
+    "name": "Nutritional Injection Unit",
+    "icon": "mekanism:module_nutritional_injection_unit",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_nutritional_injection_unit",
+            "text": "Nutritional Injection Units can be installed on a MekaSuit Helmet to remove the need to manually eat. When installed, the MekaSuit helmet will have an internal storage for $(l:chemicals/nutrtional_paste)Nutritional Paste$(/l) (128,000mb).$(p)Max units per helmet: 1"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_nutritional_injection_unit"
+        }
+    ]
+}

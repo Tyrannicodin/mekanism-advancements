@@ -1,0 +1,13 @@
+{
+    "name": "urnaium Clump",
+    "icon": "mekanism:clump_uranium",
+    "category": "items/items_clumps",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:clump_uranium",
+            "text": "Uranium Clumps are part of the $(l:ore_processing/tripling)3x Ore Processing$(/l) and beyond."
+        }
+    ] 
+}

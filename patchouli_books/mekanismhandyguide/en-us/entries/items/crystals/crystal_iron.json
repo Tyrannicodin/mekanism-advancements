@@ -1,0 +1,13 @@
+{
+    "name": "Iron Crystal",
+    "icon": "mekanism:crystal_iron",
+    "category": "items/items_crystals",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:crystal_iron",
+            "text": "Iron Crystals are part of the $(l:ore_processing/quintupling)5x Ore Processing$(/l), the final stage of Mekanism's Ore Processing System."
+        }
+    ]
+}

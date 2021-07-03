@@ -1,0 +1,18 @@
+{
+    "name": "Tin Ingot",
+    "icon": "mekanism:ingot_tin",
+    "category": "items/items_ingots",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:ingot_tin",
+            "text": "We don't have tinfoils."
+        },
+        {
+            "type": "smelting",
+            "recipe": "mekanism:processing/tin/ingot/from_ore_smelting",
+            "recipe2": "mekanism:processing/tin/ingot/from_dust_smelting"
+        }
+    ]
+}

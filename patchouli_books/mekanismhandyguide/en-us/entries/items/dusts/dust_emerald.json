@@ -1,0 +1,14 @@
+{
+    "name": "item.mekanism.dust_emerald",
+    "category": "items/items_dusts",
+    "icon": "mekanism:dust_emerald",
+    "read_by_default": true,
+    "pages": [
+      {
+        "type": "spotlight",
+        "item": "mekanism:dust_emerald",
+        "text": "Emerald Dusts are the dust counterpart of Emeralds.",
+        "link_recipe": true
+      }
+    ]
+  }

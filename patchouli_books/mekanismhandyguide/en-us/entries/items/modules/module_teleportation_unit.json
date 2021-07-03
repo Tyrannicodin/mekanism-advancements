@@ -1,0 +1,17 @@
+{
+    "name": "Teleportation Unit",
+    "icon": "mekanism:module_teleportation_unit",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_teleportation_unit",
+            "text": "Teleportation Units allow you to teleport similar to an ender pearl, except that it will be instant. There is a limited range and teleportation will consume power.$(p)Max units per Meka-Tool: 1"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_teleportation_unit"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "item.mekanism.dust_diamond",
+    "category": "items/items_dusts",
+    "icon": "mekanism:dust_diamond",
+    "read_by_default": true,
+    "pages": [
+      {
+        "type": "spotlight",
+        "item": "mekanism:dust_diamond",
+        "text": "Diamond Dusts are the dust counterpart of Diamonds.",
+        "link_recipe": true
+      }
+    ]
+  }

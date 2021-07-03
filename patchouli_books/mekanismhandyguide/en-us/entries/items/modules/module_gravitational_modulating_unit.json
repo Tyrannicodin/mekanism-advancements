@@ -1,0 +1,17 @@
+{
+    "name": "Gravitational Modulating Unit",
+    "icon": "mekanism:module_gravitational_modulating_unit",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_gravitational_modulating_unit",
+            "text": "Gravitational Modulating Units allows you to utilize creative flight. $(p)If the MekaSuit bodyarmor also has a Jetpack Unit installed, the Jetpack Unit will be automatically disabled if the Gravitational Modulating Unit is enabled, and vice versa.$(p)Max unit per bodyarmor: 1"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_gravitational_modulating_unit"
+        }
+    ]
+}

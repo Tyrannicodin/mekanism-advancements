@@ -1,0 +1,17 @@
+{
+    "name": "Hydraulic Propulsion Unit",
+    "icon": "mekanism:module_hydraulic_propulsion_unit",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_hydraulic_propulsion_unit",
+            "text": "Hydraulic Propulsion Units will allow you to climb over a maximum of 2 blocks (when all 4 units are installed). It also allows you to jump higher when you hold $(k:key.mekanism.key_boost) and press $(k:key.jump). $(p)Max units per boots: 4"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_hydraulic_propulsion_unit"
+        }
+    ]
+}

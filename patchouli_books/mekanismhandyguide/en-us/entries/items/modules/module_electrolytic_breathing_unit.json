@@ -1,0 +1,17 @@
+{
+    "name": "Electrolytic Breathing Unit",
+    "icon": "mekanism:module_electrolytic_breathing_unit",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_electrolytic_breathing_unit",
+            "text": "Electrolytic Breathing Units will allow you to breathe underwater.$(p)In addition, if the Jetpack Unit is installed onto the MekaSuit Bodyarmor, it will automatically begin to refuel its hydrogen supply while underwater or out in the rain.$(p)Max units per helmet: 4"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_electrolytic_breathing_unit"
+        }
+    ]
+}

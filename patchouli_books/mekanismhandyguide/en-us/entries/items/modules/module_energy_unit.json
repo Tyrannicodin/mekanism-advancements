@@ -1,0 +1,17 @@
+{
+    "name": "Energy Unit",
+    "icon": "mekanism:module_energy_unit",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_energy_unit",
+            "text": "Energy Units will increase the energy capacity of the selected equipment.$(p)Max units per equipment: 8"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_energy_unit"
+        }
+    ]
+}

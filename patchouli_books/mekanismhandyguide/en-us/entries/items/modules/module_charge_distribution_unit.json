@@ -1,0 +1,21 @@
+{
+    "name": "Charge Distribution Unit",
+    "icon": "mekanism:module_charge_distribution_unit",
+    "category": "items/items_modules",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:module_charge_distribution_unit",
+            "text": "Charge Distribution Units will distribute gained energy evenly to all MekaSuit armor pieces. $(p)Normally if you have installed Solar Recharging Units onto your MekaSuit Helmet, only the helmet will gain all the energy it's producing."
+        },
+        {
+            "type": "text",
+            "text": "With the Charge Distribution Unit installed, the produced energy will be evenly distributed throughout all MekaSuit armor pieces. $(br)(I know this sounds like an ad, but trust me it's not.)$(p)Max units per bodyarmor: 1"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mekanism:module_charge_distribution_unit"
+        }
+    ]
+}
