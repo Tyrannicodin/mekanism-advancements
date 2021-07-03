@@ -17,4 +17,4 @@ Well that depends on how much you contributed to the project for your name to sh
 **Credits:**<br>
 Sinmis077 ~ Original Author, Advancements, Maintainter<br>
 Tyrannicodin ~ Original Author, Advancements, Maintainter<br>
-ɹǝʌᴉǝɹǝ ~ Patchouli Book Contributor, Maintainer
+Reviere ~ Patchouli Book Contributor, Maintainer
