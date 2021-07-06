@@ -9,7 +9,7 @@ That's a very simple question, you don't need any prior experiance into computer
 No, this is a community project and as such we don't have any ties with the actual mod developers. If you are interested into the mekanism mod and haven't join their discord be sure to join it over here : https://discord.gg/nmSjMGc
 
 **Do we have a discord?** <br>
-No.
+Yes! Check it out: https://discord.gg/3jT5kG9S
 
 **Do you get credit for contributing?**
 Well that depends on how much you contributed to the project for your name to show up in credits but you will always receive your credit but not on a personal note
