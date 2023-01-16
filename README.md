@@ -1,3 +1,6 @@
+## This project is archived
+This project will not be updated any more, as advancements have been added.
+
 **Welcome to the (un)official community mekanism advancements!**
 
 This project begun to put an end at the question why does mekanism have no advancements, we make and maintain the advancements so players can always expect the best and latest information ingame. These advancements were made with the idea that they were meant for both old and new players into mekanism, we enjoy the addition jokes & references to the tree since it makes it more enjoyable :D
